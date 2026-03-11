@@ -100,7 +100,7 @@ export default function HomePage() {
   <div className="mx-auto max-w-6xl text-center">
 
     <img
-  src="public/logo/maanvi-logo.png"
+  src="/logo/maanvi-logo.png"
   alt="Maanvi"
   className="mx-auto h-40 w-auto"
 />
