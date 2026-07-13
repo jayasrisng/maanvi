@@ -1,73 +1,86 @@
-# React + TypeScript + Vite
+# Maanvi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A warm, bilingual brand site for a family-owned saree house in Vijayawada.**
 
-Currently, two official plugins are available:
+Maanvi is a React/Vite website for presenting the store’s story, collections, and visit information with a visual language rooted in Telugu celebration, saree culture, and family-owned retail.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The site replaces a generic ecommerce feel with a slower editorial experience: story, memory, celebration, and trust come before product-grid mechanics.
 
-## React Compiler
+## What it includes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Landing page with Telugu/English brand messaging.
+- Story page with founder note and family-owned positioning.
+- Collections page for bridal, festival, and classic saree categories.
+- Visit page with address, maps links, social links, and anniversary update.
+- Reusable layout shell, decorative muggu background elements, and brand color system.
 
-## Expanding the ESLint configuration
+## Routes
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+/              Home page
+/our-story     Brand story and founder note
+/collections   Saree collection categories
+/visit         Store visit and contact information
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tech stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- gh-pages deployment script
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project structure
+
+```text
+src/
+  components/layout/    Page shell and decorative background components
+  pages/                Home, story, collections, and visit pages
+  styles/               Tailwind/global styling
+public/
+  images/               Hero, story, and collection imagery
+  logo/                 Maanvi logo assets
 ```
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+Build the site:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+Deploy with the configured GitHub Pages script:
+
+```bash
+npm run deploy
+```
+
+## Case study
+
+See [docs/case-study.md](docs/case-study.md) for design and implementation notes.
+
+## Media
+
+Media notes and capture targets are tracked in [media/README.md](media/README.md).
+
+## Future work
+
+- Replace placeholder social links with final destinations or remove them.
+- Add image optimization and alt-text review for all gallery assets.
+- Add responsive QA screenshots for mobile/tablet/desktop.
+- Add structured metadata for sharing and search previews.
+- Add accessibility pass for contrast, focus states, and language switching.
