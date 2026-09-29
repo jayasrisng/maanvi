@@ -1,0 +1,30 @@
+.cotton-preview{background:#ff6900;color:#fff7e8;overflow-x:clip;--cotton-white:#fff5df}
+.cotton-opening{position:relative;min-height:860px;height:100svh;max-height:1400px;isolation:isolate;overflow:hidden;background:#ff6900}
+.cotton-scene{position:absolute;inset:0;z-index:-1;background:#ff6900}
+.cotton-scene>img,.cotton-scene>canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.cotton-scene>canvas{opacity:0;transition:opacity 1s}.cotton-scene[data-ready=true]>canvas{opacity:1}
+.cotton-header{position:relative;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:24px 5.3vw;z-index:3}
+.cotton-logo{display:block;flex-shrink:0}.cotton-logo img{display:block;width:135px;height:auto;object-fit:contain;border-radius:2px}
+.cotton-header nav{display:flex;gap:45px;margin-right:auto;margin-left:10vw}
+.cotton-header a{text-decoration:none}.cotton-header nav a{font-size:16px;color:var(--cotton-white);text-shadow:0 1px 10px #a93b1840}
+.cotton-language{display:flex;align-items:center;gap:12px}.cotton-language button{background:none;border:0;color:var(--cotton-white);padding:8px 2px;font-size:16px;cursor:pointer;border-bottom:1px solid transparent}.cotton-language button[aria-pressed=true]{border-bottom-color:var(--cotton-white)}.cotton-language>span{opacity:.55}
+.cotton-copy{position:relative;padding:clamp(85px,10vh,150px) 0 145px 5.3vw;width:53%;outline:none}
+.cotton-copy h1{font:500 clamp(62px,6.9vw,111px)/1.48 'Noto Serif Telugu',serif;letter-spacing:-3px;margin:0 0 21px;color:var(--cotton-white)}.cotton-copy h1 span{display:block;white-space:nowrap}
+.cotton-preview[lang=en] .cotton-copy h1{font:400 clamp(65px,6.7vw,108px)/1.03 'Cormorant Garamond',serif;letter-spacing:-2px;margin-bottom:30px}
+.cotton-poetry{font-size:19px;line-height:1.7;margin:0 0 8px}.cotton-english{font:italic 20px/1.6 'Cormorant Garamond',serif;margin:0 0 28px;opacity:.88}
+.cotton-preview[lang=en] .cotton-poetry{font:26px 'Cormorant Garamond',serif;margin-bottom:30px}
+.cotton-action{display:inline-flex;align-items:center;justify-content:center;gap:30px;background:var(--cotton-white);color:#a83c0d;text-decoration:none;border-radius:50px;padding:17px 30px;font-size:17px;transition:transform .25s,background .25s;box-shadow:0 8px 30px #932d0010}.cotton-action:hover{transform:translateY(-3px);background:#fff}.cotton-action>span{font:25px Arial,sans-serif}
+.cotton-scroll{position:absolute;bottom:32px;left:5.3vw;display:flex;flex-direction:column;gap:13px;font-size:12px;text-decoration:none;letter-spacing:.09em;color:var(--cotton-white)}.cotton-scroll>span{font:37px/1.3 'Cormorant Garamond',serif;animation:cotton-arrow 3s ease-in-out infinite}
+.cotton-pause{position:absolute;right:22px;bottom:22px;display:flex;align-items:center;gap:8px;border:1px solid #fff5df88;border-radius:30px;color:#693009;background:#fff3dfed;padding:10px 15px;cursor:pointer;font-size:12px}.cotton-pause[aria-pressed=true]~*{animation-play-state:paused}
+.cotton-opening:has(.cotton-pause[aria-pressed=true]) .cotton-scroll>span{animation-play-state:paused}
+.cotton-note{padding:50px 25px;text-align:center;background:#ff6900;scroll-margin:0;border-top:1px solid #fff3}.cotton-note>p{font-size:22px;margin:0 0 14px;line-height:1.8}.cotton-note>span{font-size:12px;opacity:.8;display:block}.cotton-note>a{display:inline-block;font-size:12px;margin-top:24px;text-underline-offset:5px}
+.cotton-preview :focus-visible{outline:2px solid white;outline-offset:6px}
+@keyframes cotton-arrow{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@media(min-width:1700px){.cotton-copy{padding-top:12vh}.cotton-copy h1{font-size:125px}}
+@media(max-width:1100px) and (min-width:761px){.cotton-opening{min-height:730px}.cotton-copy h1{font-size:6.6vw}.cotton-copy{padding-top:95px}.cotton-logo img{width:115px}.cotton-header nav{margin-left:4vw;gap:25px}.cotton-header nav a,.cotton-language button{font-size:14px}.cotton-poetry{font-size:16px}}
+@media(max-width:760px){
+.cotton-opening{height:auto;min-height:1030px;max-height:none}.cotton-header{padding:20px 23px;gap:15px;background:#ff6900}.cotton-logo img{width:97px}.cotton-header nav{display:none}.cotton-language{gap:8px}.cotton-language button{font-size:14px}
+.cotton-copy{padding:38px 24px 0;width:100%;z-index:2}.cotton-copy h1{font-size:clamp(47px,11.7vw,79px);line-height:1.5;letter-spacing:-1.8px;margin-bottom:12px}.cotton-preview[lang=en] .cotton-copy h1{font-size:clamp(48px,11.5vw,80px);line-height:1.1;letter-spacing:-1px}.cotton-poetry{font-size:16px;margin-top:8px}.cotton-english{font-size:18px;max-width:300px;margin-bottom:23px}.cotton-action{font-size:15px;padding:13px 23px;gap:25px}.cotton-preview[lang=en] .cotton-poetry{font-size:21px;max-width:280px;line-height:1.5}
+.cotton-scene{top:430px;height:600px;bottom:auto;mask-image:linear-gradient(transparent,black 12%);-webkit-mask-image:linear-gradient(transparent,black 12%)}.cotton-scene>img{object-position:right center}.cotton-scroll{bottom:33px;left:24px;font-size:11px;text-shadow:0 1px 10px #6a3611}.cotton-scroll>span{display:none}.cotton-pause{bottom:26px;right:16px;padding:9px 12px;font-size:11px}.cotton-note{padding:35px 23px}.cotton-note>p{font-size:18px}.cotton-note>span{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){.cotton-scroll>span{animation:none}.cotton-scene>canvas,.cotton-action{transition:none}.cotton-pause{display:none}}

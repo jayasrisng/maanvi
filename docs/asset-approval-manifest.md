@@ -1,3 +1,9 @@
+# Current status — 2026-09-28
+
+The owner requested integration of the generated collection book and confirmed that its subject designs/fabrics were sold by Maanvi. The current editorial review and disclosure policy are recorded in [image-review/REVIEW.md](image-review/REVIEW.md). The site now displays 196 labeled AI interpretations, with current inventory confirmed on a video call. The entries below are historical findings from August and no longer describe archive availability.
+
+---
+
 # Maanvi media approval manifest
 
 Audit date: 2026-08-18

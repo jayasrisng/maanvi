@@ -1,0 +1,108 @@
+.flow-story{position:relative;height:600svh;--silk-reveal:0;--flow-progress:0;background:#b75730;color:#fff6e8}
+.flow-sticky{position:sticky;top:0;height:100svh;min-height:620px;overflow:hidden;isolation:isolate}
+.flow-scene,.flow-shade{position:absolute;inset:0;z-index:-2}
+.flow-scene{background:#a45d3f}
+.flow-scene>img,.flow-scene>canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.flow-scene>canvas{opacity:0}
+.flow-scene[data-ready=true]>canvas{opacity:1}
+.flow-photo-silk{opacity:var(--silk-reveal)}
+.flow-shade{z-index:-1;background:linear-gradient(90deg,#50292530,transparent 62%);pointer-events:none}
+.flow-copy{position:absolute;left:6.6%;top:50%;width:47%;max-width:660px;margin-top:-180px;will-change:transform,opacity}
+.flow-copy h1{font-size:clamp(62px,6.2vw,105px);line-height:1.08;letter-spacing:-.035em;margin:0 0 25px}
+.flow-copy h2{font-size:clamp(44px,4.7vw,75px);line-height:1.12;letter-spacing:-.035em;margin:0 0 25px}
+.flow-copy>p:not(.flow-eyebrow){font-size:16px;line-height:1.9;max-width:440px;margin:0 0 22px}
+.flow-copy .flow-eyebrow{font-size:10px;letter-spacing:.15em;line-height:1.8;margin:0 0 28px}
+.flow-translation{display:block;font:italic 23px 'Cormorant Garamond',serif!important;margin-top:-10px;margin-bottom:30px}
+.flow-copy .thread-button{margin-top:10px;font-size:13px;background:#fcf2df;color:#7e4430}
+.flow-copy .chapter-link{font-size:14px;margin-top:10px}
+.flow-cotton{top:43%;margin-top:-95px}
+.flow-silk{top:42%;margin-top:-125px}
+.flow-silk>p:not(.flow-eyebrow){max-width:450px}
+.flow-caption{position:absolute;bottom:36px;left:6.6%;display:flex;align-items:center;gap:16px;font-size:9px;letter-spacing:.16em;color:#fff4e0aa}
+.flow-track{width:110px;height:1px;background:#fff4e044;overflow:hidden}.flow-track i{display:block;width:100%;height:100%;background:#ffdda5;transform:scaleX(var(--flow-progress));transform-origin:left}
+.flow-anchor{position:absolute;width:1px;height:1px;pointer-events:none;scroll-margin-top:0}.cotton-anchor{top:165svh}.silk-anchor{top:335svh}
+.collection-flow{position:relative;padding:130px 7vw 145px;display:flex;align-items:center;gap:7vw;background:#f7efe3;color:#78370e}
+.collection-flow .chapter-copy{flex:1;max-width:530px}.collection-flow .chapter-copy h2{font-size:clamp(42px,4.7vw,70px)}
+.collection-flow .chapter-book{width:43%;transform:rotate(-2deg);box-shadow:0 25px 70px #57393620;background:#fffaf0}
+.collection-flow .chapter-book:hover{transform:rotate(0);transition:transform .7s}
+.journey-disclosure{background:#f7efe3}
+.family-chapter{background:#c45417;color:#fff6e9}
+.meet-chapter,.viewing-aside{background:#a9400e;color:#fff0dd}
+.visit-chapter{background:#f7efe3}
+.journey-footer,.is-inner .journey-header{background:#bc4b13;color:#fff2df}
+.thread-button{background:#b34510}.thread-button:hover{background:#8d350c}
+.journey-header{padding:25px 6.6vw;gap:45px;color:#fff8ed}
+.journey-brand{line-height:0;flex-shrink:0}.journey-header .maanvi-logo{width:125px;height:89px}
+.journey-header nav a{font-size:12px}.journey-header nav{gap:30px}.header-viewing{border-bottom-color:#fff6}
+.journey-header:has(nav.is-open){background:#b64712}
+.journey-motion{background:#fcf4e8e8;color:#934016;border-color:#a9796840}
+.journey-skip:not(:focus){clip-path:inset(100%);width:1px;height:1px;overflow:hidden}
+.flow-still{height:auto}.flow-still .flow-sticky{position:relative;height:auto;min-height:0;overflow:visible}
+.flow-still .flow-scene,.flow-still .flow-shade,.flow-still .flow-caption{display:none}
+.flow-still .flow-copy{position:relative;left:auto;top:auto;margin:0;width:100%;max-width:none;min-height:85svh;padding:160px 7vw 90px;will-change:auto;background-size:cover;background-position:center}
+.flow-still .flow-welcome{background-image:linear-gradient(90deg,#63341830,transparent),url('/images/concepts/cotton-loom.webp')}
+.flow-still .flow-cotton{background:#e9d7c2;color:#633e39;padding-top:100px;min-height:60svh}
+.flow-still .flow-silk{background-image:linear-gradient(90deg,#a9400e77,transparent),url('/images/concepts/silk-cocoons.webp');padding-top:100px}
+.flow-still .flow-copy h1,.flow-still .flow-copy h2{max-width:650px}
+.flow-still .cotton-anchor{top:165svh}.flow-still .silk-anchor{top:145svh}
+@media(min-width:761px) and (max-height:760px){.flow-copy{margin-top:-130px}.flow-copy h1{font-size:67px}.flow-copy h2{font-size:48px}.flow-copy>p:not(.flow-eyebrow){font-size:14px}.flow-copy .flow-eyebrow{margin-bottom:20px}.flow-silk{margin-top:-100px}}
+@media(max-width:760px){
+ .flow-story{height:600svh}.flow-sticky{min-height:0;height:100svh}
+ .journey-header{padding:20px 24px;gap:17px}.journey-header .maanvi-logo{width:90px;height:64px}
+ .journey-header nav{background:#b64712;top:104px}.journey-header nav a{font-size:15px}
+ .flow-scene{top:47%;background:#c65e2d;mask-image:linear-gradient(transparent,black 18%);-webkit-mask-image:linear-gradient(transparent,black 18%)}
+ .flow-scene>img{object-position:right center}.flow-sticky{background:#c65e2d}
+ .flow-sticky::before{content:'';position:absolute;inset:0;background:#a44817;opacity:var(--silk-reveal);z-index:-2}
+ .flow-shade{display:none}.flow-copy,.flow-cotton,.flow-silk{left:24px;right:24px;top:145px;margin:0;width:auto;max-width:none}
+ .flow-copy h1{font-size:clamp(40px,10.3vw,65px);margin-bottom:16px}.flow-copy h2{font-size:clamp(34px,8.4vw,55px);margin-bottom:15px}
+ .flow-copy>p:not(.flow-eyebrow){font-size:13px;line-height:1.8;max-width:340px}.flow-copy .flow-eyebrow{font-size:8px;letter-spacing:.09em;margin-bottom:20px}
+ .flow-translation{font-size:19px!important;margin-bottom:20px}.flow-copy .thread-button{font-size:12px;padding:13px 21px;margin-top:0}
+ .flow-cotton,.flow-silk{top:110px}.flow-caption{bottom:26px;left:24px;font-size:8px;gap:12px}.flow-track{width:65px}
+ .collection-flow{display:flex;flex-direction:column;padding:65px 25px 80px;gap:50px}.collection-flow .chapter-copy h2{font-size:37px}.collection-flow .chapter-book{width:94%;margin:0 auto 20px}
+ .flow-still{height:auto}.flow-still .flow-copy{left:auto;right:auto;top:auto;min-height:850px;padding:150px 24px 60px}.flow-still .flow-cotton{min-height:500px;padding-top:65px}.flow-still .flow-silk{padding-top:65px;background-position:65% center}.flow-still .cotton-anchor{top:850px}.flow-still .silk-anchor{top:1350px}
+}
+@media(max-width:760px) and (max-height:700px){.flow-copy{top:116px}.flow-copy h1{font-size:39px}.flow-copy h2{font-size:32px}.flow-copy .flow-eyebrow{margin-bottom:12px}.flow-copy>p:not(.flow-eyebrow){font-size:12px;line-height:1.65}.flow-translation{font-size:17px!important;margin-bottom:12px}.flow-scene{top:40%}}
+
+/* Saffron ties the brand pages together; ivory gives the collection room. */
+.home-invitation{padding:110px 7vw;background:#c45417;color:#fff8e9;text-align:center}
+.home-invitation h2{font-size:clamp(38px,4.6vw,70px);margin:20px 0}
+.home-invitation>p:not(.chapter-kicker){max-width:620px;margin:0 auto 30px;font-size:16px;line-height:1.9}
+.home-invitation>div{display:flex;justify-content:center;align-items:center;gap:30px;flex-wrap:wrap}
+.home-invitation .chapter-link{margin:0}.home-invitation .ivory{background:#fff4df;color:#92370c}
+.flow-photobook{top:41%;margin-top:-125px}
+.flow-cotton{color:#8c3008;max-width:530px}
+.flow-cotton .chapter-link{color:#8c3008}
+.flow-cotton>p:not(.flow-eyebrow){font-weight:600;font-size:16px}
+.is-home .journey-header nav,.is-home .journey-language{color:#943709}
+.book-intro,.collection-book,.book-invitation{background:#fff7e9;color:#81360d}
+.book-intro>p,.book-invitation>p:not(.eyebrow){color:#81360d}
+.collection-book>.image-disclosure{margin:0 auto 55px;max-width:900px;padding:28px 0;color:#77370f}
+.book-turn-stage{position:relative;perspective:2200px;isolation:isolate}
+.book-years button[aria-pressed=true]{background:#bc4b13;color:#fff6e5}
+.book-seasons button[aria-pressed=true]{color:#a4400d;box-shadow:inset 0 -1px #a4400d}
+.book-image-button{background:#fff9ed}.book-image-button img{height:min(62svh,660px);aspect-ratio:auto;object-fit:contain}
+.book-spread{animation:none;box-shadow:0 35px 75px #76320824,0 4px 0 #e9d4af,0 8px 0 #fff4df,0 11px 0 #dcbf92}
+.turning-leaf{position:absolute;top:0;bottom:0;width:50%;transform-style:preserve-3d;z-index:3;pointer-events:none}
+.turn-forward{left:50%;transform-origin:left;animation:page-forward 950ms cubic-bezier(.35,.05,.25,1) both}
+.turn-back{left:0;transform-origin:right;animation:page-back 950ms cubic-bezier(.35,.05,.25,1) both}
+.turn-front,.turn-reverse{position:absolute;inset:0;background:#fff9ed;backface-visibility:hidden;box-shadow:0 5px 25px #68340f30}
+.turn-front{padding:22px 22px 50px}.turn-front img{width:100%;height:100%;object-fit:contain}
+.turn-reverse{transform:rotateY(180deg);background:linear-gradient(90deg,#eee0c8,#fff9ed 24%,#fff3df)}
+@keyframes page-forward{0%{transform:rotateY(0)}100%{transform:rotateY(-180deg)}}
+@keyframes page-back{0%{transform:rotateY(0)}100%{transform:rotateY(180deg)}}
+.flow-still .flow-photobook{min-height:65svh;background:#a44817;color:#fff6e5;padding-top:90px}
+@media(max-width:760px){
+ .flow-photobook{top:110px;margin:0}
+ .flow-cotton{left:24px;right:24px;max-width:none}
+ .flow-copy h2{font-size:32px}
+ .flow-welcome .flow-translation{color:#fff6e8}
+ .is-home .journey-header nav,.is-home .journey-language{color:#fff6e8}
+ .flow-story[data-act=cotton] .flow-scene{top:0;mask-image:none;-webkit-mask-image:none}
+ .flow-cotton>p:not(.flow-eyebrow){font-size:14px}
+ .journey-header nav{padding:25px;background:#b64712}
+ .home-invitation{padding:70px 25px}.home-invitation>p:not(.chapter-kicker){font-size:14px}
+ .turn-front{padding:10px 10px 42px}
+ .book-image-button img{height:auto;aspect-ratio:2/3}
+ .is-home .journey-header nav.is-open{color:#fff7e7}
+ .flow-still .flow-photobook{top:auto;min-height:500px}
+}

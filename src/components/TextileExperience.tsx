@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import FabricScene from "./FabricScene";
 
 export type Craft = "block" | "pattu" | "kalamkari" | "warli";
 
@@ -57,18 +58,11 @@ export function TextileJourney() {
     return () => observer.disconnect();
   }, []);
   return <section className="textile-journey" ref={root} id="woven-world">
-    <div className="journey-intro"><p className="eyebrow">THE DETAILS WE FALL IN LOVE WITH</p><h2>A world of art.<br /><em>In the folds of a saree.</em></h2><p>A scroll through the patterns that inspire this little house.</p></div>
+    <div className="journey-intro"><p className="eyebrow">THE DETAILS WE FALL IN LOVE WITH</p><h2>A world of art.<br /><em>In the folds of a saree.</em></h2><p>From a printed petal to a glimmer of zari. Follow the thread through the details we love.</p></div>
     <div className="journey-layout"><div className={`craft-stage craft-${chapters[active].kind}`}>
-      <div className="craft-stage-border" />
+      <FabricScene variant={chapters[active].kind} /><div className="craft-stage-border" />
       {chapters.map((chapter,index)=><div key={chapter.kind} className={`craft-art ${active===index ? "active" : ""}`}><TextileMotif kind={chapter.kind}/></div>)}
       <span className="craft-stage-label">{chapters[active].subtitle}</span><div className="craft-dots" aria-label="Jump to a design inspiration">{chapters.map((chapter,index)=><a key={chapter.kind} href={`#craft-${chapter.kind}`} aria-label={chapter.subtitle} aria-current={active===index ? "step" : undefined}>{String(index+1).padStart(2,"0")}</a>)}</div>
     </div><div className="craft-chapters">{chapters.map((chapter,index)=><article className={`craft-chapter chapter-${chapter.kind}`} id={`craft-${chapter.kind}`} data-chapter={index} key={chapter.kind}><div className={`mobile-craft craft-${chapter.kind}`}><TextileMotif kind={chapter.kind}/></div><p className="eyebrow">{chapter.subtitle}</p><h3>{chapter.title}</h3><p>{chapter.copy}</p><span className="craft-detail">{chapter.detail}</span></article>)}</div></div>
   </section>;
-}
-
-export function SareeOpening() {
-  const [open, setOpen] = useState(() => !window.matchMedia("(prefers-reduced-motion: reduce)").matches);
-  useEffect(() => { if (!open) return; const timer = window.setTimeout(() => setOpen(false), 2900); const close = (event:KeyboardEvent) => { if (event.key === "Escape") setOpen(false); }; window.addEventListener("keydown",close); return () => { clearTimeout(timer); window.removeEventListener("keydown",close); }; },[open]);
-  if (!open) return null;
-  return <div className="saree-opening"><div className="opening-folds" aria-hidden="true">{Array.from({length:5},(_,index)=><div key={index} className="opening-fold" style={{"--fold":index} as React.CSSProperties}><TextileMotif kind={index%2 ? "pattu" : "block"}/><div className="opening-hem"/></div>)}</div><div className="opening-brand"><img src="/logo/maanvi-logo.png" alt="Maanvi"/><p>EVERY FOLD, A CELEBRATION.</p></div><button type="button" className="skip-opening" onClick={()=>setOpen(false)}>Skip introduction ↗</button></div>;
 }

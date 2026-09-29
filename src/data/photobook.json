@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "2017-spring",
+    "year": 2017,
+    "season": "Spring",
+    "title": "Watercolour memories",
+    "medium": "Watercolour editorial",
+    "images": [
+      {
+        "id": "2017-spring-01",
+        "title": "Kuppadam",
+        "src": "/images/archive/2017/spring/01-kuppadam-courtyard.webp",
+        "thumbnail": "/images/archive/2017/spring/01-kuppadam-courtyard-thumb.webp",
+        "source": "maanvi-photobook/2017/spring/01-kuppadam-courtyard.png",
+        "alt": "AI-created watercolour editorial: kuppadam, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-02",
+        "title": "Uppada",
+        "src": "/images/archive/2017/spring/02-uppada-veranda.webp",
+        "thumbnail": "/images/archive/2017/spring/02-uppada-veranda-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2017/spring/candidate-a-uppada.png",
+        "alt": "AI-created watercolour editorial: uppada, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-03",
+        "title": "Mangalagiri",
+        "src": "/images/archive/2017/spring/03-mangalagiri-market.webp",
+        "thumbnail": "/images/archive/2017/spring/03-mangalagiri-market-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2017/spring/candidate-b-mangalagiri.png",
+        "alt": "AI-created watercolour editorial: mangalagiri, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-04",
+        "title": "Venkatagiri",
+        "src": "/images/archive/2017/spring/04-venkatagiri-garden.webp",
+        "thumbnail": "/images/archive/2017/spring/04-venkatagiri-garden-thumb.webp",
+        "source": "maanvi-photobook/2017/spring/04-venkatagiri-garden.png",
+        "alt": "AI-created watercolour editorial: venkatagiri, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-08",
+        "title": "Venkatagiri",
+        "src": "/images/archive/2017/spring/08-venkatagiri-rain.webp",
+        "thumbnail": "/images/archive/2017/spring/08-venkatagiri-rain-thumb.webp",
+        "source": "maanvi-photobook/2017/spring/08-venkatagiri-rain.png",
+        "alt": "AI-created watercolour editorial: venkatagiri, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-09",
+        "title": "Uppada festival prep",
+        "src": "/images/archive/2017/spring/09-uppada-festival-prep.webp",
+        "thumbnail": "/images/archive/2017/spring/09-uppada-festival-prep-thumb.webp",
+        "source": "maanvi-photobook/2017/spring/09-uppada-festival-prep.png",
+        "alt": "AI-created watercolour editorial: uppada festival prep, from the 2017 spring collection book."
+      },
+      {
+        "id": "2017-spring-10",
+        "title": "Mangalagiri family",
+        "src": "/images/archive/2017/spring/10-mangalagiri-family.webp",
+        "thumbnail": "/images/archive/2017/spring/10-mangalagiri-family-thumb.webp",
+        "source": "maanvi-photobook/2017/spring/10-mangalagiri-family.png",
+        "alt": "AI-created watercolour editorial: mangalagiri family, from the 2017 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2017-fall",
+    "year": 2017,
+    "season": "Fall",
+    "title": "Hand-tinted evenings",
+    "medium": "Hand-tinted illustration",
+    "images": [
+      {
+        "id": "2017-fall-01",
+        "title": "Gadwal lamp lighting",
+        "src": "/images/archive/2017/fall/01-gadwal-lamp-lighting.webp",
+        "thumbnail": "/images/archive/2017/fall/01-gadwal-lamp-lighting-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2017/fall/candidate-a-gadwal-elder.png",
+        "alt": "AI-created hand-tinted illustration: gadwal lamp lighting, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-02",
+        "title": "Uppada tissue balcony",
+        "src": "/images/archive/2017/fall/02-uppada-tissue-balcony.webp",
+        "thumbnail": "/images/archive/2017/fall/02-uppada-tissue-balcony-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/02-uppada-tissue-balcony.png",
+        "alt": "AI-created hand-tinted illustration: uppada tissue balcony, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-03",
+        "title": "Kuppadam harvest",
+        "src": "/images/archive/2017/fall/03-kuppadam-harvest.webp",
+        "thumbnail": "/images/archive/2017/fall/03-kuppadam-harvest-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/03-kuppadam-harvest.png",
+        "alt": "AI-created hand-tinted illustration: kuppadam harvest, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-04",
+        "title": "Gadwal respect",
+        "src": "/images/archive/2017/fall/04-gadwal-respect.webp",
+        "thumbnail": "/images/archive/2017/fall/04-gadwal-respect-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/04-gadwal-respect.png",
+        "alt": "AI-created hand-tinted illustration: gadwal respect, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-05",
+        "title": "Venkatagiri music",
+        "src": "/images/archive/2017/fall/05-venkatagiri-music.webp",
+        "thumbnail": "/images/archive/2017/fall/05-venkatagiri-music-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2017/fall/candidate-b-venkatagiri.png",
+        "alt": "AI-created hand-tinted illustration: venkatagiri music, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-06",
+        "title": "Uppada diya festival",
+        "src": "/images/archive/2017/fall/06-uppada-diya-festival.webp",
+        "thumbnail": "/images/archive/2017/fall/06-uppada-diya-festival-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/06-uppada-diya-festival.png",
+        "alt": "AI-created hand-tinted illustration: uppada diya festival, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-07",
+        "title": "Mangalagiri warli",
+        "src": "/images/archive/2017/fall/07-mangalagiri-warli.webp",
+        "thumbnail": "/images/archive/2017/fall/07-mangalagiri-warli-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/07-mangalagiri-warli.png",
+        "alt": "AI-created hand-tinted illustration: mangalagiri warli, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-08",
+        "title": "Gadwal family evening",
+        "src": "/images/archive/2017/fall/08-gadwal-family-evening.webp",
+        "thumbnail": "/images/archive/2017/fall/08-gadwal-family-evening-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/08-gadwal-family-evening.png",
+        "alt": "AI-created hand-tinted illustration: gadwal family evening, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-09",
+        "title": "Uppada bridal",
+        "src": "/images/archive/2017/fall/09-uppada-bridal.webp",
+        "thumbnail": "/images/archive/2017/fall/09-uppada-bridal-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/09-uppada-bridal.png",
+        "alt": "AI-created hand-tinted illustration: uppada bridal, from the 2017 fall collection book."
+      },
+      {
+        "id": "2017-fall-10",
+        "title": "Venkatagiri procession",
+        "src": "/images/archive/2017/fall/10-venkatagiri-procession.webp",
+        "thumbnail": "/images/archive/2017/fall/10-venkatagiri-procession-thumb.webp",
+        "source": "maanvi-photobook/2017/fall/10-venkatagiri-procession.png",
+        "alt": "AI-created hand-tinted illustration: venkatagiri procession, from the 2017 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2018-spring",
+    "year": 2018,
+    "season": "Spring",
+    "title": "A botanical reverie",
+    "medium": "Botanical gouache",
+    "images": [
+      {
+        "id": "2018-spring-01",
+        "title": "Pen kalamkari",
+        "src": "/images/archive/2018/spring/01-pen-kalamkari-garden.webp",
+        "thumbnail": "/images/archive/2018/spring/01-pen-kalamkari-garden-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2018/spring/candidate-b-kalamkari.png",
+        "alt": "AI-created botanical gouache: pen kalamkari, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-02",
+        "title": "Chanderi",
+        "src": "/images/archive/2018/spring/02-chanderi-orchard.webp",
+        "thumbnail": "/images/archive/2018/spring/02-chanderi-orchard-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/02-chanderi-orchard.png",
+        "alt": "AI-created botanical gouache: chanderi, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-03",
+        "title": "Paithani",
+        "src": "/images/archive/2018/spring/03-paithani-lotus-seat.webp",
+        "thumbnail": "/images/archive/2018/spring/03-paithani-lotus-seat-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/03-paithani-lotus-seat.png",
+        "alt": "AI-created botanical gouache: paithani, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-04",
+        "title": "Banarasi",
+        "src": "/images/archive/2018/spring/04-banarasi-bougainvillea.webp",
+        "thumbnail": "/images/archive/2018/spring/04-banarasi-bougainvillea-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/04-banarasi-bougainvillea.png",
+        "alt": "AI-created botanical gouache: banarasi, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-05",
+        "title": "Sambalpuri",
+        "src": "/images/archive/2018/spring/05-sambalpuri-courtyard.webp",
+        "thumbnail": "/images/archive/2018/spring/05-sambalpuri-courtyard-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2018/spring/candidate-a-sambalpuri.png",
+        "alt": "AI-created botanical gouache: sambalpuri, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-06",
+        "title": "Kalamkari love",
+        "src": "/images/archive/2018/spring/06-kalamkari-love.webp",
+        "thumbnail": "/images/archive/2018/spring/06-kalamkari-love-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/06-kalamkari-love.png",
+        "alt": "AI-created botanical gouache: kalamkari love, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-07",
+        "title": "Chanderi dance",
+        "src": "/images/archive/2018/spring/07-chanderi-dance.webp",
+        "thumbnail": "/images/archive/2018/spring/07-chanderi-dance-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/07-chanderi-dance.png",
+        "alt": "AI-created botanical gouache: chanderi dance, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-08",
+        "title": "Paithani bridal morning",
+        "src": "/images/archive/2018/spring/08-paithani-bridal-morning.webp",
+        "thumbnail": "/images/archive/2018/spring/08-paithani-bridal-morning-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/08-paithani-bridal-morning.png",
+        "alt": "AI-created botanical gouache: paithani bridal morning, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-09",
+        "title": "Sambalpuri family",
+        "src": "/images/archive/2018/spring/09-sambalpuri-family.webp",
+        "thumbnail": "/images/archive/2018/spring/09-sambalpuri-family-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/09-sambalpuri-family.png",
+        "alt": "AI-created botanical gouache: sambalpuri family, from the 2018 spring collection book."
+      },
+      {
+        "id": "2018-spring-10",
+        "title": "Banarasi faith",
+        "src": "/images/archive/2018/spring/10-banarasi-faith.webp",
+        "thumbnail": "/images/archive/2018/spring/10-banarasi-faith-thumb.webp",
+        "source": "maanvi-photobook/2018/spring/10-banarasi-faith.png",
+        "alt": "AI-created botanical gouache: banarasi faith, from the 2018 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2018-fall",
+    "year": 2018,
+    "season": "Fall",
+    "title": "Miniature worlds",
+    "medium": "Miniature-inspired painting",
+    "images": [
+      {
+        "id": "2018-fall-01",
+        "title": "Banarasi",
+        "src": "/images/archive/2018/fall/01-banarasi-palace.webp",
+        "thumbnail": "/images/archive/2018/fall/01-banarasi-palace-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2018/fall/candidate-b-banarasi.png",
+        "alt": "AI-created miniature-inspired painting: banarasi, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-02",
+        "title": "Paithani",
+        "src": "/images/archive/2018/fall/02-paithani-peacock.webp",
+        "thumbnail": "/images/archive/2018/fall/02-paithani-peacock-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2018/fall/candidate-a-paithani-elder.png",
+        "alt": "AI-created miniature-inspired painting: paithani, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-03",
+        "title": "Sambalpuri",
+        "src": "/images/archive/2018/fall/03-sambalpuri-terrace.webp",
+        "thumbnail": "/images/archive/2018/fall/03-sambalpuri-terrace-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/03-sambalpuri-terrace.png",
+        "alt": "AI-created miniature-inspired painting: sambalpuri, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-04",
+        "title": "Chanderi",
+        "src": "/images/archive/2018/fall/04-chanderi-letter.webp",
+        "thumbnail": "/images/archive/2018/fall/04-chanderi-letter-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/04-chanderi-letter.png",
+        "alt": "AI-created miniature-inspired painting: chanderi, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-05",
+        "title": "Kalamkari story",
+        "src": "/images/archive/2018/fall/05-kalamkari-story.webp",
+        "thumbnail": "/images/archive/2018/fall/05-kalamkari-story-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/05-kalamkari-story.png",
+        "alt": "AI-created miniature-inspired painting: kalamkari story, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-06",
+        "title": "Banarasi bridal procession",
+        "src": "/images/archive/2018/fall/06-banarasi-bridal-procession.webp",
+        "thumbnail": "/images/archive/2018/fall/06-banarasi-bridal-procession-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/06-banarasi-bridal-procession.png",
+        "alt": "AI-created miniature-inspired painting: banarasi bridal procession, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-07",
+        "title": "Paithani sisters",
+        "src": "/images/archive/2018/fall/07-paithani-sisters.webp",
+        "thumbnail": "/images/archive/2018/fall/07-paithani-sisters-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/07-paithani-sisters.png",
+        "alt": "AI-created miniature-inspired painting: paithani sisters, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-08",
+        "title": "Sambalpuri dance",
+        "src": "/images/archive/2018/fall/08-sambalpuri-dance.webp",
+        "thumbnail": "/images/archive/2018/fall/08-sambalpuri-dance-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/08-sambalpuri-dance.png",
+        "alt": "AI-created miniature-inspired painting: sambalpuri dance, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-09",
+        "title": "Chanderi festival night",
+        "src": "/images/archive/2018/fall/09-chanderi-festival-night.webp",
+        "thumbnail": "/images/archive/2018/fall/09-chanderi-festival-night-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/09-chanderi-festival-night.png",
+        "alt": "AI-created miniature-inspired painting: chanderi festival night, from the 2018 fall collection book."
+      },
+      {
+        "id": "2018-fall-10",
+        "title": "Royal family",
+        "src": "/images/archive/2018/fall/10-royal-family-garden.webp",
+        "thumbnail": "/images/archive/2018/fall/10-royal-family-garden-thumb.webp",
+        "source": "maanvi-photobook/2018/fall/10-royal-family-garden.png",
+        "alt": "AI-created miniature-inspired painting: royal family, from the 2018 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2019-spring",
+    "year": 2019,
+    "season": "Spring",
+    "title": "Ink & quiet colour",
+    "medium": "Charcoal & Indian ink",
+    "images": [
+      {
+        "id": "2019-spring-01",
+        "title": "Mysore crepe",
+        "src": "/images/archive/2019/spring/01-mysore-crepe-studio.webp",
+        "thumbnail": "/images/archive/2019/spring/01-mysore-crepe-studio-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/01-mysore-crepe-studio.png",
+        "alt": "AI-created charcoal & indian ink: mysore crepe, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-02",
+        "title": "Jamdani",
+        "src": "/images/archive/2019/spring/02-jamdani-window.webp",
+        "thumbnail": "/images/archive/2019/spring/02-jamdani-window-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/02-jamdani-window.png",
+        "alt": "AI-created charcoal & indian ink: jamdani, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-03",
+        "title": "Chikankari",
+        "src": "/images/archive/2019/spring/03-chikankari-veranda.webp",
+        "thumbnail": "/images/archive/2019/spring/03-chikankari-veranda-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2019/spring/candidate-a-chikankari.png",
+        "alt": "AI-created charcoal & indian ink: chikankari, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-04",
+        "title": "Mysore crepe dance",
+        "src": "/images/archive/2019/spring/04-mysore-crepe-dance.webp",
+        "thumbnail": "/images/archive/2019/spring/04-mysore-crepe-dance-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2019/spring/candidate-b-mysore-crepe.png",
+        "alt": "AI-created charcoal & indian ink: mysore crepe dance, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-05",
+        "title": "Jamdani mother daughter",
+        "src": "/images/archive/2019/spring/05-jamdani-mother-daughter.webp",
+        "thumbnail": "/images/archive/2019/spring/05-jamdani-mother-daughter-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/05-jamdani-mother-daughter.png",
+        "alt": "AI-created charcoal & indian ink: jamdani mother daughter, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-06",
+        "title": "Chikankari faith",
+        "src": "/images/archive/2019/spring/06-chikankari-faith.webp",
+        "thumbnail": "/images/archive/2019/spring/06-chikankari-faith-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/06-chikankari-faith.png",
+        "alt": "AI-created charcoal & indian ink: chikankari faith, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-07",
+        "title": "Mysore crepe",
+        "src": "/images/archive/2019/spring/07-mysore-crepe-cafe.webp",
+        "thumbnail": "/images/archive/2019/spring/07-mysore-crepe-cafe-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/07-mysore-crepe-cafe.png",
+        "alt": "AI-created charcoal & indian ink: mysore crepe, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-08",
+        "title": "Jamdani love",
+        "src": "/images/archive/2019/spring/08-jamdani-love.webp",
+        "thumbnail": "/images/archive/2019/spring/08-jamdani-love-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/08-jamdani-love.png",
+        "alt": "AI-created charcoal & indian ink: jamdani love, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-09",
+        "title": "Chikankari family",
+        "src": "/images/archive/2019/spring/09-chikankari-family.webp",
+        "thumbnail": "/images/archive/2019/spring/09-chikankari-family-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/09-chikankari-family.png",
+        "alt": "AI-created charcoal & indian ink: chikankari family, from the 2019 spring collection book."
+      },
+      {
+        "id": "2019-spring-10",
+        "title": "Leheriya",
+        "src": "/images/archive/2019/spring/10-leheriya-breeze.webp",
+        "thumbnail": "/images/archive/2019/spring/10-leheriya-breeze-thumb.webp",
+        "source": "maanvi-photobook/2019/spring/10-leheriya-breeze.png",
+        "alt": "AI-created charcoal & indian ink: leheriya, from the 2019 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2019-fall",
+    "year": 2019,
+    "season": "Fall",
+    "title": "Cut from colour",
+    "medium": "Block-print collage",
+    "images": [
+      {
+        "id": "2019-fall-01",
+        "title": "Bandhani",
+        "src": "/images/archive/2019/fall/01-bandhani-rooftop.webp",
+        "thumbnail": "/images/archive/2019/fall/01-bandhani-rooftop-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2019/fall/candidate-a-bandhani-elder.png",
+        "alt": "AI-created block-print collage: bandhani, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-02",
+        "title": "Leheriya dance",
+        "src": "/images/archive/2019/fall/02-leheriya-dance.webp",
+        "thumbnail": "/images/archive/2019/fall/02-leheriya-dance-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/02-leheriya-dance.png",
+        "alt": "AI-created block-print collage: leheriya dance, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-03",
+        "title": "Pochampally",
+        "src": "/images/archive/2019/fall/03-pochampally-market.webp",
+        "thumbnail": "/images/archive/2019/fall/03-pochampally-market-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2019/fall/candidate-b-pochampally.png",
+        "alt": "AI-created block-print collage: pochampally, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-04",
+        "title": "Bandhani sisters",
+        "src": "/images/archive/2019/fall/04-bandhani-sisters.webp",
+        "thumbnail": "/images/archive/2019/fall/04-bandhani-sisters-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/04-bandhani-sisters.png",
+        "alt": "AI-created block-print collage: bandhani sisters, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-05",
+        "title": "Leheriya desert",
+        "src": "/images/archive/2019/fall/05-leheriya-desert.webp",
+        "thumbnail": "/images/archive/2019/fall/05-leheriya-desert-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/05-leheriya-desert.png",
+        "alt": "AI-created block-print collage: leheriya desert, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-06",
+        "title": "Pochampally warli",
+        "src": "/images/archive/2019/fall/06-pochampally-warli.webp",
+        "thumbnail": "/images/archive/2019/fall/06-pochampally-warli-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/06-pochampally-warli.png",
+        "alt": "AI-created block-print collage: pochampally warli, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-07",
+        "title": "Bandhani bridal",
+        "src": "/images/archive/2019/fall/07-bandhani-bridal.webp",
+        "thumbnail": "/images/archive/2019/fall/07-bandhani-bridal-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/07-bandhani-bridal.png",
+        "alt": "AI-created block-print collage: bandhani bridal, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-08",
+        "title": "Leheriya lamps",
+        "src": "/images/archive/2019/fall/08-leheriya-lamps.webp",
+        "thumbnail": "/images/archive/2019/fall/08-leheriya-lamps-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/08-leheriya-lamps.png",
+        "alt": "AI-created block-print collage: leheriya lamps, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-09",
+        "title": "Pochampally family",
+        "src": "/images/archive/2019/fall/09-pochampally-family.webp",
+        "thumbnail": "/images/archive/2019/fall/09-pochampally-family-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/09-pochampally-family.png",
+        "alt": "AI-created block-print collage: pochampally family, from the 2019 fall collection book."
+      },
+      {
+        "id": "2019-fall-10",
+        "title": "Bandhani celebration",
+        "src": "/images/archive/2019/fall/10-bandhani-celebration.webp",
+        "thumbnail": "/images/archive/2019/fall/10-bandhani-celebration-thumb.webp",
+        "source": "maanvi-photobook/2019/fall/10-bandhani-celebration.png",
+        "alt": "AI-created block-print collage: bandhani celebration, from the 2019 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2020-spring",
+    "year": 2020,
+    "season": "Spring",
+    "title": "The everyday beautiful",
+    "medium": "Photographic interpretation",
+    "images": [
+      {
+        "id": "2020-spring-01",
+        "title": "Chettinad",
+        "src": "/images/archive/2020/spring/01-chettinad-kitchen.webp",
+        "thumbnail": "/images/archive/2020/spring/01-chettinad-kitchen-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2020/spring/candidate-a-chettinad.png",
+        "alt": "AI-created photographic interpretation: chettinad, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-02",
+        "title": "Kanchi cotton",
+        "src": "/images/archive/2020/spring/02-kanchi-cotton-steps.webp",
+        "thumbnail": "/images/archive/2020/spring/02-kanchi-cotton-steps-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2020/spring/candidate-b-kanchi-cotton.png",
+        "alt": "AI-created photographic interpretation: kanchi cotton, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-03",
+        "title": "Narayanpet",
+        "src": "/images/archive/2020/spring/03-narayanpet-market.webp",
+        "thumbnail": "/images/archive/2020/spring/03-narayanpet-market-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/03-narayanpet-market.png",
+        "alt": "AI-created photographic interpretation: narayanpet, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-04",
+        "title": "Muga kota",
+        "src": "/images/archive/2020/spring/04-muga-kota-veranda.webp",
+        "thumbnail": "/images/archive/2020/spring/04-muga-kota-veranda-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/04-muga-kota-veranda.png",
+        "alt": "AI-created photographic interpretation: muga kota, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-05",
+        "title": "Chettinad weaver",
+        "src": "/images/archive/2020/spring/05-chettinad-weaver.webp",
+        "thumbnail": "/images/archive/2020/spring/05-chettinad-weaver-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/05-chettinad-weaver.png",
+        "alt": "AI-created photographic interpretation: chettinad weaver, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-06",
+        "title": "Kanchi cotton respect",
+        "src": "/images/archive/2020/spring/06-kanchi-cotton-respect.webp",
+        "thumbnail": "/images/archive/2020/spring/06-kanchi-cotton-respect-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/06-kanchi-cotton-respect.png",
+        "alt": "AI-created photographic interpretation: kanchi cotton respect, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-07",
+        "title": "Narayanpet cycling",
+        "src": "/images/archive/2020/spring/07-narayanpet-cycling.webp",
+        "thumbnail": "/images/archive/2020/spring/07-narayanpet-cycling-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/07-narayanpet-cycling.png",
+        "alt": "AI-created photographic interpretation: narayanpet cycling, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-08",
+        "title": "Muga kota family",
+        "src": "/images/archive/2020/spring/08-muga-kota-family.webp",
+        "thumbnail": "/images/archive/2020/spring/08-muga-kota-family-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/08-muga-kota-family.png",
+        "alt": "AI-created photographic interpretation: muga kota family, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-09",
+        "title": "Chettinad festival prep",
+        "src": "/images/archive/2020/spring/09-chettinad-festival-prep.webp",
+        "thumbnail": "/images/archive/2020/spring/09-chettinad-festival-prep-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/09-chettinad-festival-prep.png",
+        "alt": "AI-created photographic interpretation: chettinad festival prep, from the 2020 spring collection book."
+      },
+      {
+        "id": "2020-spring-10",
+        "title": "Kanchi cotton",
+        "src": "/images/archive/2020/spring/10-kanchi-cotton-rain.webp",
+        "thumbnail": "/images/archive/2020/spring/10-kanchi-cotton-rain-thumb.webp",
+        "source": "maanvi-photobook/2020/spring/10-kanchi-cotton-rain.png",
+        "alt": "AI-created photographic interpretation: kanchi cotton, from the 2020 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2020-fall",
+    "year": 2020,
+    "season": "Fall",
+    "title": "Golden hours",
+    "medium": "Gilded tempera",
+    "images": [
+      {
+        "id": "2020-fall-01",
+        "title": "Muga silk golden hour",
+        "src": "/images/archive/2020/fall/01-muga-silk-golden-hour.webp",
+        "thumbnail": "/images/archive/2020/fall/01-muga-silk-golden-hour-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2020/fall/candidate-a-muga-elder.png",
+        "alt": "AI-created gilded tempera: muga silk golden hour, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-02",
+        "title": "Muga paithani",
+        "src": "/images/archive/2020/fall/02-muga-paithani-lotus.webp",
+        "thumbnail": "/images/archive/2020/fall/02-muga-paithani-lotus-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2020/fall/candidate-b-muga-paithani.png",
+        "alt": "AI-created gilded tempera: muga paithani, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-03",
+        "title": "Jashmin pattu arch",
+        "src": "/images/archive/2020/fall/03-jashmin-pattu-arch.webp",
+        "thumbnail": "/images/archive/2020/fall/03-jashmin-pattu-arch-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/03-jashmin-pattu-arch.png",
+        "alt": "AI-created gilded tempera: jashmin pattu arch, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-04",
+        "title": "Gandharva pattu music",
+        "src": "/images/archive/2020/fall/04-gandharva-pattu-music.webp",
+        "thumbnail": "/images/archive/2020/fall/04-gandharva-pattu-music-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/04-gandharva-pattu-music.png",
+        "alt": "AI-created gilded tempera: gandharva pattu music, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-05",
+        "title": "Muga silk respect",
+        "src": "/images/archive/2020/fall/05-muga-silk-respect.webp",
+        "thumbnail": "/images/archive/2020/fall/05-muga-silk-respect-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/05-muga-silk-respect.png",
+        "alt": "AI-created gilded tempera: muga silk respect, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-06",
+        "title": "Muga paithani bridal",
+        "src": "/images/archive/2020/fall/06-muga-paithani-bridal.webp",
+        "thumbnail": "/images/archive/2020/fall/06-muga-paithani-bridal-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/06-muga-paithani-bridal.png",
+        "alt": "AI-created gilded tempera: muga paithani bridal, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-07",
+        "title": "Jashmin pattu dance",
+        "src": "/images/archive/2020/fall/07-jashmin-pattu-dance.webp",
+        "thumbnail": "/images/archive/2020/fall/07-jashmin-pattu-dance-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/07-jashmin-pattu-dance.png",
+        "alt": "AI-created gilded tempera: jashmin pattu dance, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-08",
+        "title": "Gandharva pattu faith",
+        "src": "/images/archive/2020/fall/08-gandharva-pattu-faith.webp",
+        "thumbnail": "/images/archive/2020/fall/08-gandharva-pattu-faith-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/08-gandharva-pattu-faith.png",
+        "alt": "AI-created gilded tempera: gandharva pattu faith, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-09",
+        "title": "Muga family festival",
+        "src": "/images/archive/2020/fall/09-muga-family-festival.webp",
+        "thumbnail": "/images/archive/2020/fall/09-muga-family-festival-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/09-muga-family-festival.png",
+        "alt": "AI-created gilded tempera: muga family festival, from the 2020 fall collection book."
+      },
+      {
+        "id": "2020-fall-10",
+        "title": "Golden weaves procession",
+        "src": "/images/archive/2020/fall/10-golden-weaves-procession.webp",
+        "thumbnail": "/images/archive/2020/fall/10-golden-weaves-procession-thumb.webp",
+        "source": "maanvi-photobook/2020/fall/10-golden-weaves-procession.png",
+        "alt": "AI-created gilded tempera: golden weaves procession, from the 2020 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2021-spring",
+    "year": 2021,
+    "season": "Spring",
+    "title": "Soft light, softer drapes",
+    "medium": "Photographic interpretation",
+    "images": [
+      {
+        "id": "2021-spring-01",
+        "title": "Organza greenhouse",
+        "src": "/images/archive/2021/spring/01-organza-greenhouse.webp",
+        "thumbnail": "/images/archive/2021/spring/01-organza-greenhouse-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2021/spring/candidate-a-organza.png",
+        "alt": "AI-created photographic interpretation: organza greenhouse, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-02",
+        "title": "Pashmina silk",
+        "src": "/images/archive/2021/spring/02-pashmina-silk-window.webp",
+        "thumbnail": "/images/archive/2021/spring/02-pashmina-silk-window-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/02-pashmina-silk-window.png",
+        "alt": "AI-created photographic interpretation: pashmina silk, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-03",
+        "title": "Mani pure silk",
+        "src": "/images/archive/2021/spring/03-mani-pure-silk-terrace.webp",
+        "thumbnail": "/images/archive/2021/spring/03-mani-pure-silk-terrace-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/03-mani-pure-silk-terrace.png",
+        "alt": "AI-created photographic interpretation: mani pure silk, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-04",
+        "title": "Organza dance",
+        "src": "/images/archive/2021/spring/04-organza-dance.webp",
+        "thumbnail": "/images/archive/2021/spring/04-organza-dance-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/04-organza-dance.png",
+        "alt": "AI-created photographic interpretation: organza dance, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-05",
+        "title": "Pashmina love",
+        "src": "/images/archive/2021/spring/05-pashmina-love.webp",
+        "thumbnail": "/images/archive/2021/spring/05-pashmina-love-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/05-pashmina-love.png",
+        "alt": "AI-created photographic interpretation: pashmina love, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-06",
+        "title": "Organza sisters",
+        "src": "/images/archive/2021/spring/06-organza-sisters.webp",
+        "thumbnail": "/images/archive/2021/spring/06-organza-sisters-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/06-organza-sisters.png",
+        "alt": "AI-created photographic interpretation: organza sisters, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-07",
+        "title": "Mani silk",
+        "src": "/images/archive/2021/spring/07-mani-silk-cafe.webp",
+        "thumbnail": "/images/archive/2021/spring/07-mani-silk-cafe-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2021/spring/candidate-b-pashmina.png",
+        "alt": "AI-created photographic interpretation: mani silk, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-08",
+        "title": "Pashmina respect",
+        "src": "/images/archive/2021/spring/08-pashmina-respect.webp",
+        "thumbnail": "/images/archive/2021/spring/08-pashmina-respect-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/08-pashmina-respect.png",
+        "alt": "AI-created photographic interpretation: pashmina respect, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-09",
+        "title": "Organza family",
+        "src": "/images/archive/2021/spring/09-organza-family.webp",
+        "thumbnail": "/images/archive/2021/spring/09-organza-family-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/09-organza-family.png",
+        "alt": "AI-created photographic interpretation: organza family, from the 2021 spring collection book."
+      },
+      {
+        "id": "2021-spring-10",
+        "title": "Pashmina bridal",
+        "src": "/images/archive/2021/spring/10-pashmina-bridal.webp",
+        "thumbnail": "/images/archive/2021/spring/10-pashmina-bridal-thumb.webp",
+        "source": "maanvi-photobook/2021/spring/10-pashmina-bridal.png",
+        "alt": "AI-created photographic interpretation: pashmina bridal, from the 2021 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2021-fall",
+    "year": 2021,
+    "season": "Fall",
+    "title": "After the sun",
+    "medium": "Art Deco illustration",
+    "images": [
+      {
+        "id": "2021-fall-01",
+        "title": "Banarasi",
+        "src": "/images/archive/2021/fall/01-banarasi-midnight.webp",
+        "thumbnail": "/images/archive/2021/fall/01-banarasi-midnight-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/01-banarasi-midnight.png",
+        "alt": "AI-created art deco illustration: banarasi, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-02",
+        "title": "Mashru",
+        "src": "/images/archive/2021/fall/02-mashru-ruby.webp",
+        "thumbnail": "/images/archive/2021/fall/02-mashru-ruby-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2021/fall/candidate-a-mashru-elder.png",
+        "alt": "AI-created art deco illustration: mashru, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-03",
+        "title": "Banarasi",
+        "src": "/images/archive/2021/fall/03-banarasi-jade.webp",
+        "thumbnail": "/images/archive/2021/fall/03-banarasi-jade-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2021/fall/candidate-b-banarasi.png",
+        "alt": "AI-created art deco illustration: banarasi, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-04",
+        "title": "Mashru dance",
+        "src": "/images/archive/2021/fall/04-mashru-dance.webp",
+        "thumbnail": "/images/archive/2021/fall/04-mashru-dance-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/04-mashru-dance.png",
+        "alt": "AI-created art deco illustration: mashru dance, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-05",
+        "title": "Banarasi love",
+        "src": "/images/archive/2021/fall/05-banarasi-love.webp",
+        "thumbnail": "/images/archive/2021/fall/05-banarasi-love-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/05-banarasi-love.png",
+        "alt": "AI-created art deco illustration: banarasi love, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-06",
+        "title": "Mashru sisters",
+        "src": "/images/archive/2021/fall/06-mashru-sisters.webp",
+        "thumbnail": "/images/archive/2021/fall/06-mashru-sisters-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/06-mashru-sisters.png",
+        "alt": "AI-created art deco illustration: mashru sisters, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-07",
+        "title": "Banarasi bridal",
+        "src": "/images/archive/2021/fall/07-banarasi-bridal.webp",
+        "thumbnail": "/images/archive/2021/fall/07-banarasi-bridal-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/07-banarasi-bridal.png",
+        "alt": "AI-created art deco illustration: banarasi bridal, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-08",
+        "title": "Mashru festival",
+        "src": "/images/archive/2021/fall/08-mashru-festival.webp",
+        "thumbnail": "/images/archive/2021/fall/08-mashru-festival-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/08-mashru-festival.png",
+        "alt": "AI-created art deco illustration: mashru festival, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-09",
+        "title": "Banarasi family",
+        "src": "/images/archive/2021/fall/09-banarasi-family.webp",
+        "thumbnail": "/images/archive/2021/fall/09-banarasi-family-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/09-banarasi-family.png",
+        "alt": "AI-created art deco illustration: banarasi family, from the 2021 fall collection book."
+      },
+      {
+        "id": "2021-fall-10",
+        "title": "Night brocade gala",
+        "src": "/images/archive/2021/fall/10-night-brocade-gala.webp",
+        "thumbnail": "/images/archive/2021/fall/10-night-brocade-gala-thumb.webp",
+        "source": "maanvi-photobook/2021/fall/10-night-brocade-gala.png",
+        "alt": "AI-created art deco illustration: night brocade gala, from the 2021 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2022-spring",
+    "year": 2022,
+    "season": "Spring",
+    "title": "Paper, petal & thread",
+    "medium": "Paper & textile collage",
+    "images": [
+      {
+        "id": "2022-spring-01",
+        "title": "Tussar paper",
+        "src": "/images/archive/2022/spring/01-tussar-paper-garden.webp",
+        "thumbnail": "/images/archive/2022/spring/01-tussar-paper-garden-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2022/spring/candidate-a-tussar.png",
+        "alt": "AI-created paper & textile collage: tussar paper, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-02",
+        "title": "Linen tissue",
+        "src": "/images/archive/2022/spring/02-linen-tissue-window.webp",
+        "thumbnail": "/images/archive/2022/spring/02-linen-tissue-window-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2022/spring/candidate-b-linen-tissue.png",
+        "alt": "AI-created paper & textile collage: linen tissue, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-03",
+        "title": "Chiffon",
+        "src": "/images/archive/2022/spring/03-chiffon-breeze.webp",
+        "thumbnail": "/images/archive/2022/spring/03-chiffon-breeze-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/03-chiffon-breeze.png",
+        "alt": "AI-created paper & textile collage: chiffon, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-04",
+        "title": "Pure silk",
+        "src": "/images/archive/2022/spring/04-pure-silk-coral.webp",
+        "thumbnail": "/images/archive/2022/spring/04-pure-silk-coral-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/04-pure-silk-coral.png",
+        "alt": "AI-created paper & textile collage: pure silk, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-05",
+        "title": "Tussar sisters",
+        "src": "/images/archive/2022/spring/05-tussar-sisters.webp",
+        "thumbnail": "/images/archive/2022/spring/05-tussar-sisters-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/05-tussar-sisters.png",
+        "alt": "AI-created paper & textile collage: tussar sisters, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-06",
+        "title": "Linen tissue love",
+        "src": "/images/archive/2022/spring/06-linen-tissue-love.webp",
+        "thumbnail": "/images/archive/2022/spring/06-linen-tissue-love-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/06-linen-tissue-love.png",
+        "alt": "AI-created paper & textile collage: linen tissue love, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-07",
+        "title": "Chiffon dance",
+        "src": "/images/archive/2022/spring/07-chiffon-dance.webp",
+        "thumbnail": "/images/archive/2022/spring/07-chiffon-dance-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/07-chiffon-dance.png",
+        "alt": "AI-created paper & textile collage: chiffon dance, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-08",
+        "title": "Tussar respect",
+        "src": "/images/archive/2022/spring/08-tussar-respect.webp",
+        "thumbnail": "/images/archive/2022/spring/08-tussar-respect-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/08-tussar-respect.png",
+        "alt": "AI-created paper & textile collage: tussar respect, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-09",
+        "title": "Pure silk family",
+        "src": "/images/archive/2022/spring/09-pure-silk-family.webp",
+        "thumbnail": "/images/archive/2022/spring/09-pure-silk-family-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/09-pure-silk-family.png",
+        "alt": "AI-created paper & textile collage: pure silk family, from the 2022 spring collection book."
+      },
+      {
+        "id": "2022-spring-10",
+        "title": "Linen tissue bridal",
+        "src": "/images/archive/2022/spring/10-linen-tissue-bridal.webp",
+        "thumbnail": "/images/archive/2022/spring/10-linen-tissue-bridal-thumb.webp",
+        "source": "maanvi-photobook/2022/spring/10-linen-tissue-bridal.png",
+        "alt": "AI-created paper & textile collage: linen tissue bridal, from the 2022 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2022-fall",
+    "year": 2022,
+    "season": "Fall",
+    "title": "The art of the block",
+    "medium": "Linocut illustration",
+    "images": [
+      {
+        "id": "2022-fall-01",
+        "title": "Ikat",
+        "src": "/images/archive/2022/fall/01-ikat-earth.webp",
+        "thumbnail": "/images/archive/2022/fall/01-ikat-earth-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2022/fall/candidate-b-ikat.png",
+        "alt": "AI-created linocut illustration: ikat, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-02",
+        "title": "Kanchi pattu",
+        "src": "/images/archive/2022/fall/02-kanchi-pattu-temple.webp",
+        "thumbnail": "/images/archive/2022/fall/02-kanchi-pattu-temple-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/02-kanchi-pattu-temple.png",
+        "alt": "AI-created linocut illustration: kanchi pattu, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-03",
+        "title": "Batik",
+        "src": "/images/archive/2022/fall/03-batik-indigo.webp",
+        "thumbnail": "/images/archive/2022/fall/03-batik-indigo-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2022/fall/candidate-a-batik-elder.png",
+        "alt": "AI-created linocut illustration: batik, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-04",
+        "title": "Ikat dance",
+        "src": "/images/archive/2022/fall/04-ikat-dance.webp",
+        "thumbnail": "/images/archive/2022/fall/04-ikat-dance-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/04-ikat-dance.png",
+        "alt": "AI-created linocut illustration: ikat dance, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-05",
+        "title": "Kanchi bridal",
+        "src": "/images/archive/2022/fall/05-kanchi-bridal.webp",
+        "thumbnail": "/images/archive/2022/fall/05-kanchi-bridal-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/05-kanchi-bridal.png",
+        "alt": "AI-created linocut illustration: kanchi bridal, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-06",
+        "title": "Batik sisters",
+        "src": "/images/archive/2022/fall/06-batik-sisters.webp",
+        "thumbnail": "/images/archive/2022/fall/06-batik-sisters-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/06-batik-sisters.png",
+        "alt": "AI-created linocut illustration: batik sisters, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-07",
+        "title": "Ikat warli",
+        "src": "/images/archive/2022/fall/07-ikat-warli.webp",
+        "thumbnail": "/images/archive/2022/fall/07-ikat-warli-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/07-ikat-warli.png",
+        "alt": "AI-created linocut illustration: ikat warli, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-08",
+        "title": "Kanchi faith",
+        "src": "/images/archive/2022/fall/08-kanchi-faith.webp",
+        "thumbnail": "/images/archive/2022/fall/08-kanchi-faith-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/08-kanchi-faith.png",
+        "alt": "AI-created linocut illustration: kanchi faith, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-09",
+        "title": "Batik family",
+        "src": "/images/archive/2022/fall/09-batik-family.webp",
+        "thumbnail": "/images/archive/2022/fall/09-batik-family-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/09-batik-family.png",
+        "alt": "AI-created linocut illustration: batik family, from the 2022 fall collection book."
+      },
+      {
+        "id": "2022-fall-10",
+        "title": "Patterned festival",
+        "src": "/images/archive/2022/fall/10-patterned-festival.webp",
+        "thumbnail": "/images/archive/2022/fall/10-patterned-festival-thumb.webp",
+        "source": "maanvi-photobook/2022/fall/10-patterned-festival.png",
+        "alt": "AI-created linocut illustration: patterned festival, from the 2022 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2023-spring",
+    "year": 2023,
+    "season": "Spring",
+    "title": "Rooms full of light",
+    "medium": "Photographic interpretation",
+    "images": [
+      {
+        "id": "2023-spring-01",
+        "title": "Silk kota",
+        "src": "/images/archive/2023/spring/01-silk-kota-gallery.webp",
+        "thumbnail": "/images/archive/2023/spring/01-silk-kota-gallery-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2023/spring/candidate-a-silk-kota.png",
+        "alt": "AI-created photographic interpretation: silk kota, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-02",
+        "title": "Mal cotton",
+        "src": "/images/archive/2023/spring/02-mal-cotton-library.webp",
+        "thumbnail": "/images/archive/2023/spring/02-mal-cotton-library-thumb.webp",
+        "source": "maanvi-photobook/diversity-revisions/2023/spring/candidate-b-mal-cotton.png",
+        "alt": "AI-created photographic interpretation: mal cotton, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-03",
+        "title": "Mul chanderi",
+        "src": "/images/archive/2023/spring/03-mul-chanderi-courtyard.webp",
+        "thumbnail": "/images/archive/2023/spring/03-mul-chanderi-courtyard-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/03-mul-chanderi-courtyard.png",
+        "alt": "AI-created photographic interpretation: mul chanderi, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-04",
+        "title": "Zari kota",
+        "src": "/images/archive/2023/spring/04-zari-kota-stairs.webp",
+        "thumbnail": "/images/archive/2023/spring/04-zari-kota-stairs-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/04-zari-kota-stairs.png",
+        "alt": "AI-created photographic interpretation: zari kota, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-05",
+        "title": "Silk kota sisters",
+        "src": "/images/archive/2023/spring/05-silk-kota-sisters.webp",
+        "thumbnail": "/images/archive/2023/spring/05-silk-kota-sisters-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/05-silk-kota-sisters.png",
+        "alt": "AI-created photographic interpretation: silk kota sisters, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-06",
+        "title": "Mal cotton craft",
+        "src": "/images/archive/2023/spring/06-mal-cotton-craft.webp",
+        "thumbnail": "/images/archive/2023/spring/06-mal-cotton-craft-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/06-mal-cotton-craft.png",
+        "alt": "AI-created photographic interpretation: mal cotton craft, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-07",
+        "title": "Mul chanderi love",
+        "src": "/images/archive/2023/spring/07-mul-chanderi-love.webp",
+        "thumbnail": "/images/archive/2023/spring/07-mul-chanderi-love-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/07-mul-chanderi-love.png",
+        "alt": "AI-created photographic interpretation: mul chanderi love, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-08",
+        "title": "Zari kota dance",
+        "src": "/images/archive/2023/spring/08-zari-kota-dance.webp",
+        "thumbnail": "/images/archive/2023/spring/08-zari-kota-dance-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/08-zari-kota-dance.png",
+        "alt": "AI-created photographic interpretation: zari kota dance, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-09",
+        "title": "Silk kota family",
+        "src": "/images/archive/2023/spring/09-silk-kota-family.webp",
+        "thumbnail": "/images/archive/2023/spring/09-silk-kota-family-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/09-silk-kota-family.png",
+        "alt": "AI-created photographic interpretation: silk kota family, from the 2023 spring collection book."
+      },
+      {
+        "id": "2023-spring-10",
+        "title": "Mul chanderi bridal",
+        "src": "/images/archive/2023/spring/10-mul-chanderi-bridal.webp",
+        "thumbnail": "/images/archive/2023/spring/10-mul-chanderi-bridal-thumb.webp",
+        "source": "maanvi-photobook/2023/spring/10-mul-chanderi-bridal.png",
+        "alt": "AI-created photographic interpretation: mul chanderi bridal, from the 2023 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2023-fall",
+    "year": 2023,
+    "season": "Fall",
+    "title": "Stories on the wall",
+    "medium": "Narrative fresco",
+    "images": [
+      {
+        "id": "2023-fall-01",
+        "title": "Dharmavaram",
+        "src": "/images/archive/2023/fall/01-dharmavaram-courtyard.webp",
+        "thumbnail": "/images/archive/2023/fall/01-dharmavaram-courtyard-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/01-dharmavaram-courtyard.png",
+        "alt": "AI-created narrative fresco: dharmavaram, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-02",
+        "title": "Baluchari story",
+        "src": "/images/archive/2023/fall/02-baluchari-story.webp",
+        "thumbnail": "/images/archive/2023/fall/02-baluchari-story-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/02-baluchari-story.png",
+        "alt": "AI-created narrative fresco: baluchari story, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-03",
+        "title": "Tussar digital flora",
+        "src": "/images/archive/2023/fall/03-tussar-digital-flora.webp",
+        "thumbnail": "/images/archive/2023/fall/03-tussar-digital-flora-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/03-tussar-digital-flora.png",
+        "alt": "AI-created narrative fresco: tussar digital flora, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-04",
+        "title": "Kala pattu evening",
+        "src": "/images/archive/2023/fall/04-kala-pattu-evening.webp",
+        "thumbnail": "/images/archive/2023/fall/04-kala-pattu-evening-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/04-kala-pattu-evening.png",
+        "alt": "AI-created narrative fresco: kala pattu evening, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-05",
+        "title": "Pure silk dance",
+        "src": "/images/archive/2023/fall/05-pure-silk-dance.webp",
+        "thumbnail": "/images/archive/2023/fall/05-pure-silk-dance-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/05-pure-silk-dance.png",
+        "alt": "AI-created narrative fresco: pure silk dance, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-06",
+        "title": "Dharmavaram bridal",
+        "src": "/images/archive/2023/fall/06-dharmavaram-bridal.webp",
+        "thumbnail": "/images/archive/2023/fall/06-dharmavaram-bridal-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/06-dharmavaram-bridal.png",
+        "alt": "AI-created narrative fresco: dharmavaram bridal, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-07",
+        "title": "Baluchari respect",
+        "src": "/images/archive/2023/fall/07-baluchari-respect.webp",
+        "thumbnail": "/images/archive/2023/fall/07-baluchari-respect-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/07-baluchari-respect.png",
+        "alt": "AI-created narrative fresco: baluchari respect, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-08",
+        "title": "Tussar festival",
+        "src": "/images/archive/2023/fall/08-tussar-festival.webp",
+        "thumbnail": "/images/archive/2023/fall/08-tussar-festival-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/08-tussar-festival.png",
+        "alt": "AI-created narrative fresco: tussar festival, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-09",
+        "title": "Pure silk family",
+        "src": "/images/archive/2023/fall/09-pure-silk-family.webp",
+        "thumbnail": "/images/archive/2023/fall/09-pure-silk-family-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/09-pure-silk-family.png",
+        "alt": "AI-created narrative fresco: pure silk family, from the 2023 fall collection book."
+      },
+      {
+        "id": "2023-fall-10",
+        "title": "Story looms procession",
+        "src": "/images/archive/2023/fall/10-story-looms-procession.webp",
+        "thumbnail": "/images/archive/2023/fall/10-story-looms-procession-thumb.webp",
+        "source": "maanvi-photobook/2023/fall/10-story-looms-procession.png",
+        "alt": "AI-created narrative fresco: story looms procession, from the 2023 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2024-spring",
+    "year": 2024,
+    "season": "Spring",
+    "title": "Mountain light",
+    "medium": "Mineral-pigment painting",
+    "images": [
+      {
+        "id": "2024-spring-01",
+        "title": "Kashmiri silk",
+        "src": "/images/archive/2024/spring/01-kashmiri-silk-lapis.webp",
+        "thumbnail": "/images/archive/2024/spring/01-kashmiri-silk-lapis-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/01-kashmiri-silk-lapis.png",
+        "alt": "AI-created mineral-pigment painting: kashmiri silk, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-02",
+        "title": "Manipuri kota",
+        "src": "/images/archive/2024/spring/02-manipuri-kota-orchid.webp",
+        "thumbnail": "/images/archive/2024/spring/02-manipuri-kota-orchid-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/02-manipuri-kota-orchid.png",
+        "alt": "AI-created mineral-pigment painting: manipuri kota, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-03",
+        "title": "Kashmiri silk",
+        "src": "/images/archive/2024/spring/03-kashmiri-silk-saffron.webp",
+        "thumbnail": "/images/archive/2024/spring/03-kashmiri-silk-saffron-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/03-kashmiri-silk-saffron.png",
+        "alt": "AI-created mineral-pigment painting: kashmiri silk, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-04",
+        "title": "Manipuri kota",
+        "src": "/images/archive/2024/spring/04-manipuri-kota-mist.webp",
+        "thumbnail": "/images/archive/2024/spring/04-manipuri-kota-mist-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/04-manipuri-kota-mist.png",
+        "alt": "AI-created mineral-pigment painting: manipuri kota, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-05",
+        "title": "Kashmiri silk dance",
+        "src": "/images/archive/2024/spring/05-kashmiri-silk-dance.webp",
+        "thumbnail": "/images/archive/2024/spring/05-kashmiri-silk-dance-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/05-kashmiri-silk-dance.png",
+        "alt": "AI-created mineral-pigment painting: kashmiri silk dance, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-06",
+        "title": "Manipuri kota sisters",
+        "src": "/images/archive/2024/spring/06-manipuri-kota-sisters.webp",
+        "thumbnail": "/images/archive/2024/spring/06-manipuri-kota-sisters-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/06-manipuri-kota-sisters.png",
+        "alt": "AI-created mineral-pigment painting: manipuri kota sisters, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-07",
+        "title": "Kashmiri respect",
+        "src": "/images/archive/2024/spring/07-kashmiri-respect.webp",
+        "thumbnail": "/images/archive/2024/spring/07-kashmiri-respect-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/07-kashmiri-respect.png",
+        "alt": "AI-created mineral-pigment painting: kashmiri respect, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-08",
+        "title": "Manipuri kota love",
+        "src": "/images/archive/2024/spring/08-manipuri-kota-love.webp",
+        "thumbnail": "/images/archive/2024/spring/08-manipuri-kota-love-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/08-manipuri-kota-love.png",
+        "alt": "AI-created mineral-pigment painting: manipuri kota love, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-09",
+        "title": "Mountain family",
+        "src": "/images/archive/2024/spring/09-mountain-family.webp",
+        "thumbnail": "/images/archive/2024/spring/09-mountain-family-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/09-mountain-family.png",
+        "alt": "AI-created mineral-pigment painting: mountain family, from the 2024 spring collection book."
+      },
+      {
+        "id": "2024-spring-10",
+        "title": "Kashmiri bridal",
+        "src": "/images/archive/2024/spring/10-kashmiri-bridal.webp",
+        "thumbnail": "/images/archive/2024/spring/10-kashmiri-bridal-thumb.webp",
+        "source": "maanvi-photobook/2024/spring/10-kashmiri-bridal.png",
+        "alt": "AI-created mineral-pigment painting: kashmiri bridal, from the 2024 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2024-fall",
+    "year": 2024,
+    "season": "Fall",
+    "title": "An indigo garden",
+    "medium": "Botanical cyanotype",
+    "images": [
+      {
+        "id": "2024-fall-01",
+        "title": "Gicha indigo fern",
+        "src": "/images/archive/2024/fall/01-gicha-indigo-fern.webp",
+        "thumbnail": "/images/archive/2024/fall/01-gicha-indigo-fern-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/01-gicha-indigo-fern.png",
+        "alt": "AI-created botanical cyanotype: gicha indigo fern, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-02",
+        "title": "Gicha rose leaf",
+        "src": "/images/archive/2024/fall/02-gicha-rose-leaf.webp",
+        "thumbnail": "/images/archive/2024/fall/02-gicha-rose-leaf-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/02-gicha-rose-leaf.png",
+        "alt": "AI-created botanical cyanotype: gicha rose leaf, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-03",
+        "title": "Gicha ochre vine",
+        "src": "/images/archive/2024/fall/03-gicha-ochre-vine.webp",
+        "thumbnail": "/images/archive/2024/fall/03-gicha-ochre-vine-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/03-gicha-ochre-vine.png",
+        "alt": "AI-created botanical cyanotype: gicha ochre vine, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-04",
+        "title": "Gicha black gold",
+        "src": "/images/archive/2024/fall/04-gicha-black-gold.webp",
+        "thumbnail": "/images/archive/2024/fall/04-gicha-black-gold-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/04-gicha-black-gold.png",
+        "alt": "AI-created botanical cyanotype: gicha black gold, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-05",
+        "title": "Gicha emerald dance",
+        "src": "/images/archive/2024/fall/05-gicha-emerald-dance.webp",
+        "thumbnail": "/images/archive/2024/fall/05-gicha-emerald-dance-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/05-gicha-emerald-dance.png",
+        "alt": "AI-created botanical cyanotype: gicha emerald dance, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-06",
+        "title": "Gicha sisters",
+        "src": "/images/archive/2024/fall/06-gicha-sisters.webp",
+        "thumbnail": "/images/archive/2024/fall/06-gicha-sisters-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/06-gicha-sisters.png",
+        "alt": "AI-created botanical cyanotype: gicha sisters, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-07",
+        "title": "Gicha",
+        "src": "/images/archive/2024/fall/07-gicha-elder.webp",
+        "thumbnail": "/images/archive/2024/fall/07-gicha-elder-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/07-gicha-elder.png",
+        "alt": "AI-created botanical cyanotype: gicha, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-08",
+        "title": "Gicha love",
+        "src": "/images/archive/2024/fall/08-gicha-love.webp",
+        "thumbnail": "/images/archive/2024/fall/08-gicha-love-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/08-gicha-love.png",
+        "alt": "AI-created botanical cyanotype: gicha love, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-09",
+        "title": "Gicha family",
+        "src": "/images/archive/2024/fall/09-gicha-family.webp",
+        "thumbnail": "/images/archive/2024/fall/09-gicha-family-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/09-gicha-family.png",
+        "alt": "AI-created botanical cyanotype: gicha family, from the 2024 fall collection book."
+      },
+      {
+        "id": "2024-fall-10",
+        "title": "Gicha festival",
+        "src": "/images/archive/2024/fall/10-gicha-festival.webp",
+        "thumbnail": "/images/archive/2024/fall/10-gicha-festival-thumb.webp",
+        "source": "maanvi-photobook/2024/fall/10-gicha-festival.png",
+        "alt": "AI-created botanical cyanotype: gicha festival, from the 2024 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2025-spring",
+    "year": 2025,
+    "season": "Spring",
+    "title": "Along the golden river",
+    "medium": "Manuscript-inspired illustration",
+    "images": [
+      {
+        "id": "2025-spring-01",
+        "title": "Muga in its natural gold",
+        "src": "/images/archive/2025/spring/01-raw-muga-back.webp",
+        "thumbnail": "/images/archive/2025/spring/01-raw-muga-back-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/01-raw-muga-back.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in its natural gold, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-02",
+        "title": "Muga in garden green",
+        "src": "/images/archive/2025/spring/02-green-muga-seated.webp",
+        "thumbnail": "/images/archive/2025/spring/02-green-muga-seated-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/02-green-muga-seated.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in garden green, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-03",
+        "title": "Muga in its natural gold",
+        "src": "/images/archive/2025/spring/03-raw-muga-crop.webp",
+        "thumbnail": "/images/archive/2025/spring/03-raw-muga-crop-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/03-raw-muga-crop.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in its natural gold, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-04",
+        "title": "Muga in garden green",
+        "src": "/images/archive/2025/spring/04-green-muga-shadow.webp",
+        "thumbnail": "/images/archive/2025/spring/04-green-muga-shadow-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/04-green-muga-shadow.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in garden green, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-05",
+        "title": "Muga in its natural gold dance",
+        "src": "/images/archive/2025/spring/05-raw-muga-dance.webp",
+        "thumbnail": "/images/archive/2025/spring/05-raw-muga-dance-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/05-raw-muga-dance.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in its natural gold dance, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-06",
+        "title": "Muga sisters",
+        "src": "/images/archive/2025/spring/06-muga-sisters-back.webp",
+        "thumbnail": "/images/archive/2025/spring/06-muga-sisters-back-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/06-muga-sisters-back.png",
+        "alt": "AI-created manuscript-inspired illustration: muga sisters, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-07",
+        "title": "Muga",
+        "src": "/images/archive/2025/spring/07-muga-elder-hands.webp",
+        "thumbnail": "/images/archive/2025/spring/07-muga-elder-hands-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/07-muga-elder-hands.png",
+        "alt": "AI-created manuscript-inspired illustration: muga, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-08",
+        "title": "Muga in garden green love",
+        "src": "/images/archive/2025/spring/08-green-muga-love.webp",
+        "thumbnail": "/images/archive/2025/spring/08-green-muga-love-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/08-green-muga-love.png",
+        "alt": "AI-created manuscript-inspired illustration: muga in garden green love, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-09",
+        "title": "Muga family",
+        "src": "/images/archive/2025/spring/09-muga-family-silhouettes.webp",
+        "thumbnail": "/images/archive/2025/spring/09-muga-family-silhouettes-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/09-muga-family-silhouettes.png",
+        "alt": "AI-created manuscript-inspired illustration: muga family, from the 2025 spring collection book."
+      },
+      {
+        "id": "2025-spring-10",
+        "title": "Muga festival",
+        "src": "/images/archive/2025/spring/10-muga-festival-away.webp",
+        "thumbnail": "/images/archive/2025/spring/10-muga-festival-away-thumb.webp",
+        "source": "maanvi-photobook/2025/spring/10-muga-festival-away.png",
+        "alt": "AI-created manuscript-inspired illustration: muga festival, from the 2025 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2025-fall",
+    "year": 2025,
+    "season": "Fall",
+    "title": "In the evening light",
+    "medium": "Oil-paint interpretation",
+    "images": [
+      {
+        "id": "2025-fall-01",
+        "title": "Muga tussar",
+        "src": "/images/archive/2025/fall/01-muga-tussar-window.webp",
+        "thumbnail": "/images/archive/2025/fall/01-muga-tussar-window-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/01-muga-tussar-window.png",
+        "alt": "AI-created oil-paint interpretation: muga tussar, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-02",
+        "title": "Muga paithani",
+        "src": "/images/archive/2025/fall/02-muga-paithani-chair.webp",
+        "thumbnail": "/images/archive/2025/fall/02-muga-paithani-chair-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/02-muga-paithani-chair.png",
+        "alt": "AI-created oil-paint interpretation: muga paithani, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-03",
+        "title": "Tussar detail",
+        "src": "/images/archive/2025/fall/03-tussar-detail-crop.webp",
+        "thumbnail": "/images/archive/2025/fall/03-tussar-detail-crop-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/03-tussar-detail-crop.png",
+        "alt": "AI-created oil-paint interpretation: tussar detail, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-04",
+        "title": "Muga paithani silhouette",
+        "src": "/images/archive/2025/fall/04-muga-paithani-silhouette.webp",
+        "thumbnail": "/images/archive/2025/fall/04-muga-paithani-silhouette-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/04-muga-paithani-silhouette.png",
+        "alt": "AI-created oil-paint interpretation: muga paithani silhouette, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-05",
+        "title": "Tussar dance",
+        "src": "/images/archive/2025/fall/05-tussar-dance-away.webp",
+        "thumbnail": "/images/archive/2025/fall/05-tussar-dance-away-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/05-tussar-dance-away.png",
+        "alt": "AI-created oil-paint interpretation: tussar dance, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-06",
+        "title": "Muga sisters",
+        "src": "/images/archive/2025/fall/06-muga-sisters-mirror.webp",
+        "thumbnail": "/images/archive/2025/fall/06-muga-sisters-mirror-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/06-muga-sisters-mirror.png",
+        "alt": "AI-created oil-paint interpretation: muga sisters, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-07",
+        "title": "Tussar",
+        "src": "/images/archive/2025/fall/07-tussar-elder-hands.webp",
+        "thumbnail": "/images/archive/2025/fall/07-tussar-elder-hands-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/07-tussar-elder-hands.png",
+        "alt": "AI-created oil-paint interpretation: tussar, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-08",
+        "title": "Muga love",
+        "src": "/images/archive/2025/fall/08-muga-love-shadow.webp",
+        "thumbnail": "/images/archive/2025/fall/08-muga-love-shadow-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/08-muga-love-shadow.png",
+        "alt": "AI-created oil-paint interpretation: muga love, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-09",
+        "title": "Golden river family",
+        "src": "/images/archive/2025/fall/09-golden-river-family.webp",
+        "thumbnail": "/images/archive/2025/fall/09-golden-river-family-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/09-golden-river-family.png",
+        "alt": "AI-created oil-paint interpretation: golden river family, from the 2025 fall collection book."
+      },
+      {
+        "id": "2025-fall-10",
+        "title": "Golden river festival",
+        "src": "/images/archive/2025/fall/10-golden-river-festival.webp",
+        "thumbnail": "/images/archive/2025/fall/10-golden-river-festival-thumb.webp",
+        "source": "maanvi-photobook/2025/fall/10-golden-river-festival.png",
+        "alt": "AI-created oil-paint interpretation: golden river festival, from the 2025 fall collection book."
+      }
+    ]
+  },
+  {
+    "id": "2026-spring",
+    "year": 2026,
+    "season": "Spring",
+    "title": "Where colours meet",
+    "medium": "Geometric mixed media",
+    "images": [
+      {
+        "id": "2026-spring-01",
+        "title": "Kanchi kota",
+        "src": "/images/archive/2026/spring/01-kanchi-kota-cobalt.webp",
+        "thumbnail": "/images/archive/2026/spring/01-kanchi-kota-cobalt-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/01-kanchi-kota-cobalt.png",
+        "alt": "AI-created geometric mixed media: kanchi kota, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-02",
+        "title": "Gangajamuna",
+        "src": "/images/archive/2026/spring/02-gangajamuna-coral.webp",
+        "thumbnail": "/images/archive/2026/spring/02-gangajamuna-coral-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/02-gangajamuna-coral.png",
+        "alt": "AI-created geometric mixed media: gangajamuna, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-04",
+        "title": "Gangajamuna",
+        "src": "/images/archive/2026/spring/04-gangajamuna-monochrome.webp",
+        "thumbnail": "/images/archive/2026/spring/04-gangajamuna-monochrome-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/04-gangajamuna-monochrome.png",
+        "alt": "AI-created geometric mixed media: gangajamuna, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-05",
+        "title": "Kanchi kota dance",
+        "src": "/images/archive/2026/spring/05-kanchi-kota-dance.webp",
+        "thumbnail": "/images/archive/2026/spring/05-kanchi-kota-dance-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/05-kanchi-kota-dance.png",
+        "alt": "AI-created geometric mixed media: kanchi kota dance, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-06",
+        "title": "Gangajamuna sisters",
+        "src": "/images/archive/2026/spring/06-gangajamuna-sisters.webp",
+        "thumbnail": "/images/archive/2026/spring/06-gangajamuna-sisters-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/06-gangajamuna-sisters.png",
+        "alt": "AI-created geometric mixed media: gangajamuna sisters, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-07",
+        "title": "Kanchi kota",
+        "src": "/images/archive/2026/spring/07-kanchi-kota-elder.webp",
+        "thumbnail": "/images/archive/2026/spring/07-kanchi-kota-elder-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/07-kanchi-kota-elder.png",
+        "alt": "AI-created geometric mixed media: kanchi kota, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-08",
+        "title": "Gangajamuna love",
+        "src": "/images/archive/2026/spring/08-gangajamuna-love.webp",
+        "thumbnail": "/images/archive/2026/spring/08-gangajamuna-love-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/08-gangajamuna-love.png",
+        "alt": "AI-created geometric mixed media: gangajamuna love, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-09",
+        "title": "Confluence family",
+        "src": "/images/archive/2026/spring/09-confluence-family.webp",
+        "thumbnail": "/images/archive/2026/spring/09-confluence-family-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/09-confluence-family.png",
+        "alt": "AI-created geometric mixed media: confluence family, from the 2026 spring collection book."
+      },
+      {
+        "id": "2026-spring-10",
+        "title": "Confluence festival",
+        "src": "/images/archive/2026/spring/10-confluence-festival.webp",
+        "thumbnail": "/images/archive/2026/spring/10-confluence-festival-thumb.webp",
+        "source": "maanvi-photobook/2026/spring/10-confluence-festival.png",
+        "alt": "AI-created geometric mixed media: confluence festival, from the 2026 spring collection book."
+      }
+    ]
+  },
+  {
+    "id": "2026-fall",
+    "year": 2026,
+    "season": "Fall",
+    "title": "Living classics",
+    "medium": "Photographic interpretation",
+    "images": [
+      {
+        "id": "2026-fall-01",
+        "title": "Mysore silk",
+        "src": "/images/archive/2026/fall/01-mysore-silk-cobalt.webp",
+        "thumbnail": "/images/archive/2026/fall/01-mysore-silk-cobalt-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/01-mysore-silk-cobalt.png",
+        "alt": "AI-created photographic interpretation: mysore silk, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-02",
+        "title": "Pure cr\u00eape",
+        "src": "/images/archive/2026/fall/02-pure-crepe-coral.webp",
+        "thumbnail": "/images/archive/2026/fall/02-pure-crepe-coral-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/02-pure-crepe-coral.png",
+        "alt": "AI-created photographic interpretation: pure cr\u00eape, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-03",
+        "title": "Mysore silk",
+        "src": "/images/archive/2026/fall/03-mysore-silk-emerald.webp",
+        "thumbnail": "/images/archive/2026/fall/03-mysore-silk-emerald-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/03-mysore-silk-emerald.png",
+        "alt": "AI-created photographic interpretation: mysore silk, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-04",
+        "title": "Pure cr\u00eape",
+        "src": "/images/archive/2026/fall/04-pure-crepe-monochrome.webp",
+        "thumbnail": "/images/archive/2026/fall/04-pure-crepe-monochrome-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/04-pure-crepe-monochrome.png",
+        "alt": "AI-created photographic interpretation: pure cr\u00eape, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-05",
+        "title": "Mysore silk",
+        "src": "/images/archive/2026/fall/05-mysore-silk-magenta.webp",
+        "thumbnail": "/images/archive/2026/fall/05-mysore-silk-magenta-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/05-mysore-silk-magenta.png",
+        "alt": "AI-created photographic interpretation: mysore silk, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-06",
+        "title": "Pure cr\u00eape sisters",
+        "src": "/images/archive/2026/fall/06-pure-crepe-sisters.webp",
+        "thumbnail": "/images/archive/2026/fall/06-pure-crepe-sisters-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/06-pure-crepe-sisters.png",
+        "alt": "AI-created photographic interpretation: pure cr\u00eape sisters, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-07",
+        "title": "Mysore silk",
+        "src": "/images/archive/2026/fall/07-mysore-silk-elder.webp",
+        "thumbnail": "/images/archive/2026/fall/07-mysore-silk-elder-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/07-mysore-silk-elder.png",
+        "alt": "AI-created photographic interpretation: mysore silk, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-08",
+        "title": "Pure cr\u00eape love",
+        "src": "/images/archive/2026/fall/08-pure-crepe-love.webp",
+        "thumbnail": "/images/archive/2026/fall/08-pure-crepe-love-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/08-pure-crepe-love.png",
+        "alt": "AI-created photographic interpretation: pure cr\u00eape love, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-09",
+        "title": "Living classics family",
+        "src": "/images/archive/2026/fall/09-living-classics-family.webp",
+        "thumbnail": "/images/archive/2026/fall/09-living-classics-family-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/09-living-classics-family.png",
+        "alt": "AI-created photographic interpretation: living classics family, from the 2026 fall collection book."
+      },
+      {
+        "id": "2026-fall-10",
+        "title": "Living classics finale",
+        "src": "/images/archive/2026/fall/10-living-classics-finale.webp",
+        "thumbnail": "/images/archive/2026/fall/10-living-classics-finale-thumb.webp",
+        "source": "maanvi-photobook/2026/fall/10-living-classics-finale.png",
+        "alt": "AI-created photographic interpretation: living classics finale, from the 2026 fall collection book."
+      }
+    ]
+  }
+]

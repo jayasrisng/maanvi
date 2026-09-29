@@ -1,0 +1,1738 @@
+[
+  {
+    "path": "docs/source-assets/maanvi-editorial-hero-original.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2004698,
+    "sha256": "2acf2eb95220f767589620f73175035ba6b1511e80a7cba4779a4a69a09de66b"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/01-gadwal-lamp-lighting.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2755903,
+    "sha256": "233ee627298af1aedac68f6c4c153e9109ab1c6ed4130e4d39430672be6c2549"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/02-uppada-tissue-balcony.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2667644,
+    "sha256": "438975d3fa7c6f345daa87b37df1145a5076fa80bc9cdaa4314d090d8ea01050"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/03-kuppadam-harvest.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2855093,
+    "sha256": "00bea212106629e1a65fd0bc5bb26569b43fb538a3c1c3e904b40a51335334be"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/04-gadwal-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2921620,
+    "sha256": "96bf1c1f7afa0253dd0b35637954cc1495cdfdf426b4d7b565ea0a45e60305a4"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/05-venkatagiri-music.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2995705,
+    "sha256": "4d5b81cdb863739ec9ebd0b63f20cb904685b56f220e65ed7dfe02f3f0faef29"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/06-uppada-diya-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2942695,
+    "sha256": "ca48f16e327ff73f1454a501b52b0006b9da7b3e9cb168935576bf0386d19ab7"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/07-mangalagiri-warli.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2789762,
+    "sha256": "27030f43189e8e2a92e7f058600ef8418a8b37b13ec62936ed187d7f5e8fcdaa"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/08-gadwal-family-evening.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2932921,
+    "sha256": "321593b38b6253747bf123feeae4fe36903623641f4184c5c22fa066bb8c680b"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/09-uppada-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2920975,
+    "sha256": "fb86293e6b1e178a14fd85b1d0d8150f27c827ff5fdafd10f7ca171122e6628b"
+  },
+  {
+    "path": "maanvi-photobook/2017/fall/10-venkatagiri-procession.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2888855,
+    "sha256": "98af9b4db86dc3e4cbfd78f01be234f02e8c811a7bf747a0693dc16f42666abf"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/01-kuppadam-courtyard.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3185396,
+    "sha256": "59f500eb64d4f054ea04ef53b91d71a95c9dddd67288be163f136f905e636c1c"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/02-uppada-veranda.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3234850,
+    "sha256": "58da5a44dd636ce51b890e7ad1b35aa01c1bbbe21d450e95f12fdb23025df443"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/03-mangalagiri-market.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3086774,
+    "sha256": "5ffd6ea7ea3267ef977befd319e096ffee30e3a3230be2dc62c4c3902dffc461"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/04-venkatagiri-garden.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3199042,
+    "sha256": "d16d458813130565ab8f4183d5c8ec1e7ac5c3d6d0c2c1eb2fed12dd620a2503"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/08-venkatagiri-rain.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3061480,
+    "sha256": "89e9dababa2389d3ae66792f558225e9cf3ee0154e42d4428600dc86f2c423fe"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/09-uppada-festival-prep.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3232009,
+    "sha256": "e54e5422742223f76b445fe8155b13c826429862c804c4007ad12943783d5641"
+  },
+  {
+    "path": "maanvi-photobook/2017/spring/10-mangalagiri-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3164190,
+    "sha256": "5728a19fd5f2c6401131314149eac1b717695c335ff76727d27b403614c4bd26"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/01-banarasi-palace.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3529516,
+    "sha256": "a30dd8657b19a287ba83678099b15f207dbae0dbb2b16eb5dd33b982fbb4726d"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/02-paithani-peacock.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3676650,
+    "sha256": "d9f768ae70da33735c9b00c52fd73d011d2c7e76695562102388bc7e9a8bbefc"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/03-sambalpuri-terrace.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3562129,
+    "sha256": "cf69058f46cf801a51fafbfab8acb34596f95a3fe912c6107043e45921e32452"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/04-chanderi-letter.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3600985,
+    "sha256": "92f9dc68de9c5160b4f496e7ca182ece146553afe0f3f31d21cff66de2783bf2"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/05-kalamkari-story.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3664055,
+    "sha256": "6b3ea6b64ef952f8c818a7dbeab7ec6b7abf294c97d9923a0d72132c67b4a78c"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/06-banarasi-bridal-procession.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3756154,
+    "sha256": "2d595eb2c418f1ee6094fb4625426244ab3942669e5c929a0bf078329a329063"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/07-paithani-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3598782,
+    "sha256": "3a803ad95ba56f36e4bb407788187640c94ffeda06ec932a22fffc3dd08b143f"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/08-sambalpuri-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3448174,
+    "sha256": "7bced23576d7698519850c1905ec43383095cfb83c44c311f5aa8dd0a598028e"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/09-chanderi-festival-night.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3346482,
+    "sha256": "6985380ae0c0b58105048ddf78a346b676384dd07f158d9900b9643b73ea00f6"
+  },
+  {
+    "path": "maanvi-photobook/2018/fall/10-royal-family-garden.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3607985,
+    "sha256": "0df13851a659e6885507f733e9c90e22a2e3491652045792c220731ede203fab"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/01-pen-kalamkari-garden.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3552108,
+    "sha256": "d61a063ac22e80d92388781344ed15e8d7d8b1120fef48f94440bd8ffd595c33"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/02-chanderi-orchard.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3296258,
+    "sha256": "407fa3f6cb6af70c167c2443ddbe812ece77425fdda7f9590d9c2096de327a5a"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/03-paithani-lotus-seat.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3518579,
+    "sha256": "6a6ac4cacdc4fa39fcd82a4ec62230025c1f3006df6ee22040f6074170146a07"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/04-banarasi-bougainvillea.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3277620,
+    "sha256": "083b78ed51a6d9ff81eaf30680ee3ee929f767ddd2210eb5d9385b3a51847b88"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/05-sambalpuri-courtyard.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3266130,
+    "sha256": "fc6b38a3d50e668ffae3a4bbb24a423efea6bbc2671a1f944465a9484e9552d4"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/06-kalamkari-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3789463,
+    "sha256": "291d72d16617ba80e8729af7ef26d86ac9ab8a3eb50c9998f3857aa90c5b53a3"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/07-chanderi-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3416181,
+    "sha256": "9ab916981afefa548ca7fbdabd9680eb6e7bd266fde406971e6448fa130a5ead"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/08-paithani-bridal-morning.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3400889,
+    "sha256": "64110eac219dcd747a9fd38db6be90d7eccae07b3559e1d919471e6851c0c0f5"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/09-sambalpuri-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3695484,
+    "sha256": "32fed2f6d63557e1bd78c92e6cfedc7616145d6da58020c0c3c3b7e19e1ed294"
+  },
+  {
+    "path": "maanvi-photobook/2018/spring/10-banarasi-faith.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3388936,
+    "sha256": "830ce196ebb1685c6c6f3f5ad2ae961501d6d83243c3ba423777547ef4733ffe"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/01-bandhani-rooftop.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3710351,
+    "sha256": "4da290bfe8441716ef6b2c484c7ea88ee3e0cbb84c1355e19df6a4b17bb58424"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/02-leheriya-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3743781,
+    "sha256": "b44006a1659f241978e04a0099b411c8f9c3c37c769eac036580c4f2aed4a786"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/03-pochampally-market.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3518697,
+    "sha256": "3b6c728ebe4054c79e1d2306529b9c8c429f9ef9b6d7c4e2be753484dbf3628b"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/04-bandhani-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3707635,
+    "sha256": "4fb31253b55a507a29f779314556b0aacd6396954a6c73dbc70c4d2a27e8c7c9"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/05-leheriya-desert.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3488355,
+    "sha256": "1e22e5f0322e5a55082109ba78c2d45b700a2fa29c18353a14bd9f2261e17a24"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/06-pochampally-warli.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3395141,
+    "sha256": "666fb542e23299beefd4bc7c5f8f91a8bc88e58566e1b9b2cee7c4550d21ea41"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/07-bandhani-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3679887,
+    "sha256": "4997f1e905e441337f8ab1eb23a31951c8df419774aee142651192e25cb63178"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/08-leheriya-lamps.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3425115,
+    "sha256": "47679c0ab003c82d5f7633ff063f20b6acecd478e4c92f32d57fd20ca8576c2e"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/09-pochampally-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3736475,
+    "sha256": "774e7a6b0323cd54101b9615ba64011190d67c6e0a13e0c99c0f9b5bb3e40a73"
+  },
+  {
+    "path": "maanvi-photobook/2019/fall/10-bandhani-celebration.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 4060783,
+    "sha256": "b15cf262bedae1dabba313a2cdc300343dd5c4a451331086b492952c5b1845a1"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/01-mysore-crepe-studio.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3418679,
+    "sha256": "7796eb14897d78de14d6896e8fe7441faee4f50bf57bbffc174c956e708a8d32"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/02-jamdani-window.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3567995,
+    "sha256": "0d7284599859b85e868c8ad882a0d88bec2018c87f02773d02949f36302f051e"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/03-chikankari-veranda.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3377128,
+    "sha256": "8046ae81adf10be6a170a1919c43eca5ed03cd1f351e2b7da45e2daeb5659268"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/04-mysore-crepe-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3181081,
+    "sha256": "e03aae6a8094b745bed3f868da9811fc4b1c1911fd512ebc09b474eb2ca180c6"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/05-jamdani-mother-daughter.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3489493,
+    "sha256": "746c45ede895e2134b0f820420722f911711cb1a31d5dad0ac55d0dc7f792622"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/06-chikankari-faith.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3456436,
+    "sha256": "551d4caac4d259fce712254a1737efa819f849a598dc56e3c1e74ebe0309cc7b"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/07-mysore-crepe-cafe.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3499646,
+    "sha256": "0ac72d7eda7e21dd5e9259ea06ac16335464cb2a1120e9802ed90d9f7850be32"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/08-jamdani-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3450116,
+    "sha256": "1428b521a67055ee9137c438751e3cbe9e011f84f60908e4974d88044e81fbc9"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/09-chikankari-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3355130,
+    "sha256": "4c2a7356015a003dda4a563949a996ea0d389386d950f6b3da3dc00f95f4d613"
+  },
+  {
+    "path": "maanvi-photobook/2019/spring/10-leheriya-breeze.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3287037,
+    "sha256": "d50ac22b20d3e28b6a703d4794df6ce3a473a2f757e11626fa63ecdd8bc0b518"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/01-muga-silk-golden-hour.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3245078,
+    "sha256": "be792e99f9bf61c30c06afd39ff04dbf229f924209664346d977c7a692e18cae"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/02-muga-paithani-lotus.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3277718,
+    "sha256": "ec3df19824e3012624444593376d250edf14f39b480cbf2a058aa20c851c2259"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/03-jashmin-pattu-arch.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3316799,
+    "sha256": "c8db25a791c7e7a489dd6b7dc2add7750a375a0a0bd69e81d1a0ffd4e8bedca5"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/04-gandharva-pattu-music.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3214820,
+    "sha256": "d04d771953c8d775f35665944b4d5a0f4a966506107fe8f5ab2973263e533221"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/05-muga-silk-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3257382,
+    "sha256": "55a72ac2bf18e358764f9f7494c8e1955b210ab278da8fe677b4d047b54150e7"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/06-muga-paithani-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3398827,
+    "sha256": "f683c78114ead426f07a73433d831f14abc31c2faa69f006a97f879ca1331ffa"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/07-jashmin-pattu-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3278119,
+    "sha256": "e8157c66c6814cf928dde323589053ef069d3a2d5ced535708b2f087a856bd0f"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/08-gandharva-pattu-faith.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3248101,
+    "sha256": "00d5c675f5e1023c3c2cabcd5a297e413892d723970bcd993a5a3eb60f4bd5e9"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/09-muga-family-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3220400,
+    "sha256": "afcc9e2034f4c78c6cdea376bb70b869d5f6d6c99c18543d7a5692e2b73ef7e0"
+  },
+  {
+    "path": "maanvi-photobook/2020/fall/10-golden-weaves-procession.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3407398,
+    "sha256": "4ea776e72a7a8ac4dfc41a12d8b38a97b284fca33339c06d21ee06540c6689b2"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/01-chettinad-kitchen.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2630343,
+    "sha256": "34b743141dbe7e7cd4b1010f69a0005e7c07998e50cc940730b669789881c08f"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/02-kanchi-cotton-steps.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3121363,
+    "sha256": "f7349caaf3390b45b116c87a13faede4c321b9382a39bd805d19fcf7715c8565"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/03-narayanpet-market.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2795604,
+    "sha256": "54eb3f1cee6cd129aa8f3e77f1a0f03224d143416f603744dcf554ed884de855"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/04-muga-kota-veranda.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2887674,
+    "sha256": "dc5f7b97d5613edbd639b45a609de18514b3b7b1bd337a09f23d86d91406c141"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/05-chettinad-weaver.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2838096,
+    "sha256": "e1594c0bcd75d93f5dca24779de7f5b9ca2afe96f29208ba21cb9bc3f0a949fa"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/06-kanchi-cotton-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2659974,
+    "sha256": "23f14f4d291d21287a0d5ef516313f8b6fcef132419fa67a7d4349e8a9d767ff"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/07-narayanpet-cycling.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2885151,
+    "sha256": "679d0997bd85dc4118cc6a3c9a5f7f484a9c01b4bcb8de70feeb1af94580fde8"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/08-muga-kota-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2863964,
+    "sha256": "da321a2c1a41d567f955277c98fbb2f7f576167a701901020d982df2cbc24db9"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/09-chettinad-festival-prep.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2656700,
+    "sha256": "a7c6913dbf92f09a60e9518a6b2a18afc7359649192bb45534fe903f73197818"
+  },
+  {
+    "path": "maanvi-photobook/2020/spring/10-kanchi-cotton-rain.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2885412,
+    "sha256": "f55fa746a16f6a17735d9bcc1ff6cce061fb7e25c79a2199ea7918005ff7d239"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/01-banarasi-midnight.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2798336,
+    "sha256": "0164cc5983c30606da701169091f241f8f0e947ef78c11b562349d293a470ce1"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/02-mashru-ruby.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2541774,
+    "sha256": "7df51131cdbcb9a995fd5a023dd926357861254f3cd0516fc46813015ab54a19"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/03-banarasi-jade.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3047226,
+    "sha256": "32d407a0a31b5b2f820a3b8151af1de2a46ebe55d5ed7a56475b33afda6da191"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/04-mashru-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2797409,
+    "sha256": "2329a34cbdaea9665c96b804013ec0a82cc6a61fb92ca0685fd59829e616b749"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/05-banarasi-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2874873,
+    "sha256": "baa6eedf266c6b08721124003dc931cbe18d300cd08c3ce7e417cdbae2a12384"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/06-mashru-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3033358,
+    "sha256": "83116ca521f9b91d7416dd47e10093012c71ff0875d77dade8b9b589d08cceff"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/07-banarasi-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2813677,
+    "sha256": "7b5158fc93d6b907c37dddc6f460bd6947d8d2539342660d616df3553685527c"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/08-mashru-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2961008,
+    "sha256": "8f3421b854b85a0ac7d92d664ebee541e0a7d75b96807fc1fb803088a9e44e51"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/09-banarasi-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2884124,
+    "sha256": "bd55d528b381a8ab81e814da39e82eaa5365395c278525dfc5e72815111e41fd"
+  },
+  {
+    "path": "maanvi-photobook/2021/fall/10-night-brocade-gala.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3037781,
+    "sha256": "6438b60e22e72dbb41e36431e7281f890aed48ef7fd418cdc27f6b160b6ae6c0"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/01-organza-greenhouse.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2814259,
+    "sha256": "6efe5655f57cfbe7f2c4cba18e17f5ca14da56f1f8bdc8685638b6912b73532b"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/02-pashmina-silk-window.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2634717,
+    "sha256": "52a3a6962c052bc39ec39ae2f4a5bff7609d85ec034cf7e65a43742c3b5c4e21"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/03-mani-pure-silk-terrace.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2465599,
+    "sha256": "2955a6d656b9ff01f6a1d6b0ae22a21e8a32c8a62a4d27838569ba006c17e7b9"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/04-organza-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2350069,
+    "sha256": "a51f9b0371ff9183e8ac520ab5335a932a5739fe49cf3f971a461639d1157b14"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/05-pashmina-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2819108,
+    "sha256": "4792b7931bc915572d6a9ce9e57ede19f66eee1af0e397ffcee03e018681f392"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/06-organza-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2839700,
+    "sha256": "147a8a0f2cd04ab9aede6ef37bad9fbb66506efdb00a5f9c5ad2c781832a2583"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/07-mani-silk-cafe.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2958024,
+    "sha256": "0c09e9cba7ebd1500ed8ccf1c3b2b8a5298ebc774efaeee55c4439ac85de5b09"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/08-pashmina-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2845834,
+    "sha256": "8ac4fedccd40f983cf93f0bd57eea64121503c1048070a0186206153ddef3b49"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/09-organza-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2708553,
+    "sha256": "0383b37b36b14d80634b203d32bd0339b700cf6a0c04c6b8ba2d292f87d2d404"
+  },
+  {
+    "path": "maanvi-photobook/2021/spring/10-pashmina-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2523972,
+    "sha256": "cbd42de50e0d4c412e724b29413eaf4a5b502bca672cc71d4bde6c971683ac0d"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/01-ikat-earth.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3716733,
+    "sha256": "8c15585cf43f308b5a5645db8a65a69a396731972c354e1ffcdfff48417f85cd"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/02-kanchi-pattu-temple.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3647609,
+    "sha256": "19cda239d5c809f324867b4cf7ca17cb3eaab80150881a194726d9331c0e7edd"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/03-batik-indigo.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3735012,
+    "sha256": "85e8f5597769776ce866167b40bce9af36aa4e4f6f12e40102cf44e5095b0e73"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/04-ikat-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3608397,
+    "sha256": "4b6999cbb1413b1f4f33ad3d884b87addba8aa8fc41829993b43f240c6e6795e"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/05-kanchi-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3560022,
+    "sha256": "747939b17fa9bf0a03c097899563351ea3926c252affb12947c5bd6d26d2fca3"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/06-batik-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3755908,
+    "sha256": "bb3d4bd280d27fc37c2233ea598f4f4032540339deba6590e87d65c9ef351af9"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/07-ikat-warli.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3694573,
+    "sha256": "f1eb06e524cc5ae462b5d022aefe025ae548f7fb000079f7e894b1f6b421a0f2"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/08-kanchi-faith.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3631397,
+    "sha256": "1da560e8d28fa93634f174f77ea4c2cc30cc565757cb9091870d9ba690b30d81"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/09-batik-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3898235,
+    "sha256": "df8e92a2d55c5b93717d223299553a79a25368f34945d95eed9370c07275cb2f"
+  },
+  {
+    "path": "maanvi-photobook/2022/fall/10-patterned-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3943727,
+    "sha256": "d6da4668287a747fbbcdfae12e30582d24556f7d6d85d061b276e02af85a54e9"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/01-tussar-paper-garden.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3358691,
+    "sha256": "af5a0526b13c0b05619fe9dd49f7946025739d8ef27e55c42d902812aff9767c"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/02-linen-tissue-window.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3248043,
+    "sha256": "1adbf7c20832b15eccf1c8050b0c8fcd1f263ad3596100f8acbc0bf7a42429a4"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/03-chiffon-breeze.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3075371,
+    "sha256": "fb6c6b25de05b8ea79b91cfaab16ee8fc34ace61b84e499615eec936a62c7f1a"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/04-pure-silk-coral.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3311932,
+    "sha256": "de7a872f6ffd6fe2ac753730b9c752875bbee42cf4315ce57ed89d3741bb48c5"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/05-tussar-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3293103,
+    "sha256": "ed7762e990fbdeba518391d3e024d38b8d66f3c6bb1c5d6eb24f4568c6370212"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/06-linen-tissue-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3401271,
+    "sha256": "3099244fb16baff389dd68fe6cb129ffe99e5639f4f568ad880847f14f28ba49"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/07-chiffon-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3199076,
+    "sha256": "f06a6178a78ec15c2f17e6e0a7446c5998c410551361d66822b156d77486fb7c"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/08-tussar-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3468186,
+    "sha256": "4e4bbbf413a277b71e6c4e87f040b7c82a716d1807a7f74011a2decbe58e95d7"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/09-pure-silk-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3444416,
+    "sha256": "139c0ab261ff984e3769da8f16aa954acc9422d625a9651f0c34ef2d57ecf101"
+  },
+  {
+    "path": "maanvi-photobook/2022/spring/10-linen-tissue-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3131056,
+    "sha256": "71088a6de2b7e690191b5efdef3ae8a3dba0a283d738a9ee8820c79c03c43ee0"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/01-dharmavaram-courtyard.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3430996,
+    "sha256": "1922f3eb97f7f868c286e86e7bafbf2a6519eb915f8514172d0acb2e47ced9b9"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/02-baluchari-story.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3665970,
+    "sha256": "c898fb2ad0c26176cebc8145ea9291de0dfe8849dde163bdba855fcef74a5365"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/03-tussar-digital-flora.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3469756,
+    "sha256": "14016fe0e5e27cfd890246c37ade1436bdbba9518a78819187f946c7e2014a35"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/04-kala-pattu-evening.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3340962,
+    "sha256": "536b776e0740e9af62210671acd92a520601fdb9c6c97aec96b6f3907f0d8f51"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/05-pure-silk-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3355749,
+    "sha256": "9ab326e63ece485f7a23e9a5a7ea6b7e5abbb4e4663fdefd34d12ae4d335bf47"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/06-dharmavaram-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3510309,
+    "sha256": "b51ae3cbb2e678b6215948906c84984f87eaf03830329f47f59a35176a3dacfc"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/07-baluchari-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3567135,
+    "sha256": "625d0ce5c25b4c6ac2ddfd6a1e9c3e372f52a7f88a73ac5296709d5b87c72fbe"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/08-tussar-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3530577,
+    "sha256": "0e056403c8095d7ef4456f3067a986c993b062448d1c79fc1d78d5d9b0b75990"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/09-pure-silk-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3362065,
+    "sha256": "5352d9b2df381b29bf42d1ef715f2f75d7d0f4a3dacf5c7aedf718d5aebf7e16"
+  },
+  {
+    "path": "maanvi-photobook/2023/fall/10-story-looms-procession.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3527697,
+    "sha256": "fa19474999c905e19eb58315bea65b43bc758f84f7613c4c36f0298aca0aaab7"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/01-silk-kota-gallery.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2514411,
+    "sha256": "ce72371d9bd2e21805c1a53b58732b16cebdcefead4a125aa4651def0e585bdf"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/02-mal-cotton-library.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2844413,
+    "sha256": "64642afa4d7bb90160948e32dd15193b1767d13720f45c6f2b252dee56e6d6ad"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/03-mul-chanderi-courtyard.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2530538,
+    "sha256": "0929e5a2eebe13973a40e233d72850af2bc9534309bd6265e012ad713b34a5c4"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/04-zari-kota-stairs.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2692196,
+    "sha256": "1d92a9f42e6a9a24de888529bb064f6e20e984b8b7ba16338cb3624e97db7fdf"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/05-silk-kota-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2677221,
+    "sha256": "c58aa5fc2713e829ddfe571d4c9100489e49a326c53343165355e1c175050e15"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/06-mal-cotton-craft.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2753609,
+    "sha256": "25d7c1b706969e348ccc9ba66664dc38df960064296403af0afbdb02b329be2a"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/07-mul-chanderi-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2726280,
+    "sha256": "6020e065c413e20f79f48b4bc0aafd89b403123ea161c42b20bb40946717f926"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/08-zari-kota-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2706243,
+    "sha256": "31cb1512ef174811cfa8b2c0f1e095bbdff38e32ecf9ba7e0c10e3c4c3a2961c"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/09-silk-kota-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2734407,
+    "sha256": "cbc035df2ec172468a93ba70cf61ddfcdf94e42a07463a3e5c35a2ab18e016db"
+  },
+  {
+    "path": "maanvi-photobook/2023/spring/10-mul-chanderi-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2557485,
+    "sha256": "4abb9bca299213310979652a4d1bafefb05cfc04d14863e7f8e5065eb54b05ea"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/01-gicha-indigo-fern.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3559190,
+    "sha256": "b5260796a600d0bbbac07af336859afa9254aeee0f80f066a3d19a573389f3c4"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/02-gicha-rose-leaf.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3108018,
+    "sha256": "3de04ff2cc0403a0d400038d9e123b5fbff4960ef2be8daef144d397c53fb505"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/03-gicha-ochre-vine.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3448481,
+    "sha256": "c2ae622dd78aed3a508f3c07bbdb3cba05034dadfda39312bf24ecbf92464c5a"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/04-gicha-black-gold.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3191911,
+    "sha256": "d6d602d847d1097667b4ad2fe87570e23a8e1b643b2ea447006f12881616fa4f"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/05-gicha-emerald-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3334640,
+    "sha256": "05567708c37d028290241e85aabf59535d19d2b81ba08dda022b9803e47e6750"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/06-gicha-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3505530,
+    "sha256": "3407332a5e465f921c63747e11951bfc97e10201c2fd2493c00e1c7109eaaae5"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/07-gicha-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3232267,
+    "sha256": "4e6a031a34380743014e7574ccc53c56f519527fabd9b8af77b987ed7da6ef62"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/08-gicha-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3396647,
+    "sha256": "e26aea0ed69f06dccb5cb71987bb2ec27f9be45a5a9de0f0c61c1f3260baeea8"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/09-gicha-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3384279,
+    "sha256": "472ca991ab5cce9ea3acb26fc3de82ce88fadec40de378e36c5db2f45a0f5494"
+  },
+  {
+    "path": "maanvi-photobook/2024/fall/10-gicha-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3505594,
+    "sha256": "ef74f8636107b9a730624d558fcb84b353978e5ef99de0bd82785b999633be67"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/01-kashmiri-silk-lapis.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3556917,
+    "sha256": "be6a1a39427767e69de51321b8e9cdf49e06097708d851fbf460eb7d65160408"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/02-manipuri-kota-orchid.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3490365,
+    "sha256": "aea430d23778c98382d138f8dadb5db28d0eb01ed3ed4022dae82d69392b5515"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/03-kashmiri-silk-saffron.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3641608,
+    "sha256": "1979d562304fc21c79b98ea51a61728902111dd1b2a2faeb4d715c1eb63e420b"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/04-manipuri-kota-mist.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3436641,
+    "sha256": "5c7f8d29d718edba0c84c284ab3ff2192e6d24600a64a53731ee954e4afcee01"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/05-kashmiri-silk-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3518757,
+    "sha256": "3ba3d18106e792269e5bfdaf92fe7b4515e8da1e4ba90a118af30a3d4e4ebb8b"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/06-manipuri-kota-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3643422,
+    "sha256": "db9a38f9fd912b8c565ecc8f90030c4fa27e613eea95ed8e413be93f89900d79"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/07-kashmiri-respect.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3674779,
+    "sha256": "82d1e80a0680e208b785b976f806309058a817f5a134e81756ecf5a5833f0db7"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/08-manipuri-kota-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3542308,
+    "sha256": "4da8c2389c5426176d4ddc743bd3cb0b671cc45cc93a96bf7ad8d70be7980104"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/09-mountain-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3461662,
+    "sha256": "b388f62b7d5c36dce363b2f8a9db56b2e9901139bf3bab8b34c486d93b593daa"
+  },
+  {
+    "path": "maanvi-photobook/2024/spring/10-kashmiri-bridal.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3639503,
+    "sha256": "80cfcdbb17d37d56f8c9ab1a36c82aa0fbc33bd716d1ef2c6a20b6f5ebe06973"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/01-muga-tussar-window.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3023830,
+    "sha256": "6ffe625eed7088541fc128be99c7a2cd1db9276d58e19e102a6b9bdb592c463e"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/02-muga-paithani-chair.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2900594,
+    "sha256": "3329e9dc4af5cc50136d3bae161a9136499661a04662f1d671ce322bbcdaab9a"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/03-tussar-detail-crop.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3119140,
+    "sha256": "60fee227c3cee1c8f21380a340c37ff8373deda57967329e997746879a4a7307"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/04-muga-paithani-silhouette.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2883873,
+    "sha256": "297c6db2265a46414bd040135d3305696cd12c25984e7997d32a7304e1b3290c"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/05-tussar-dance-away.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2843277,
+    "sha256": "ed2b585dbde7f727ddc3650bacdb1420d51ee26cf4a1773ed1227f5d6dbaa0f8"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/06-muga-sisters-mirror.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3161878,
+    "sha256": "a54c5643d1888c85b63c5bd0632473f685977881d467f9eb0940782e0f963a68"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/07-tussar-elder-hands.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3210194,
+    "sha256": "2551fde810e6d89b912c184336f6fbd00dfe4888d50355d7a248eb56464f2dc6"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/08-muga-love-shadow.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2889842,
+    "sha256": "96d8dd3896e7dc71aeb90cfed94166a3185388cceb75cdbead0ee55e2c7b77fc"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/09-golden-river-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3094147,
+    "sha256": "9a7d88a2d109912e4b9af999c0d019345c6c38f5abc969e83d1c562b4f36cfb0"
+  },
+  {
+    "path": "maanvi-photobook/2025/fall/10-golden-river-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3065107,
+    "sha256": "a9255a2dd99010c9fb4081764e38950e9ba31b901de93d34c3d7e8d6cd63b240"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/01-raw-muga-back.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3785937,
+    "sha256": "98d56e8002dcb5037aebee8b683382f3e92d991c83abd15cff6f046a4f998fbc"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/02-green-muga-seated.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3518532,
+    "sha256": "63aa3996bfbcc8ad1882a94c3652b851f00daa5b12ee8e1175687f6d2b98a8ac"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/03-raw-muga-crop.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3560954,
+    "sha256": "b50aedc0a3784352a46c5d8c742d1fca47ca5be2938ed76c4eaf2d2e7ddb3ff6"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/04-green-muga-shadow.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3322007,
+    "sha256": "66fcf4c56cb9932c7ea481b896ab8ffd8f18fa5b97388c0c1aedc63ebcb33a75"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/05-raw-muga-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3455187,
+    "sha256": "a3e78ade37c7e6f3c47b782117fd8c98ef2b29c81b3981551e73a6e3a61f0073"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/06-muga-sisters-back.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3557590,
+    "sha256": "37010b7723f466136afbfc63fb99f716276d829340741f0082734f6c3cec8447"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/07-muga-elder-hands.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3640412,
+    "sha256": "52af8d41daf95d344332e22470eb18fd3d78cd79bb05bdd5e350fe5a05ad750c"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/08-green-muga-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3403721,
+    "sha256": "2f4d8594cd18c401d852083424256fc92ed99736459906b7131a65fa2bbdbcd9"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/09-muga-family-silhouettes.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3422860,
+    "sha256": "74ce22e548dda208ef507bc46cbb43333c976ad7c05ec7d5a4062a2a05b23bce"
+  },
+  {
+    "path": "maanvi-photobook/2025/spring/10-muga-festival-away.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3606501,
+    "sha256": "e663414d1ea824b24c0d0d3f2ce53f9aa209b28344bd994ace6609a59ffc1762"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/01-mysore-silk-cobalt.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2346103,
+    "sha256": "9e1868e513f4800c502bb54c18ba4734bd34267ad21ae6bc62f3d1be993f4559"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/02-pure-crepe-coral.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2470200,
+    "sha256": "4f270c3470b089ec7f7e43fbfa2b3db57c3017d6584f126aeabf75ba43caa3b9"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/03-mysore-silk-emerald.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2371139,
+    "sha256": "d9f11a079ae14195e1c4e44fc01aff7f68d21fd905ac502257fce7a4e2864121"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/04-pure-crepe-monochrome.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2417044,
+    "sha256": "66d466aec369d9aaa0c40054d0fac3fb3ca131d0c7b8340072371a557eff3390"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/05-mysore-silk-magenta.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2577495,
+    "sha256": "de4166931e92e8be45db780ee1952c72ac738fc8ddb9c59d81b0aca5acdb1596"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/06-pure-crepe-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2685425,
+    "sha256": "00c7692c5a19b251afb1f81ed7b6c339569730e9de4d9af5c16605a0fd9ba7b0"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/07-mysore-silk-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2761314,
+    "sha256": "eb42611a6ba8b4473dfc3360a4b085d32cfd1bdb11017e1c380fe12a38529be7"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/08-pure-crepe-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2452828,
+    "sha256": "ccdae92c4cffd97b49cccb4ccefe4e319a25076b66b2246ef59a30fd823aae20"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/09-living-classics-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2885466,
+    "sha256": "47833aa6ab17a50e129848db24cd445373ce7cd68c578fa5ed97e1a17f0a4fd8"
+  },
+  {
+    "path": "maanvi-photobook/2026/fall/10-living-classics-finale.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2861953,
+    "sha256": "64dabbcafdc0c474409cb163e9a82a718902214a7c67fe9aeadd17788c7217ba"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/01-kanchi-kota-cobalt.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3216617,
+    "sha256": "6e3baedda51ad2ee692b651d9ed53cf93af5f3cbc3e4be9e2560fe5cc1e8227d"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/02-gangajamuna-coral.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3362236,
+    "sha256": "72201835aa8e66b1c9bf240197c76273dfd428c5108cbf89a7e413e3aedbac19"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/03-kanchi-kota-lime.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2832900,
+    "sha256": "6173e3c762635b2dbd221ca9e01569621a2ba6ff8b7660b88079b4792cfd25bf"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/04-gangajamuna-monochrome.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2908459,
+    "sha256": "ee036585e2cf6c0ba517b1afccbd71db434c099952ae7efd05565cb08d4e3be7"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/05-kanchi-kota-dance.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3107094,
+    "sha256": "74d6f4228e0fb8e494949742f446e1d6d1e9d063da10fde18b1200c34f0b4aad"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/06-gangajamuna-sisters.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2954277,
+    "sha256": "b8760319a7dcea01d45349d7c9403b0e028d22cf427ff223eddc7b448cb60087"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/07-kanchi-kota-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3258577,
+    "sha256": "3c5c5092108f31406f4edbffc5005a76d0eb34e9e4126fdc8197b2ee3abd876e"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/08-gangajamuna-love.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2866657,
+    "sha256": "641a661d2f9e9fa0f2bebd5cc15591359f67d52ce9ecd2985352b4fc788c9d16"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/09-confluence-family.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3197432,
+    "sha256": "eae0c099c02cd46cc405a791463513b03a6945bd967e1117d90c075ba26780cc"
+  },
+  {
+    "path": "maanvi-photobook/2026/spring/10-confluence-festival.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3312834,
+    "sha256": "453e6f08c275dcabbc12e30cce7e7fbbafc9dd02612ebbb76a7ff99bc086c0f3"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2017/fall/candidate-a-gadwal-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2975795,
+    "sha256": "c3a02b46d10555b1afec678058f37de97aec38162881adc4334b7b719d08719d"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2017/fall/candidate-b-venkatagiri.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2722721,
+    "sha256": "340468b9ed77be47eb8eb294f7479ec9f2a691ab04ef3bd2edda89bec8a915c0"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2017/spring/candidate-a-uppada.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3261928,
+    "sha256": "d5ea24a002976cc1a5fb42363fbefd3fa95e7d7e2c4c9287855d6ef55f1dfc4a"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2017/spring/candidate-b-mangalagiri.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3234860,
+    "sha256": "a13cc8e7ab834c8782ff035f25bf9ce50f8aae63f614a427d3c882fd26db330e"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2018/fall/candidate-a-paithani-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3309846,
+    "sha256": "1fd53c6e820e7055a5d5d22d425cea2f091b99c93f29b36921a1a13cca7cfea6"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2018/fall/candidate-b-banarasi.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3467125,
+    "sha256": "2de8aff65ce77402fd4789f53b9de81edb6e2ace90e010eded98b3981fc5a5cf"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2018/spring/candidate-a-sambalpuri.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3081153,
+    "sha256": "f03f98b32701c781ef84dde437a27277dbba755f6a4ae1c35800ed1c580ed296"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2018/spring/candidate-b-kalamkari.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3331928,
+    "sha256": "a7794f622b13a402c3f52bb28551ec006c66431d7f6033fcde65e39b46220a52"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2019/fall/candidate-a-bandhani-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3585645,
+    "sha256": "cd1327374d516b2c8810ff03a2836a0646edfae01920f5c744e27012425fe1da"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2019/fall/candidate-b-pochampally.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3193656,
+    "sha256": "315ccc4dfa0fe1688358c01307c9849018255c5147475e3270ec5b42e6ff0879"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2019/spring/candidate-a-chikankari.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3563433,
+    "sha256": "2d059a4417223f27e5a7ec3d8ff4b20fe1ca36d60a5eaffd59129b90d171711d"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2019/spring/candidate-b-mysore-crepe.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3395729,
+    "sha256": "9cb6a62e25662aeef08e248d923c83f4be6006b1328b580182534e9ac9ebb3a5"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2020/fall/candidate-a-muga-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3345748,
+    "sha256": "ddb16592c175cdb566cff3f001717e7fb05087a5e7289a1bd710edc6b66c094a"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2020/fall/candidate-b-muga-paithani.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3209145,
+    "sha256": "cc1fb4a6d15af35989c0d8113bc060ec4d46a5693847b34be513a116cfcf79bf"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2020/spring/candidate-a-chettinad.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2872765,
+    "sha256": "509b6caf1317fd861bdf114701a0fbc07de5a13993a663822d3c9a6f6dbc50c8"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2020/spring/candidate-b-kanchi-cotton.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2763827,
+    "sha256": "e704ee2ddc49599eaf517a6b41fb1523198701f3fa7a91d42ad17ad126302cc3"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2021/fall/candidate-a-mashru-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2774579,
+    "sha256": "e2560a77cb14547419ef604c43ef886013f7936b569f4ab2ed9015d42efe4342"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2021/fall/candidate-b-banarasi.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3044475,
+    "sha256": "35fa0ad37dad0ce8cc19551871665833ef459c9329470c71a3f4bdba33c3fdd0"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2021/spring/candidate-a-organza.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2732824,
+    "sha256": "18ebae7d61fd903d36837fe28d8d87bc41c09f35c365b8fd918439f14a79485c"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2021/spring/candidate-b-pashmina.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2840081,
+    "sha256": "e39683fa5667b12121758d8ee262882e5e9a24a78e8b958ae7e99ab2845171b3"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2022/fall/candidate-a-batik-elder.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3889200,
+    "sha256": "e22451212632f52b0923ea0c4efe6fa3f797a531e7f58508bb9515cffbbc131b"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2022/fall/candidate-b-ikat.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3516572,
+    "sha256": "258eda839f30f5730c93c1da073626f0c341d2f94a81b95c40bc032a76445609"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2022/spring/candidate-a-tussar.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3554797,
+    "sha256": "70d89048aaa15484885130730f142ad1fb08ad9711f16b2c5c528dd24cbc4436"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2022/spring/candidate-b-linen-tissue.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3461463,
+    "sha256": "7e933aa33f8043fab1b1a87f55305c7e5a37004f81e4e6f3e9b174ce474ca93c"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2023/spring/candidate-a-silk-kota.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2839536,
+    "sha256": "812cffe27f0ed67ff83cea1c27fdb76c0530bf6b700476612297d4ba7caf3c97"
+  },
+  {
+    "path": "maanvi-photobook/diversity-revisions/2023/spring/candidate-b-mal-cotton.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2598385,
+    "sha256": "837cdb04fdb766d33328a9fcb9dac1b57c9c0cf7c61449e86b24715f546d31df"
+  },
+  {
+    "path": "public/images/collections/bridal.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 217847,
+    "sha256": "64dc8ebe3cecc198a957f78f8e9ce03893c9117da1541b227b820118dad90d39"
+  },
+  {
+    "path": "public/images/collections/classics.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 233979,
+    "sha256": "a35ad47d8c83c1093cc60b1a2f052564738b7daa940c7fb85a70d5f77f0e5b0d"
+  },
+  {
+    "path": "public/images/collections/festival.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 215696,
+    "sha256": "32fb827a3d00bdc35c6554308334a06cec7b2945064d43eae9b88ad6a764379b"
+  },
+  {
+    "path": "public/images/hero/hero-1.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 171792,
+    "sha256": "0833d156eebb292bdfa8de4e39f9f015f7f80d20546f0b40267973f19bbc0df5"
+  },
+  {
+    "path": "public/images/hero/maanvi-salt-flats-original.jpg",
+    "width": 1080,
+    "height": 1440,
+    "bytes": 270618,
+    "sha256": "3b255adf47299fa076c05fc891d2cbcc91fb9715eab2ea63c93c880075dfdef2"
+  },
+  {
+    "path": "public/images/maanvi-editorial-hero.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 296421,
+    "sha256": "f047d04c7fc8f1f39a9a1c99baa1fa42a9ed562a62143e304c80a769d62754f1"
+  },
+  {
+    "path": "public/images/story/founders.jpg",
+    "width": 2052,
+    "height": 1542,
+    "bytes": 879697,
+    "sha256": "1d5363e6a0e7733e18594f8a9950c5faca832aec1adbb6564dcebe3aa7cba201"
+  },
+  {
+    "path": "public/images/visit/store.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 120799,
+    "sha256": "ec7b836edd3637f3c46a3a55757b11bd879ca42c9c92c622ebad214bac2b2745"
+  },
+  {
+    "path": "public/logo/maanvi-logo.png",
+    "width": 2000,
+    "height": 1414,
+    "bytes": 215106,
+    "sha256": "f159703a6816056ff388e032b8995f425655925f60bd065ec003f109fb36fa90"
+  },
+  {
+    "path": "watercolor-saree-collection/01-lotus-pink-silk.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2963583,
+    "sha256": "5e3d4397255619e6fb693f34d02068f4366ea2c344430b165a4b5177d34cf947"
+  },
+  {
+    "path": "watercolor-saree-collection/02-peacock-blue-organza.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2856529,
+    "sha256": "ed7f8caf58927e2dcf65d07161b5e507560663d28ecc93f5be62062be196fe76"
+  },
+  {
+    "path": "watercolor-saree-collection/03-marigold-jamdani.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2846594,
+    "sha256": "773da06a84e2dbfb23e774886fc879e7f3fc1b5400638d3d398b63006f9f998f"
+  },
+  {
+    "path": "watercolor-saree-collection/04-black-crimson-ikat.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3221383,
+    "sha256": "56b4fe1cd353082795a68a85b21d333cebaed1d4c25d7146177fe3028d054a53"
+  },
+  {
+    "path": "watercolor-saree-collection/05-ivory-gold-kasavu.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2601697,
+    "sha256": "babf1dfbb0bc340a9d7e6b7c7335431765e1614baa4348026a3b1dcacc6464c0"
+  },
+  {
+    "path": "watercolor-saree-collection/06-royal-purple-banarasi.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3320909,
+    "sha256": "de1b885c8918221630f1d1904b6ba66c4bf1a994298220cf28ca9e5f3205372f"
+  },
+  {
+    "path": "watercolor-saree-collection/07-sage-botanical-linen.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2935530,
+    "sha256": "87ca21cfe7c4731d02a85e0d1e7e65c8725cd240182a961cb50bdd1c66d754fa"
+  },
+  {
+    "path": "watercolor-saree-collection/08-indigo-shibori.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3449911,
+    "sha256": "84348a1529118c7314a0332699e58b231c086d654d13acca26c9da76eeb9d626"
+  },
+  {
+    "path": "watercolor-saree-collection/09-terracotta-handloom.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3237175,
+    "sha256": "ace9c0a36fbee7395d46cdf88b2c8ccff8b0e9b5f2981e275541d17fa467760a"
+  },
+  {
+    "path": "watercolor-saree-collection/10-midnight-constellation.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3058925,
+    "sha256": "df3868b193f43e45bf762bae717d0424235351d381c50c864c5da6ad822c2339"
+  },
+  {
+    "path": "watercolor-saree-collection/11-coral-paithani.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2937254,
+    "sha256": "2baa0d6b9fe5a6ab93375bae4d891e4ee043d117af0caa905a6f95b45ba088b6"
+  },
+  {
+    "path": "watercolor-saree-collection/12-monochrome-brushstroke.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2849212,
+    "sha256": "4e81a3b98c834c008e4c2da4b16b4b230e2b5b757c9e53f9b5d094dfef9a3cb9"
+  },
+  {
+    "path": "watercolor-saree-collection/13-rainbow-bandhani.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3322336,
+    "sha256": "b077453134eee66ff8c547bd54f31531a9379a456ba6cdffc03ad20fc0d77d30"
+  },
+  {
+    "path": "watercolor-saree-collection/14-pastel-lilac-kanjeevaram.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 3016037,
+    "sha256": "d1c9004b4791b3ebcf66aa1bd742451495d625f0200e6dae7faeec45b2667120"
+  },
+  {
+    "path": "watercolor-saree-collection/15-apricot-turquoise-ombre.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2605614,
+    "sha256": "29eb3eef119b6d9a58ac5e2a02fd8a6d9121f6b00f1a869c47c27308da461589"
+  }
+]
