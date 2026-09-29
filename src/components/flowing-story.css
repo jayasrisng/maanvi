@@ -81,7 +81,7 @@
 .home-invitation .ivory-link{display:inline-flex;align-items:center;justify-content:center;padding:18px 27px;border:0;border-radius:60px;background:#fff4df;color:#92370c;text-decoration:none}
 .journey-header nav a.is-active{border-bottom:1px solid currentColor;padding-bottom:5px}
 .flow-photobook{top:41%;margin-top:-125px}
-.flow-cotton{color:#fff;max-width:530px;text-shadow:1px 1px 0 #9c390b,-1px -1px 0 #9c390b,1px -1px 0 #9c390b,-1px 1px 0 #9c390b}
+.flow-cotton{color:#fff;max-width:530px;text-shadow:none}
 .flow-cotton .chapter-link{color:#fff}
 .flow-cotton>p:not(.flow-eyebrow){font-weight:600;font-size:16px}
 .is-home .journey-header nav,.is-home .journey-language{color:#fff6e8}
