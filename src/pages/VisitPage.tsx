@@ -41,7 +41,7 @@ export default function VisitPage() {
       rel="noopener noreferrer"
       className="underline hover:text-white/80"
     >
-      google maps ↗
+      google maps
     </a>
 
     <a
@@ -50,7 +50,7 @@ export default function VisitPage() {
       rel="noopener noreferrer"
       className="underline hover:text-white/80"
     >
-      apple maps ↗
+      apple maps
     </a>
   </div>
 </div>

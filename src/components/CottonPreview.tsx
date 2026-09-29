@@ -86,11 +86,11 @@ export default function CottonPreview(){
         <h1>{te?<><span>మన మాన్వి.</span><span>మన వేడుక.</span></>:<><span>Our Maanvi.</span><span>Our celebrations.</span></>}</h1>
         <p className="cotton-poetry">{te?'ఒక చిన్న దారం. ఎన్నో అనుబంధాలు.':'From a little thread, a world of feeling.'}</p>
         {te&&<p className="cotton-english" lang="en">From a little thread, a world of feeling.</p>}
-        <a className="cotton-action" href="/archive">{te?'మా చీరలను చూడండి':'Explore our sarees'}<span aria-hidden="true">↗</span></a>
+        <a className="cotton-action" href="/archive">{te?'మా చీరలను చూడండి':'Explore our sarees'}</a>
       </main>
-      <a className="cotton-scroll" href="#cotton-note">{te?'దారంతో పాటు సాగండి':'Follow the thread'}<span aria-hidden="true">↓</span></a>
+      <a className="cotton-scroll" href="#cotton-note">{te?'దారంతో పాటు సాగండి':'Follow the thread'}</a>
       <button className="cotton-pause" aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused?'▷':'Ⅱ'} <span>{te?(paused?'కదలిక కొనసాగించండి':'కదలిక ఆపండి'):(paused?'Resume motion':'Pause motion')}</span></button>
     </section>
-    <aside id="cotton-note" className="cotton-note"><p>{te?'పత్తి నుంచి దారం. దారం నుంచి చీర.':'Cotton into thread. Thread into cloth.'}</p><span>{te?'మాన్వి ప్రారంభ పేజీ నమూనా · మీ అభిప్రాయం కోసం':'Maanvi opening concept · a motion study for your review'}</span><a href="/">{te?'ప్రస్తుత వెబ్‌సైట్‌కి తిరిగి వెళ్ళండి ↗':'Return to the current website ↗'}</a></aside>
+    <aside id="cotton-note" className="cotton-note"><p>{te?'పత్తి నుంచి దారం. దారం నుంచి చీర.':'Cotton into thread. Thread into cloth.'}</p><span>{te?'మాన్వి ప్రారంభ పేజీ నమూనా · మీ అభిప్రాయం కోసం':'Maanvi opening concept · a motion study for your review'}</span><a href="/">{te?'ప్రస్తుత వెబ్‌సైట్‌కి తిరిగి వెళ్ళండి':'Return to the current website'}</a></aside>
   </div>;
 }

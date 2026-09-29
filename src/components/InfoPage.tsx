@@ -21,5 +21,5 @@ export default function InfoPage({ kind, te }: InfoPageProps) {
   const intro = te ? item.teIntro : item.enIntro;
   const body = te ? item.teBody : item.enBody;
   const careers = kind === 'careers';
-  return <article className="info-page"><p className="chapter-kicker">{te ? 'మాన్వి · సమాచారం' : 'MAANVI · INFORMATION'}</p><h1>{title}</h1><p className="info-intro">{intro}</p>{body.map(text => <p key={text}>{text}</p>)}{careers && <a className="thread-button" href="https://www.linkedin.com/company/maanvi-sarees/" target="_blank" rel="noreferrer">{te ? 'LinkedInలో మమ్మల్ని చూడండి ↗' : 'Find Maanvi on LinkedIn ↗'}</a>}</article>;
+  return <article className="info-page"><p className="chapter-kicker">{te ? 'మాన్వి · సమాచారం' : 'MAANVI · INFORMATION'}</p><h1>{title}</h1><p className="info-intro">{intro}</p>{body.map(text => <p key={text}>{text}</p>)}{careers && <a className="thread-button" href="https://www.linkedin.com/company/maanvi-sarees/" target="_blank" rel="noreferrer">{te ? 'LinkedInలో మమ్మల్ని చూడండి' : 'Find Maanvi on LinkedIn'}</a>}</article>;
 }

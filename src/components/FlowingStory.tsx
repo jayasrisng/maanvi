@@ -62,25 +62,25 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
         <h1>{t('మన మాన్వి.\nమన వేడుక.', 'Our Maanvi.\nOur celebrations.')}</h1>
         <p>{t('ఒక చిన్న దారం. ఎన్నో అనుబంధాలు.', 'From a little thread, a world of feeling.')}</p>
         {te && <span className="flow-translation" lang="en">From a little thread, a world of feeling.</span>}
-        <a className="thread-button ivory" href="#cloth">{t('దారంతో పాటు సాగండి', 'Follow the thread')} ↓</a>
+        <a className="thread-button ivory" href="#cloth">{t('దారంతో పాటు సాగండి', 'Follow the thread')}</a>
       </div>
       <div className="flow-copy flow-cotton" style={{ opacity: 0, visibility: 'hidden' }}>
         <p className="flow-eyebrow">{t('పత్తి · తేలికగా, హాయిగా', 'COTTON · A LITTLE LIGHTNESS')}</p>
         <h2>{t('గాలిలా తేలిక.\nమనసుకు హాయి.', 'Light as air.\nClose to the heart.')}</h2>
         <p>{t('రోజంతా హాయిగా ఉండే కాటన్. మీకు నచ్చిన రంగులో, మీ రోజుకు సరిపోయే చీరను కలిసి ఎంచుకుందాం.', 'Airy cotton, chosen for the rhythm of your day. A colour you love. A drape that feels like you.')}</p>
-        <a className="chapter-link" href="/book">{t('మీ కోసం ఎంచుకుందాం', 'Find your everyday drape')} ↗</a>
+        <a className="chapter-link" href="/book">{t('మీ కోసం ఎంచుకుందాం', 'Find your everyday drape')}</a>
       </div>
       <div className="flow-copy flow-silk" style={{ opacity: 0, visibility: 'hidden' }}>
         <p className="flow-eyebrow">{t('పట్టు · మీ వేడుక కోసం', 'PATTU · FOR YOUR CELEBRATION')}</p>
         <h2>{t('ఒక దారం నుంచి,\nఒక అందమైన ఆరంభం.', 'A delicate thread.\nA beautiful beginning.')}</h2>
         <p>{t('పెళ్లి ఉదయం పట్టుచీర మెరుపు. అమ్మకు నచ్చిన జరీ అంచు. మీ సంప్రదాయం, రంగులు, బడ్జెట్‌కు సరిపోయే ఎంపికను మీ కుటుంబం కోసం సిద్ధం చేస్తాం.', 'Pattu catching the light on a wedding morning. A zari border your mother loves. A selection for your family, chosen around your traditions, colours and budget.')}</p>
-        <a className="thread-button ivory" href="/book">{t('పెళ్లి చీరలు కలిసి చూద్దాం', 'Plan a bridal viewing')} ↗</a>
+        <a className="thread-button ivory" href="/book">{t('పెళ్లి చీరలు కలిసి చూద్దాం', 'Plan a bridal viewing')}</a>
       </div>
       <div className="flow-copy flow-photobook" style={{ opacity: 0, visibility: 'hidden' }}>
         <p className="flow-eyebrow">{t('మా ఫోటో బుక్ · 2017—2026', 'OUR PHOTO BOOK · 2017—2026')}</p>
         <h2>{t('గత సంవత్సరాల రంగులు.\nమన ప్రయాణపు జ్ఞాపకాలు.', 'Years of colour.\nA story to turn through.')}</h2>
         <p>{t('మా ప్రయాణంలో భాగమైన చీరలు, వస్త్రాల డిజైన్లను మా ఫోటో బుక్‌లో చూడండి. ఒక్కో పుట, ఒక్కో జ్ఞాపకం.', 'Explore the saree and fabric designs that have been part of our journey. A photo book of collections past, one page at a time.')}</p>
-        <a className="thread-button ivory" href="/archive">{t('మా ఫోటో బుక్ తెరవండి', 'Open our photo book')} ↗</a>
+        <a className="thread-button ivory" href="/archive">{t('మా ఫోటో బుక్ తెరవండి', 'Open our photo book')}</a>
       </div>
       <div className="flow-caption" aria-hidden="true"><span>{t('పత్తి', 'COTTON')}</span><span className="flow-track"><i/></span><span>{t('పట్టు', 'SILK')}</span></div>
     </div>

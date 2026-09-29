@@ -13,7 +13,7 @@ export default function LoomOpening() {
     return ()=>{clearTimeout(timer);removeEventListener('keydown',escape);};
   },[open]);
   if(!open) return null;
-  return <div className="loom-opening"><div className="loom-warp" aria-hidden="true">{Array.from({length:32},(_,index)=><i key={index} style={{'--thread':index} as React.CSSProperties}/>)}</div><div className="loom-weft" aria-hidden="true"/><div className="loom-shuttle" aria-hidden="true"/><div className="loom-title"><span lang="te">మాన్వి</span><p>A story, woven together.</p></div><button type="button" onClick={()=>setOpen(false)}>Enter Maanvi ↗</button></div>;
+  return <div className="loom-opening"><div className="loom-warp" aria-hidden="true">{Array.from({length:32},(_,index)=><i key={index} style={{'--thread':index} as React.CSSProperties}/>)}</div><div className="loom-weft" aria-hidden="true"/><div className="loom-shuttle" aria-hidden="true"/><div className="loom-title"><span lang="te">మాన్వి</span><p>A story, woven together.</p></div><button type="button" onClick={()=>setOpen(false)}>Enter Maanvi</button></div>;
 }
 
 export function MotionControl() {
