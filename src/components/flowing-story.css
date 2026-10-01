@@ -1,7 +1,7 @@
-.flow-story{position:relative;height:600svh;--silk-reveal:0;--flow-progress:0;background:#b75730;color:#fff6e8}
+.flow-story{position:relative;height:600svh;--silk-reveal:0;--flow-progress:0;background:#ff6a00;color:#fff6e8}
 .flow-sticky{position:sticky;top:0;height:100svh;min-height:620px;overflow:hidden;isolation:isolate}
 .flow-scene,.flow-shade{position:absolute;inset:0;z-index:-2}
-.flow-scene{background:#a45d3f}
+.flow-scene{background:#ff6a00}
 .flow-scene>img,.flow-scene>canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .flow-scene>canvas{opacity:0}
 .flow-scene[data-ready=true]>canvas{opacity:1}
@@ -36,6 +36,14 @@
 .journey-header nav a{font-size:12px}.journey-header nav{gap:30px}.header-viewing{border-bottom-color:#fff6}
 .journey-header:has(nav.is-open){background:#b64712}
 .journey-motion{background:#fcf4e8e8;color:#934016;border-color:#a9796840}
+.journey-home-controls{position:fixed;right:20px;bottom:18px;z-index:35;display:flex;align-items:center;gap:14px}
+.journey-home-icon{width:30px;height:44px;display:grid;place-items:center;padding:0;border:0;background:transparent;color:#ff6a00;cursor:pointer}
+.journey-home-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 0 #fff8ed)}
+.journey-home-icon:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.maanvi-site.intro-release .flow-sticky{animation:maanvi-home-arrival 1000ms cubic-bezier(.2,.8,.2,1) both}
+.maanvi-site.intro-release .journey-header nav,.maanvi-site.intro-release .journey-language{animation:maanvi-header-arrival 1000ms cubic-bezier(.2,.8,.2,1) both}
+@keyframes maanvi-home-arrival{0%{transform:scale(1.022);filter:saturate(.88) brightness(.93)}62%{transform:scale(1);filter:saturate(1.03) brightness(1.015)}100%{transform:scale(1);filter:none}}
+@keyframes maanvi-header-arrival{0%{opacity:.35;transform:translateY(-8px)}100%{opacity:1;transform:translateY(0)}}
 .journey-skip:not(:focus){clip-path:inset(100%);width:1px;height:1px;overflow:hidden}
 .flow-still{height:auto}.flow-still .flow-sticky{position:relative;height:auto;min-height:0;overflow:visible}
 .flow-still .flow-scene,.flow-still .flow-shade,.flow-still .flow-caption{display:none}
@@ -49,10 +57,11 @@
 @media(max-width:760px){
  .flow-story{height:600svh}.flow-sticky{min-height:0;height:100svh}
  .journey-header{padding:20px 24px;gap:17px}.journey-header .maanvi-logo{width:90px;height:64px}
+ .journey-home-controls{right:12px;bottom:12px;gap:12px}
  .journey-header nav{background:#b64712;top:104px}.journey-header nav a{font-size:15px}
- .flow-scene{top:47%;background:#c65e2d;mask-image:linear-gradient(transparent,black 18%);-webkit-mask-image:linear-gradient(transparent,black 18%)}
- .flow-scene>img{object-position:right center}.flow-sticky{background:#c65e2d}
- .flow-sticky::before{content:'';position:absolute;inset:0;background:#a44817;opacity:var(--silk-reveal);z-index:-2}
+ .flow-scene{top:47%;background:#ff6a00;mask-image:linear-gradient(transparent,black 18%);-webkit-mask-image:linear-gradient(transparent,black 18%)}
+ .flow-scene>img{object-position:right center}.flow-sticky{background:#ff6a00}
+ .flow-sticky::before{content:'';position:absolute;inset:0;background:#e85600;opacity:var(--silk-reveal);z-index:-2}
  .flow-shade{display:none}.flow-copy,.flow-cotton,.flow-silk{left:24px;right:24px;top:145px;margin:0;width:auto;max-width:none}
  .flow-copy h1{font-size:clamp(40px,10.3vw,65px);margin-bottom:16px}.flow-copy h2{font-size:clamp(34px,8.4vw,55px);margin-bottom:15px}
  .flow-copy>p:not(.flow-eyebrow){font-size:13px;line-height:1.8;max-width:340px}.flow-copy .flow-eyebrow{font-size:8px;letter-spacing:.09em;margin-bottom:20px}

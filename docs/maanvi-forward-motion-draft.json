@@ -1,0 +1,27 @@
+{
+  "jobId": "7e7444c0-0fc6-4598-bd2b-bb74e9968222",
+  "model": "wan3_0",
+  "status": "completed",
+  "costCredits": 2,
+  "remainingExpected": 0.5,
+  "purpose": "Two-second frontal approach test; not a completed walk-to-seated-logo film and not a rigged 3D asset.",
+  "params": {
+    "prompt": "A single continuous TWO SECOND frontal fashion runway shot. The supplied image is a storyboard reference ONLY: use the woman and cream cotton saree from its first panel. Never show panels, captions, contact sheets, text, logo or collage. One adult Indian woman, same long dark hair, warm complexion and refined illustrated facial features, in an ivory cotton saree with vivid saffron orange #FF6A00 border. She is centered, facing the lens squarely, her face and both shoulders visible FRONT ON, and WALKS DIRECTLY TOWARD THE CAMERA along the depth axis, naturally growing larger. Full body and feet in frame throughout. Camera stays centered and stationary at waist height. Her feet alternate two natural forward steps, arms counter-swing subtly, pallu flows behind her. Soft white and ivory clouds drift along both sides of a restrained cream runway. Premium editorial Indian illustration with gentle dimensional fabric shading, matching storyboard style. No lateral walking, no profile, no orbit, no turn, no frozen zoom-only movement, no character duplication. This shot establishes the forward approach for a later seated-logo transition. Finish still facing the viewer with her whole silhouette visible. Silent.",
+    "aspect_ratio": "16:9",
+    "duration": 2,
+    "reference_images": [
+      "0d18c460-c5d0-4af4-9143-45b13afba184"
+    ],
+    "resolution": "480p",
+    "generate_audio": false
+  },
+  "remainingConfirmed": 0.5,
+  "localVideo": "public/intro/maanvi-forward-walk.mp4",
+  "durationSeconds": 2.0,
+  "dimensions": [
+    854,
+    480
+  ],
+  "audio": false,
+  "review": "Frontal orientation and alternating steps visible in sampled frames. Model retained rectangular storyboard-panel edges in the background. Motion test only; not integrated over the existing full opening. No sitting transition or rigged 3D assets in this shot."
+}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import './App.css';
 import './woven.css';
 import './journey.css';
@@ -7,6 +7,8 @@ import BrandLogo from './components/BrandLogo';
 import CollectionBook from './components/CollectionBook';
 import Viewing from './components/Viewing';
 import InfoPage from './components/InfoPage';
+import MaanviIntro from './components/MaanviIntro';
+import { shouldOpen } from './components/maanvi-intro-assets';
 
 const links = { whatsapp: 'https://wa.me/919182242429', maps: 'https://maps.app.goo.gl/yzy3N5ef7hTZ5goFA', instagram: 'https://www.instagram.com/maanviofficial/' };
 const chapterRoutes: Record<string,string> = { '/bridal': 'silk', '/saree-guide': 'cloth', '/private-shopping': 'meet', '/visit': 'visit' };
@@ -14,6 +16,12 @@ const chapterRoutes: Record<string,string> = { '/bridal': 'silk', '/saree-guide'
 export default function App() {
   const [language, setLanguage] = useState<'te'|'en'>(()=>{try{return localStorage.getItem('maanvi.language')==='en'?'en':'te';}catch{return 'te';}});
   const [paused, setPaused] = useState(false);
+  const [siteSound, setSiteSound] = useState(() => {
+    try { return sessionStorage.getItem('maanvi.musicMuted') !== 'true'; } catch { return true; }
+  });
+  const [introActive, setIntroActive] = useState(() => location.pathname === '/' && shouldOpen());
+  const revealHome = useCallback(() => setIntroActive(false), []);
+  const siteAudio = useRef<HTMLAudioElement>(null);
   const [menu, setMenu] = useState(false);
   const [hash, setHash] = useState(() => location.hash);
   const [favorites, setFavorites] = useState<string[]>(()=>{try{return JSON.parse(localStorage.getItem('maanvi.favorites')||'[]');}catch{return [];}});
@@ -30,9 +38,54 @@ export default function App() {
   useEffect(()=>{const target=chapterRoutes[path] || location.hash.slice(1);if(target){const frame=requestAnimationFrame(()=>document.getElementById(target)?.scrollIntoView({behavior:'instant'}));return()=>cancelAnimationFrame(frame);}},[path]);
   useEffect(()=>{const close=(e:KeyboardEvent)=>{if(e.key==='Escape')setMenu(false);};addEventListener('keydown',close);return()=>removeEventListener('keydown',close);},[]);
   useEffect(()=>{const update=()=>setHash(location.hash);addEventListener('hashchange',update);return()=>removeEventListener('hashchange',update);},[]);
+  useEffect(() => {
+    const audio = siteAudio.current;
+    if (!audio) return;
+    audio.volume = .32;
+    const restore = () => {
+      try {
+        const time = Number(sessionStorage.getItem('maanvi.musicTime') || '0');
+        if (Number.isFinite(time) && time > 0 && Number.isFinite(audio.duration)) audio.currentTime = time % audio.duration;
+      } catch { /* Optional playback continuity. */ }
+    };
+    const save = () => {
+      try { sessionStorage.setItem('maanvi.musicTime', String(audio.currentTime)); } catch { /* Optional playback continuity. */ }
+    };
+    audio.addEventListener('loadedmetadata', restore);
+    window.addEventListener('pagehide', save);
+    if (!introActive && siteSound) audio.play().catch(() => {});
+    else audio.pause();
+    const retryAfterGesture = (event: Event) => {
+      if (introActive || !siteSound || (event.target as Element | null)?.closest('button')) return;
+      if (audio.paused) audio.play().catch(() => {});
+    };
+    document.addEventListener('pointerdown', retryAfterGesture);
+    document.addEventListener('keydown', retryAfterGesture);
+    return () => {
+      save();
+      document.removeEventListener('pointerdown', retryAfterGesture);
+      document.removeEventListener('keydown', retryAfterGesture);
+      audio.removeEventListener('loadedmetadata', restore);
+      window.removeEventListener('pagehide', save);
+    };
+  }, [introActive, siteSound]);
   const toggleFavorite = (id:string) => setFavorites(current=>{const next=current.includes(id)?current.filter(v=>v!==id):[...current,id];try{localStorage.setItem('maanvi.favorites',JSON.stringify(next));}catch{/* Available for this visit. */}return next;});
   const chapterLink = (id:string) => home?`#${id}`:`/#${id}`;
+  const toggleSiteSound = () => {
+    const audio = siteAudio.current;
+    // A blocked autoplay can be started directly by the sound control.
+    if (!introActive && siteSound && audio?.paused) {
+      audio.play().catch(() => {});
+      return;
+    }
+    const next = !siteSound;
+    try { sessionStorage.setItem('maanvi.musicMuted', String(!next)); } catch { /* Optional sound preference. */ }
+    setSiteSound(next);
+    if (!introActive && next) audio?.play().catch(() => {});
+    else audio?.pause();
+  };
   return <div className={`maanvi-site ${home?'is-home':'is-inner'}`} lang={language}>
+    {path === '/' && <MaanviIntro te={te} soundOn={siteSound} onToggleSound={toggleSiteSound} onRevealHome={revealHome} onComplete={revealHome}/>}
     <a className="journey-skip" href="#main-content">{t('విషయానికి వెళ్ళండి','Skip to content')}</a>
     <header className="journey-header"><a className="journey-brand" href="/" aria-label="Maanvi home"><BrandLogo/></a><nav className={menu?'is-open':''} aria-label={t('ప్రధాన పేజీలు','Main navigation')}><a className={hash==='#cloth'?'is-active':''} href={chapterLink('cloth')} onClick={()=>setMenu(false)}>{t('మన చీరలు','Our cloth')}</a><a className={path==='/archive'?'is-active':''} href="/archive">{t('కలెక్షన్ బుక్','Collection book')}</a><a className={path==='/our-story'?'is-active':''} href="/our-story" onClick={()=>setMenu(false)}>{t('మా కథ','Our family')}</a><a className={path==='/book'?'is-active header-viewing':'header-viewing'} href="/book">{t('మాట్లాడుకుందాం','Meet Maanvi')}</a></nav><div className="journey-language" aria-label="Language"><button lang="te" aria-pressed={te} onClick={()=>setLanguage('te')}>తెలుగు</button><span>/</span><button lang="en" aria-pressed={!te} onClick={()=>setLanguage('en')}>EN</button></div><button className="journey-menu" aria-expanded={menu} aria-label={menu?t('మెనూ మూసివేయండి','Close menu'):t('మెనూ తెరవండి','Open menu')} onClick={()=>setMenu(!menu)}>{menu?'×':'☰'}</button></header>
     <main id="main-content" tabIndex={-1}>
@@ -58,6 +111,13 @@ export default function App() {
       </div>
       <div className="footer-bottom"><small>© {new Date().getFullYear()} Maanvi · Vijayawada</small><a href="/visit">{t('దుకాణం: విజయవాడ','Store: Vijayawada')}</a><span>{t('తెలుగు / English','Telugu / English')}</span></div>
     </footer>
-    {home&&<button className="journey-motion" aria-pressed={paused} onClick={()=>setPaused(v=>!v)}>{paused?'▷':'Ⅱ'} <span>{paused?t('కదలిక కొనసాగించండి','Resume motion'):t('కదలిక ఆపండి','Pause motion')}</span></button>}
+    <><audio ref={siteAudio} src="/audio/maanvi-veena.mp3" loop preload="auto"/><div className="journey-home-controls">
+      <button className="journey-home-icon" type="button" aria-label={siteSound?t('శబ్దం ఆపండి','Turn sound off'):t('శబ్దం ఆన్ చేయండి','Turn sound on')} aria-pressed={siteSound} onClick={toggleSiteSound}>
+        {siteSound?<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="M16 9.5a4 4 0 0 1 0 5m2.5-7.5a7.5 7.5 0 0 1 0 10"/></svg>:<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="m16 9 5 6m0-6-5 6"/></svg>}
+      </button>
+      <button className="journey-home-icon" type="button" aria-label={paused?t('కదలిక మొదలు పెట్టండి','Resume motion'):t('కదలిక ఆపండి','Pause motion')} aria-pressed={paused} onClick={()=>setPaused(v=>!v)}>
+        {paused?<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="m8 5 11 7-11 7V5Z"/></svg>:<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14m8-14v14"/></svg>}
+      </button>
+    </div></>
   </div>;
 }

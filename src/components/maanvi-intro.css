@@ -1,0 +1,50 @@
+.maanvi-intro{position:fixed;inset:0;z-index:1000;height:100dvh;overflow:hidden;background:#fff8ed;color:#ff6a00;isolation:isolate;transition:opacity .25s ease,background-color 1s ease}
+/* A soft extension of the same scene fills the viewport; the sharp film retains its ratio. */
+.maanvi-intro-atmosphere{position:absolute;inset:0;overflow:hidden;opacity:0;transition:opacity .7s ease,transform 1.2s ease;pointer-events:none}
+.maanvi-intro-atmosphere video{position:absolute;inset:-6%;width:112%;height:112%;object-fit:cover;filter:blur(38px) saturate(.75);opacity:.68}
+.maanvi-intro-haze{position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 20%,#fff8ed35 70%,#fff8ed80);}
+.maanvi-intro[data-phase=film] .maanvi-intro-atmosphere{opacity:1}
+.maanvi-welcome-film{position:absolute;left:50%;top:50%;width:min(90vw,1920px);height:auto;max-height:92dvh;aspect-ratio:16/9;transform:translate(-50%,-50%);object-fit:contain;opacity:0;transition:opacity .55s ease;mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent),linear-gradient(transparent,#000 9%,#000 91%,transparent);mask-composite:intersect;}
+.maanvi-intro[data-phase=film] .maanvi-welcome-film{opacity:1}
+.maanvi-intro-identity{position:absolute;z-index:3;left:50%;top:50%;width:min(38vw,480px);margin-left:calc(min(38vw,480px) / -2);margin-top:calc(min(38vw,480px) * -.3535);opacity:0;transform-origin:top left;pointer-events:none;transition:opacity .6s cubic-bezier(.22,1,.36,1)}
+.maanvi-intro-logo{position:relative;width:100%;height:auto;display:block;filter:brightness(1) invert(0);transition:filter 1s ease}
+.maanvi-intro-tagline{font-size:clamp(16px,2vw,25px);font-weight:400;margin:18px -30px 0;text-align:center;line-height:1.8;white-space:nowrap;transition:opacity .25s ease}
+.maanvi-intro[data-phase=brand] .maanvi-welcome-film{opacity:0;transition:none}
+.maanvi-intro[data-phase=brand] .maanvi-intro-identity{opacity:1;transition-duration:0s}
+.maanvi-seated-mark{display:block;width:100%;height:auto}
+.maanvi-magic-lettering{position:absolute;inset:0;width:100%;height:100%;clip-path:circle(0% at 72% 38%);opacity:0}
+.maanvi-intro[data-phase=brand] .maanvi-magic-lettering{animation:maanvi-letters-fill .9s cubic-bezier(.22,.72,.2,1) forwards}
+.maanvi-intro[data-phase=handoff] .maanvi-magic-lettering{clip-path:none;opacity:1}
+.maanvi-intro[data-phase=brand] .maanvi-intro-tagline{animation:maanvi-tagline-settle .35s ease .55s both}
+@keyframes maanvi-letters-fill{0%{clip-path:circle(0% at 72% 38%);opacity:0;filter:blur(2px)}30%{opacity:1}100%{clip-path:circle(115% at 72% 38%);opacity:1;filter:blur(0)}}
+@keyframes maanvi-tagline-settle{0%{opacity:0;transform:translateY(4px)}100%{opacity:1;transform:translateY(0)}}
+.maanvi-letter-glints{position:absolute;inset:0;pointer-events:none}
+.maanvi-letter-glints i{position:absolute;width:3px;height:3px;border-radius:50%;background:#ff6a00;box-shadow:0 0 8px #ff6a0070;opacity:0}
+.maanvi-letter-glints i:nth-child(1){left:47%;top:48%;--delay:.15s}
+.maanvi-letter-glints i:nth-child(2){left:34%;top:62%;--delay:.3s}
+.maanvi-letter-glints i:nth-child(3){left:84%;top:69%;--delay:.35s}
+.maanvi-letter-glints i:nth-child(4){left:21%;top:53%;--delay:.5s}
+.maanvi-letter-glints i:nth-child(5){left:49%;top:83%;--delay:.65s}
+.maanvi-intro[data-phase=brand] .maanvi-letter-glints i{animation:maanvi-letter-glint .35s ease var(--delay) both}
+@keyframes maanvi-letter-glint{0%,100%{opacity:0;transform:scale(.3)}50%{opacity:.7;transform:scale(1.4)}}
+.maanvi-intro[data-phase=handoff]{background:transparent;pointer-events:none}
+.maanvi-intro[data-phase=handoff] .maanvi-intro-atmosphere{opacity:0;transform:scale(1.025)}
+.maanvi-intro[data-phase=handoff] .maanvi-intro-identity{opacity:1}
+.maanvi-intro[data-phase=handoff] .maanvi-intro-logo{filter:brightness(0) invert(1)}
+.maanvi-intro[data-phase=handoff] .maanvi-intro-tagline{opacity:0}
+.maanvi-intro[data-phase=handoff] .maanvi-intro-controls{opacity:0;pointer-events:none}
+.maanvi-intro[data-phase=exit]{opacity:0;pointer-events:none;background:transparent}
+.intro-logo-travelling .journey-header .maanvi-logo{visibility:hidden}
+.maanvi-intro-controls{position:absolute;right:max(24px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:6;display:flex;gap:14px;transition:opacity .2s ease}
+.maanvi-intro-icon{width:36px;height:44px;display:grid;place-items:center;border:0;background:transparent;color:#ff6a00;cursor:pointer;padding:0}
+.maanvi-intro-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 0 #fff8ed)}
+.maanvi-intro-icon:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(max-width:760px){
+ .maanvi-welcome-film{width:100%;max-height:76dvh;aspect-ratio:1}
+ .maanvi-intro-atmosphere video{object-position:left center;filter:blur(24px) saturate(.8);opacity:.8}
+ .maanvi-intro-haze{background:linear-gradient(#fff8ed55,transparent 35%,transparent 65%,#fff8ed66)}
+ .maanvi-intro-identity{width:58vw;margin-left:-29vw;margin-top:-20.5vw}
+ .maanvi-intro-tagline{font-size:clamp(12px,3.4vw,20px);margin:18px -30px 0}
+ .maanvi-intro-controls{right:18px;bottom:12px;gap:10px}
+}
+@media(prefers-reduced-motion:reduce){.maanvi-intro,.maanvi-intro-atmosphere,.maanvi-intro-logo{transition:none}.maanvi-intro[data-phase=brand] .maanvi-magic-lettering,.maanvi-intro[data-phase=brand] .maanvi-intro-tagline{animation:none;clip-path:none;opacity:1}.maanvi-letter-glints{display:none}}

@@ -1,0 +1,27 @@
+{
+  "status": "blocked_insufficient_credits",
+  "jobSubmitted": false,
+  "tagline": "మన మాన్వి. మన వేడుక.",
+  "taglineLayout": "single line on desktop and mobile",
+  "params": {
+    "model": "minimax_h3_max",
+    "duration": 7,
+    "resolution": "768p",
+    "aspect_ratio": "16:9",
+    "count": 1,
+    "folder_id": "17bdb7ab-5225-47d3-8696-d0cdf7d26da0",
+    "medias": [
+      {
+        "role": "image",
+        "value": "0d18c460-c5d0-4af4-9143-45b13afba184"
+      },
+      {
+        "role": "image",
+        "value": "806c91db-8eca-41ef-8643-a56fc24b7b97"
+      }
+    ],
+    "prompt": "Create one continuous SEVEN SECOND illustrated fashion animation, with actual articulated walking and sitting motion. The reference storyboard defines ONE consistent adult Indian woman, her wardrobe progression and illustration style. NEVER show panels, still-picture slides, chapter cards or captions. The logo reference defines the exact final seated woman and Telugu ని geometry. Camera stays on the centerline: she walks toward the viewer, both shoulders forward, alternating steps, visible weight transfer, natural pallu movement. The same woman keeps walking as one outfit follows another: 0.0–0.6s lightweight cotton among clouds; 0.6–1.1s floral cotton in a garden; 1.1–1.7s teal workwear in a university courtyard; 1.7–2.3s traditional silk in a temple corridor; 2.3–2.9s festive pink among flowers; 2.9–3.5s deep blue with lamps; 3.5–4.3s red and gold bridal pattu. Match footsteps and body position continuously through environmental and garment transformations. Do not dissolve between static portraits. 4.3–5.0s surroundings clear to warm ivory, revealing the exact original Telugu ని as a physical saffron form immediately in her path. She takes her last step INTO its open curve, then turns left. 5.0–5.9s visibly bend knees and lower body into the original logo seated posture, hands resting over her raised knee and veil falling behind her. No chair, generic loop or Latin N. 5.9–6.4s saree details simplify into the exact original line-art woman, remaining original Maanvi lettering appears. 6.4–7.0s hold the original identity still, leaving room below for the exact Telugu tagline మన మాన్వి. మన వేడుక. to be typeset in the website rather than generated in the footage. Silent; no glitter, flashes, zooming stills, duplicate characters, lateral walk or camera cuts. Use reference 2 as the exact terminal composition, preserving every letter and the seated silhouette."
+  },
+  "estimatedCredits": 17.5,
+  "availableCredits": 0.5
+}
