@@ -1,4 +1,4 @@
-.flow-story{position:relative;height:600svh;--silk-reveal:0;--flow-progress:0;background:#ff6a00;color:#fff6e8}
+.flow-story{position:relative;height:600svh;--silk-reveal:0;--flow-progress:0;background:#ff6a00;color:#4f0400}
 .flow-sticky{position:sticky;top:0;height:100svh;min-height:620px;overflow:hidden;isolation:isolate}
 .flow-scene,.flow-shade{position:absolute;inset:0;z-index:-2}
 .flow-scene{background:#ff6a00}
@@ -10,15 +10,15 @@
 .flow-copy{position:absolute;left:6.6%;top:50%;width:47%;max-width:660px;margin-top:-180px;will-change:transform,opacity}
 .flow-copy h1{font-size:clamp(62px,6.2vw,105px);line-height:1.08;letter-spacing:-.035em;margin:0 0 25px}
 .flow-copy h2{font-size:clamp(44px,4.7vw,75px);line-height:1.12;letter-spacing:-.035em;margin:0 0 25px}
-.flow-copy>p:not(.flow-eyebrow){font-size:16px;line-height:1.9;max-width:440px;margin:0 0 22px}
+.flow-copy>p:not(.flow-eyebrow){font-size:16px;line-height:1.9;max-width:440px;margin:0 0 22px;color:#4f0400}
 .flow-copy .flow-eyebrow{font-size:10px;letter-spacing:.15em;line-height:1.8;margin:0 0 28px}
 .flow-translation{display:block;font:italic 23px 'Cormorant Garamond',serif!important;margin-top:-10px;margin-bottom:30px}
-.flow-copy .thread-button{margin-top:10px;font-size:13px;background:#fcf2df;color:#7e4430}
+.flow-copy .thread-button{margin-top:10px;font-size:13px;background:#fffff0;color:#4f0400;border-color:#4f0400}
 .flow-copy .chapter-link{font-size:14px;margin-top:10px}
 .flow-cotton{top:43%;margin-top:-95px}
 .flow-silk{top:42%;margin-top:-125px}
 .flow-silk>p:not(.flow-eyebrow){max-width:450px}
-.flow-caption{position:absolute;bottom:36px;left:6.6%;display:flex;align-items:center;gap:16px;font-size:9px;letter-spacing:.16em;color:#fff4e0aa}
+.flow-caption{position:absolute;bottom:36px;left:6.6%;display:flex;align-items:center;gap:16px;font-size:10px;letter-spacing:.14em;color:#fffff0}
 .flow-track{width:110px;height:1px;background:#fff4e044;overflow:hidden}.flow-track i{display:block;width:100%;height:100%;background:#ffdda5;transform:scaleX(var(--flow-progress));transform-origin:left}
 .flow-anchor{position:absolute;width:1px;height:1px;pointer-events:none;scroll-margin-top:0}.cotton-anchor{top:165svh}.silk-anchor{top:335svh}
 .collection-flow{position:relative;padding:130px 7vw 145px;display:flex;align-items:center;gap:7vw;background:#f7efe3;color:#78370e}
@@ -31,13 +31,13 @@
 .visit-chapter{background:#f7efe3}
 .journey-footer,.is-inner .journey-header{background:#bc4b13;color:#fff2df}
 .thread-button{background:#b34510}.thread-button:hover{background:#8d350c}
-.journey-header{padding:25px 6.6vw;gap:45px;color:#fff8ed}
+.journey-header{padding:25px 6.6vw;gap:45px;color:#4f0400}
 .journey-brand{line-height:0;flex-shrink:0}.journey-header .maanvi-logo{width:125px;height:89px}
-.journey-header nav a{font-size:12px}.journey-header nav{gap:30px}.header-viewing{border-bottom-color:#fff6}
+.journey-header nav a{font-size:13px}.journey-header nav{gap:30px}.header-viewing{border-bottom-color:currentColor}
 .journey-header:has(nav.is-open){background:#b64712}
 .journey-motion{background:#fcf4e8e8;color:#934016;border-color:#a9796840}
 .journey-home-controls{position:fixed;right:20px;bottom:18px;z-index:35;display:flex;align-items:center;gap:14px}
-.journey-home-icon{width:30px;height:44px;display:grid;place-items:center;padding:0;border:0;background:transparent;color:#ff6a00;cursor:pointer}
+.journey-home-icon{width:30px;height:44px;display:grid;place-items:center;padding:0;border:0;background:transparent;color:#4f0400;cursor:pointer}
 .journey-home-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 0 #fff8ed)}
 .journey-home-icon:focus-visible{outline:2px solid currentColor;outline-offset:5px}
 .maanvi-site.intro-release .flow-sticky{animation:maanvi-home-arrival 1000ms cubic-bezier(.2,.8,.2,1) both}
@@ -72,34 +72,34 @@
 }
 
 /* Utility footer: compact columns with the same saffron / ivory contrast. */
-.journey-footer{display:block;padding:64px 6.6vw 24px;background:#bc4b13;color:#fff4df}
+.journey-footer{display:block;padding:64px 6.6vw 24px;background:#bc4b13;color:#fffff0}
 .journey-footer a{color:inherit;text-decoration:none}.journey-footer a:hover{text-decoration:underline;text-underline-offset:5px}
-.footer-brand{display:flex;align-items:center;gap:25px;padding-bottom:42px;border-bottom:1px solid #fff5}
+.footer-brand{display:flex;align-items:center;gap:25px;padding-bottom:42px;border-bottom:1px solid #fffff0}
 .footer-brand .maanvi-logo{width:110px;height:78px}.footer-brand p{font-size:18px;margin:0}.footer-social{display:flex;gap:18px;margin-left:auto;font-size:12px}
-.footer-newsletter{display:grid;grid-template-columns:1fr 1fr;gap:8px 7vw;padding:40px 0;border-bottom:1px solid #fff5}.footer-newsletter h2,.footer-columns h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 14px}.footer-newsletter p{font-size:13px;margin:0;max-width:440px}.footer-newsletter form{grid-column:2;display:flex;align-items:end;border-bottom:1px solid #fff8;min-width:260px}.footer-newsletter label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.footer-newsletter input{flex:1;background:transparent;border:0;color:#fff4df;padding:10px 0;font:13px 'Manrope',sans-serif;outline:0}.footer-newsletter input::placeholder{color:#fff4dfb3}.footer-newsletter button{border:0;background:transparent;color:#fff4df;font-size:24px;padding:0 0 5px;cursor:pointer}
-.footer-columns{display:grid;grid-template-columns:repeat(4,1fr);gap:35px;padding:42px 0}.footer-columns>div{display:flex;flex-direction:column;align-items:flex-start;gap:11px}.footer-columns a{font-size:12px}.footer-bottom{display:flex;align-items:center;gap:28px;border-top:1px solid #fff5;padding-top:22px;font-size:11px}.footer-bottom small{margin-right:auto;letter-spacing:.08em}.footer-bottom a,.footer-bottom span{font-size:11px}
-@media(max-width:760px){.journey-footer{padding:44px 24px 22px}.footer-brand{align-items:flex-start;flex-wrap:wrap;gap:15px}.footer-brand .maanvi-logo{width:85px;height:60px}.footer-brand p{font-size:15px;margin-top:12px}.footer-social{width:100%;margin:10px 0 0}.footer-newsletter{display:block;padding:32px 0}.footer-newsletter p{font-size:12px;margin-bottom:22px}.footer-newsletter form{min-width:0}.footer-columns{grid-template-columns:repeat(2,1fr);gap:32px 20px;padding:32px 0}.footer-columns h2{font-size:9px}.footer-columns a{font-size:11px}.footer-bottom{align-items:flex-start;flex-wrap:wrap;gap:12px}.footer-bottom small{width:100%}.footer-bottom a,.footer-bottom span{font-size:10px}}
+.footer-newsletter{display:grid;grid-template-columns:1fr 1fr;gap:8px 7vw;padding:40px 0;border-bottom:1px solid #fffff0}.footer-newsletter h2,.footer-columns h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}.footer-newsletter p{font-size:13px;margin:0;max-width:440px}.footer-newsletter form{grid-column:2;display:flex;align-items:end;border-bottom:2px solid #fffff0;min-width:260px}.footer-newsletter label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.footer-newsletter input{flex:1;background:transparent;border:0;color:#fffff0;padding:10px 0;font:13px 'Manrope',sans-serif;outline:0}.footer-newsletter input::placeholder{color:#fffff0}.footer-newsletter button{border:0;background:transparent;color:#fffff0;font-size:24px;padding:0 0 5px;cursor:pointer}
+.footer-columns{display:grid;grid-template-columns:repeat(4,1fr);gap:35px;padding:42px 0}.footer-columns>div{display:flex;flex-direction:column;align-items:flex-start;gap:11px}.footer-columns a{font-size:13px}.footer-bottom{display:flex;align-items:center;gap:28px;border-top:1px solid #fffff0;padding-top:22px;font-size:12px}.footer-bottom small{margin-right:auto;letter-spacing:.06em}.footer-bottom a,.footer-bottom span{font-size:12px}
+@media(max-width:760px){.journey-footer{padding:44px 24px 22px}.footer-brand{align-items:flex-start;flex-wrap:wrap;gap:15px}.footer-brand .maanvi-logo{width:85px;height:60px}.footer-brand p{font-size:15px;margin-top:12px}.footer-social{width:100%;margin:10px 0 0;font-size:13px}.footer-newsletter{display:block;padding:32px 0}.footer-newsletter p{font-size:13px;margin-bottom:22px}.footer-newsletter form{min-width:0}.footer-columns{grid-template-columns:repeat(2,1fr);gap:32px 20px;padding:32px 0}.footer-columns h2{font-size:11px}.footer-columns a{font-size:12px;line-height:1.5}.footer-bottom{align-items:flex-start;flex-wrap:wrap;gap:12px}.footer-bottom small{width:100%}.footer-bottom a,.footer-bottom span{font-size:12px}}
 @media(max-width:760px) and (max-height:700px){.flow-copy{top:116px}.flow-copy h1{font-size:39px}.flow-copy h2{font-size:32px}.flow-copy .flow-eyebrow{margin-bottom:12px}.flow-copy>p:not(.flow-eyebrow){font-size:12px;line-height:1.65}.flow-translation{font-size:17px!important;margin-bottom:12px}.flow-scene{top:40%}}
 
 /* Saffron ties the brand pages together; ivory gives the collection room. */
-.home-invitation{padding:110px 7vw;background:#c45417;color:#fff8e9;text-align:center}
+.home-invitation{padding:110px 7vw;background:#c45417;color:#fffff0;text-align:center}
 .home-invitation h2{font-size:clamp(38px,4.6vw,70px);margin:20px 0}
 .home-invitation>p:not(.chapter-kicker){max-width:620px;margin:0 auto 30px;font-size:16px;line-height:1.9}
 .home-invitation>div{display:flex;justify-content:center;align-items:center;gap:30px;flex-wrap:wrap}
-.home-invitation .chapter-link{margin:0}.home-invitation .ivory{background:#fff4df;color:#92370c}
-.home-invitation .ivory-link{display:inline-flex;align-items:center;justify-content:center;padding:18px 27px;border:0;border-radius:60px;background:#fff4df;color:#92370c;text-decoration:none}
+.home-invitation .chapter-link{margin:0}.home-invitation .ivory{background:#fffff0;color:#4f0400;border-color:#4f0400}
+.home-invitation .ivory-link{display:inline-flex;align-items:center;justify-content:center;padding:18px 27px;border:0;border-radius:60px;background:#fffff0;color:#4f0400;text-decoration:none}
 .journey-header nav a.is-active{border-bottom:1px solid currentColor;padding-bottom:5px}
 .flow-photobook{top:41%;margin-top:-125px}
 .flow-cotton{color:#fff;max-width:530px;text-shadow:none}
 .flow-cotton .chapter-link{color:#fff}
 .flow-cotton>p:not(.flow-eyebrow){font-weight:600;font-size:16px}
 .is-home .journey-header nav,.is-home .journey-language{color:#fff6e8}
-.book-intro,.collection-book,.book-invitation{background:#fff7e9;color:#81360d}
-.book-intro>p,.book-invitation>p:not(.eyebrow){color:#81360d}
-.collection-book>.image-disclosure{margin:0 auto 55px;max-width:900px;padding:28px 0;color:#77370f}
+.book-intro,.collection-book,.book-invitation{background:#fffff0;color:#4f0400}
+.book-intro>p,.book-invitation>p:not(.eyebrow){color:#4f0400}
+.collection-book>.image-disclosure{margin:0 auto 55px;max-width:900px;padding:28px 0;color:#4f0400}
 .book-turn-stage{position:relative;perspective:2200px;isolation:isolate}
-.book-years button[aria-pressed=true]{background:#bc4b13;color:#fff6e5}
-.book-seasons button[aria-pressed=true]{color:#a4400d;box-shadow:inset 0 -1px #a4400d}
+.book-years button{min-height:44px;color:#4f0400;border:1px solid #4f0400!important}.book-years button[aria-pressed=true]{background:#ff4f00;color:#4f0400}
+.book-seasons button{min-height:44px;color:#4f0400;border-bottom:2px solid transparent!important}.book-seasons button[aria-pressed=true]{color:#4f0400;box-shadow:inset 0 -2px #4f0400}
 .book-image-button{background:#fff9ed}.book-image-button img{height:min(62svh,660px);aspect-ratio:auto;object-fit:contain}
 .book-spread{animation:none;box-shadow:0 35px 75px #76320824,0 4px 0 #e9d4af,0 8px 0 #fff4df,0 11px 0 #dcbf92}
 .turning-leaf{position:absolute;top:0;bottom:0;width:50%;transform-style:preserve-3d;z-index:3;pointer-events:none}
@@ -125,4 +125,30 @@
  .book-image-button img{height:auto;aspect-ratio:2/3}
  .is-home .journey-header nav.is-open{color:#fff7e7}
  .flow-still .flow-photobook{top:auto;min-height:500px}
+}
+
+/* Accessibility refinements: retain Maanvi's pigment while making text and controls dependable. */
+.maanvi-site :focus-visible{outline:3px solid #4f0400;outline-offset:4px}
+.is-inner .journey-header :focus-visible,.journey-footer :focus-visible,.meet-chapter :focus-visible,.viewing-aside :focus-visible{outline-color:#fffff0}
+.journey-header nav a:hover,.journey-header nav a:focus-visible{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px;opacity:1}
+.is-home .journey-header nav,.is-home .journey-language{color:#4f0400}
+.is-home .journey-brand{color:#fffff0}
+.flow-copy .chapter-link{color:#4f0400;font-weight:600}
+.flow-cotton,.flow-cotton>p:not(.flow-eyebrow),.flow-cotton .chapter-link{color:#4f0400}
+.flow-copy .thread-button:hover,.home-invitation .ivory:hover{background:#fffff0;color:#4f0400;transform:translateY(-2px)}
+.viewing-form input,.viewing-form select,.viewing-form textarea{border:2px solid #4f0400;background:#fffff0;color:#4f0400}
+.viewing-form input::placeholder,.viewing-form textarea::placeholder{color:#4f0400;opacity:.78}
+.viewing-form input:focus-visible,.viewing-form select:focus-visible,.viewing-form textarea:focus-visible{outline:3px solid #ff4f00;outline-offset:3px;border-color:#4f0400}
+.viewing-form .thread-button{background:#ff4f00;color:#4f0400;border-color:#4f0400;font-weight:700}
+.book-chapter-heading .save-button,.book-controls>button{min-height:44px;border:2px solid #4f0400;color:#4f0400}
+.book-thumbnails button[aria-pressed=true]{border:2px solid #4f0400}
+.book-image-button>span{color:#4f0400;background:#fffff0;font-size:10px;font-weight:600}
+.image-disclosure p:not(.eyebrow){font-size:13px;line-height:1.85;color:#4f0400}
+@media(max-width:760px){
+ .flow-copy>p:not(.flow-eyebrow){font-size:14px;line-height:1.9;max-width:340px}
+ .flow-copy .flow-eyebrow{font-size:10px;letter-spacing:.07em}
+ .flow-caption{font-size:10px;letter-spacing:.1em}
+ .image-disclosure p:not(.eyebrow){font-size:13px;line-height:1.85}
+ .image-disclosure .eyebrow,.book-art-label,.book-chapter-heading .eyebrow{font-size:10px;letter-spacing:.07em}
+ .book-leaf figcaption small,.book-endpaper .text-link{font-size:10px}
 }

@@ -19,6 +19,9 @@ export const welcomeFilms = {
 };
 
 export function shouldOpen() {
-  if (new URLSearchParams(location.search).get('intro') === '1') return true;
+  const preference = new URLSearchParams(location.search).get('intro');
+  if (preference === '1') return true;
+  if (preference === '0') return false;
+  if (location.hash) return false;
   try { return localStorage.getItem('maanviIntroSeen') !== 'true'; } catch { return true; }
 }

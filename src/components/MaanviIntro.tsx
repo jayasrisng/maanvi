@@ -9,6 +9,7 @@ const seenKey = 'maanviIntroSeen';
 export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, onRevealHome }: { te: boolean; soundOn: boolean; onToggleSound: () => void; onComplete?: () => void; onRevealHome?: () => void }) {
   const muted = !soundOn;
   const [paused, setPaused] = useState(false);
+  const playbackPaused = useRef(false);
   const [open, setOpen] = useState(shouldOpen);
   const [phase, setPhase] = useState<'loading' | 'film' | 'brand' | 'handoff' | 'exit'>('loading');
   const [source] = useState(() => matchMedia('(max-width: 760px)').matches ? welcomeFilms.mobile : welcomeFilms.desktop);
@@ -145,14 +146,14 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       later(() => { if (!started) fallback(); }, 2500);
     }
     const retrySound = (event: Event) => {
-      if (!movie || !soundEnabled.current || handingOff || exiting) return;
-      if ((event.target as Element | null)?.closest('button')) return;
+      if (!movie || !soundEnabled.current || playbackPaused.current || handingOff || exiting) return;
+      if ((event.target as Element | null)?.closest('[data-sound-control]')) return;
       movie.muted = false;
-      if (!started) movie.play().catch(() => {});
+      if (movie.paused && !movie.ended) movie.play().catch(() => {});
     };
-    document.addEventListener('pointerdown', retrySound);
+    document.addEventListener('pointerup', retrySound);
+    document.addEventListener('click', retrySound);
     document.addEventListener('keydown', retrySound);
-    const hidden = () => { if (document.hidden) exit(); };
     const key = (event: KeyboardEvent) => {
       if (event.key === 'Escape') exit();
       if (event.key === 'Tab') {
@@ -163,7 +164,6 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       }
     };
     document.addEventListener('keydown', key);
-    document.addEventListener('visibilitychange', hidden);
     window.addEventListener('pagehide', remember);
     return () => {
       disposed = true;
@@ -181,10 +181,10 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       movie?.removeEventListener('playing', playing);
       movie?.removeEventListener('ended', formLogo);
       movie?.removeEventListener('error', fallback);
-      document.removeEventListener('pointerdown', retrySound);
+      document.removeEventListener('pointerup', retrySound);
+      document.removeEventListener('click', retrySound);
       document.removeEventListener('keydown', retrySound);
       document.removeEventListener('keydown', key);
-      document.removeEventListener('visibilitychange', hidden);
       window.removeEventListener('pagehide', remember);
       document.body.style.overflow = previousOverflow;
       if (site) site.inert = wasInert;
@@ -205,8 +205,9 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
   const togglePlayback = () => {
     if (!video.current) return;
     if (video.current.paused) {
-      video.current.play().then(() => setPaused(false)).catch(() => {});
+      video.current.play().then(() => { playbackPaused.current = false; setPaused(false); }).catch(() => {});
     } else {
+      playbackPaused.current = true;
       video.current.pause();
       setPaused(true);
     }
@@ -225,10 +226,10 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
         <p className="maanvi-intro-tagline" lang="te">మన మాన్వి. మన వేడుక.</p>
       </div>
       {!reduced && <div className="maanvi-intro-controls">
-        <button className="maanvi-intro-icon" type="button" aria-label={te ? 'హోమ్ పేజీకి వెళ్ళండి' : 'Go to home page'} onClick={() => { window.location.assign('/'); }}>
+        <button className="maanvi-intro-icon" type="button" aria-label={te ? 'హోమ్ పేజీకి వెళ్ళండి' : 'Go to home page'} onClick={() => { window.location.assign('/?intro=0'); }}>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="m3.5 10 8.5-7 8.5 7v10H14v-6h-4v6H3.5V10Z"/></svg>
         </button>
-        <button className="maanvi-intro-icon" type="button" aria-label={muted ? (te ? 'శబ్దం ఆన్ చేయండి' : 'Turn sound on') : (te ? 'శబ్దం ఆపండి' : 'Turn sound off')} aria-pressed={!muted} onClick={toggleSound}>
+        <button className="maanvi-intro-icon" data-sound-control type="button" aria-label={muted ? (te ? 'శబ్దం ఆన్ చేయండి' : 'Turn sound on') : (te ? 'శబ్దం ఆపండి' : 'Turn sound off')} aria-pressed={!muted} onClick={toggleSound}>
           {muted ? <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="m16 9 5 6m0-6-5 6"/></svg> : <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="M16 9.5a4 4 0 0 1 0 5m2.5-7.5a7.5 7.5 0 0 1 0 10"/></svg>}
         </button>
         <button className="maanvi-intro-icon" type="button" aria-label={paused ? (te ? 'కదలిక మొదలు పెట్టండి' : 'Play intro') : (te ? 'కదలిక ఆపండి' : 'Pause intro')} aria-pressed={paused} onClick={togglePlayback}>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;900&family=Manrope:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600&display=swap');
+
+/* Final brand/accessibility layer. Artwork, composition and motion remain in their existing files. */
+:root { --ink:#4F0400; --paper:#FFFFF0; --cream:#FFFFF0; --orange:#FF4F00; --orange-deep:#4F0400; --aubergine:#4F0400; }
+.maanvi-site { color:var(--ink); font-family:'Manrope','Noto Sans Telugu',sans-serif; }
+.maanvi-site[lang=te] { font-family:'Noto Sans Telugu','Manrope',sans-serif; }
+.maanvi-site h1,.maanvi-site h2,.maanvi-site h3 { font-family:'Fraunces',serif; }
+.maanvi-site[lang=te] h1,.maanvi-site[lang=te] h2,.maanvi-site[lang=te] h3 { font-family:'Lepakshi','Noto Serif Telugu',serif; letter-spacing:0; }
+.maanvi-site button,.maanvi-site input,.maanvi-site select,.maanvi-site textarea { font-family:inherit; }
+.maanvi-site .journey-header,.maanvi-site .journey-header:has(nav.is-open) { background:var(--orange); color:var(--ink); }
+.maanvi-site .journey-header nav,.maanvi-site .journey-language { color:var(--ink); }
+.maanvi-site .journey-header nav.is-open { background:var(--orange); color:var(--ink); }
+.maanvi-site .journey-brand { color:var(--paper); }
+.maanvi-site .journey-language span { opacity:1; }
+.maanvi-site .journey-language button,.maanvi-site .journey-menu { min-height:44px; min-width:24px; }
+.maanvi-site .journey-header :focus-visible { outline-color:var(--ink); }
+.maanvi-site .journey-header nav a,.maanvi-site .journey-header nav a.is-active { border-bottom:0; padding-bottom:0; text-decoration:none; }
+.maanvi-site .journey-header nav a.is-active { font-weight:600; }
+.maanvi-site .journey-header nav a:hover { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:5px; }
+.maanvi-site .journey-header nav a:focus-visible { text-decoration:none; }
+.maanvi-site .journey-language button { border-bottom:0; font-weight:400; }
+.maanvi-site .journey-language button[aria-pressed=true] { font-weight:600; }
+.maanvi-site .journey-menu { font-size:20px; font-weight:400; }
+
+/* Keep the imagery open: no boxed backplates behind the moving copy. */
+.maanvi-site .flow-copy { color:var(--ink); }
+.maanvi-site .flow-copy>p,.maanvi-site .flow-copy .flow-translation,.maanvi-site .flow-copy .chapter-link { color:var(--ink); }
+.maanvi-site .flow-silk,.maanvi-site .flow-silk>p,.maanvi-site .flow-silk .chapter-link { color:var(--paper); }
+.maanvi-site .flow-shade { background:linear-gradient(90deg,#FFFFF040,transparent 62%); }
+.maanvi-site .flow-story[data-act=silk] .flow-shade { background:linear-gradient(90deg,#4F04008C,transparent 70%); }
+.maanvi-site .flow-copy .flow-eyebrow { font-size:12px; letter-spacing:.08em; }
+.maanvi-site .flow-copy>p:not(.flow-eyebrow) { font-size:16px; }
+.maanvi-site .flow-copy .chapter-link:focus-visible { outline-color:currentColor; }
+.maanvi-site .flow-copy .thread-button { background:var(--paper); color:var(--ink); border-color:var(--paper); min-height:48px; font-size:14px; }
+.maanvi-site .flow-caption { background:#4F0400E8; color:var(--paper); padding:5px 8px; }
+.maanvi-site .flow-track { background:var(--paper); }
+.maanvi-site .flow-track i { background:var(--orange); }
+.maanvi-site .flow-story,.maanvi-site .flow-sticky,.maanvi-site .flow-scene,.maanvi-site .flow-sticky::before { background-color:var(--orange); }
+
+/* Ivory separates the invitation from the bright Sindoor Orange footer. */
+.maanvi-site .home-invitation { background:var(--paper); color:var(--ink); }
+.maanvi-site .home-invitation h2 { color:var(--orange); }
+.maanvi-site .home-invitation .ivory { background:var(--orange); color:var(--ink); border:1px solid var(--ink); font-weight:600; }
+.maanvi-site .home-invitation .ivory:hover { background:var(--orange); color:var(--ink); }
+.maanvi-site .home-invitation .ivory-link { display:inline-flex; align-items:center; justify-content:center; background:var(--orange); color:var(--ink); border:1px solid var(--ink); border-radius:60px; padding:18px 27px; min-height:48px; font-size:14px; font-weight:600; margin-top:0; }
+.maanvi-site .home-invitation .thread-button.ivory:hover,.maanvi-site .home-invitation .ivory-link:hover { background:var(--ink); color:var(--paper); text-decoration:none; }
+.maanvi-site .journey-footer { background:var(--orange); color:var(--paper); }
+.maanvi-site .footer-brand>a { color:var(--paper); }
+.maanvi-site .footer-brand,.maanvi-site .footer-newsletter,.maanvi-site .footer-newsletter form,.maanvi-site .footer-bottom { border-color:var(--paper); }
+.maanvi-site .journey-footer h2 { font-family:inherit; font-weight:600; letter-spacing:.07em; line-height:1.6; }
+.maanvi-site .footer-newsletter input { min-width:0; width:100%; font-size:16px; color:var(--paper); }
+.maanvi-site .footer-newsletter button { font-family:inherit; font-size:16px; min-height:44px; flex-shrink:0; color:var(--paper); }
+.maanvi-site .footer-newsletter form:focus-within { outline:none; border-bottom-width:3px; }
+.maanvi-site .footer-newsletter input:user-invalid { outline:none; text-decoration:underline wavy; }
+.maanvi-site .footer-newsletter input::placeholder { color:var(--paper); opacity:1; }
+.maanvi-site .journey-footer :focus-visible { outline:1px solid var(--paper); outline-offset:3px; }
+.maanvi-site .footer-newsletter input:focus-visible { outline:none; }
+.maanvi-site .journey-home-icon { width:44px; height:44px; background:transparent; color:var(--ink); border:0; border-radius:0; }
+.maanvi-site .journey-home-icon svg { width:20px; height:20px; stroke-width:1.5; filter:none; }
+.maanvi-site .journey-home-icon svg path[fill=currentColor] { fill:none; stroke:currentColor; }
+.maanvi-site.is-home:has(.flow-story[data-act=silk]) .journey-home-icon { color:var(--paper); }
+.maanvi-intro .maanvi-intro-icon { width:44px; }
+.maanvi-intro .maanvi-intro-icon svg { width:20px; height:20px; stroke-width:1.5; filter:none; }
+.maanvi-intro .maanvi-intro-icon svg path[fill=currentColor] { fill:none; stroke:currentColor; }
+
+/* Match the same verified pairs on the remaining shared page surfaces. */
+.maanvi-site .family-chapter { background:var(--orange); color:var(--ink); }
+.maanvi-site .family-photo span { background:var(--ink); color:var(--paper); font-size:11px; }
+.maanvi-site .meet-chapter,.maanvi-site .viewing-aside { background:var(--orange); color:var(--ink); }
+.maanvi-site .meet-chapter :focus-visible,.maanvi-site .viewing-aside :focus-visible { outline-color:var(--ink); }
+.maanvi-site .viewing-time,.maanvi-site .meeting-steps article>span { color:var(--ink); }
+.maanvi-site .visit-chapter,.maanvi-site .viewing-form,.maanvi-site .info-page { background:var(--paper); color:var(--ink); }
+.maanvi-site .info-page .info-intro,.maanvi-site .form-note { color:var(--ink); }
+.maanvi-site .thread-button,.maanvi-site .info-page .thread-button,.maanvi-site .book-invitation .dark-button { background:var(--orange); color:var(--ink); border-color:var(--ink); font-weight:600; }
+.maanvi-site .thread-button.ivory { background:var(--paper); color:var(--ink); }
+.maanvi-site .home-invitation .thread-button.ivory { background:var(--orange); color:var(--ink); }
+.maanvi-site .thread-button:hover,.maanvi-site .info-page .thread-button:hover,.maanvi-site .book-invitation .dark-button:hover { background:var(--ink); color:var(--paper); }
+.maanvi-site .book-invitation .dark-button { min-height:48px; font-size:13px; letter-spacing:.06em; }
+.maanvi-site .viewing-form input:user-invalid,.maanvi-site .viewing-form select:user-invalid { border-color:#E00425; }
+.maanvi-site .viewing-form input,.maanvi-site .viewing-form select,.maanvi-site .viewing-form textarea { font-size:16px; }
+.maanvi-site .viewing-progress>span { background:var(--paper); border:1px solid var(--ink); }
+.maanvi-site .viewing-progress>span.filled { background:var(--orange); }
+.maanvi-site .book-art-label,.maanvi-site .book-controls p span,.maanvi-site .book-leaf figcaption,.maanvi-site .image-disclosure .eyebrow { color:var(--ink); }
+.maanvi-site .book-image-button,.maanvi-site .book-lightbox,.maanvi-site .book-spread { background:var(--paper); color:var(--ink); }
+.maanvi-site .book-chapter-heading h2 { font-family:'Fraunces',serif!important; }
+.maanvi-site[lang=te] .book-chapter-heading h2 { font-family:'Lepakshi','Noto Serif Telugu',serif!important; }
+.maanvi-site .book-years button[aria-pressed=true] { background:var(--orange); color:var(--ink); }
+.maanvi-site .save-button.saved { background:var(--ink); color:var(--paper); }
+.maanvi-site .book-lightbox figcaption { font-size:13px; }
+.maanvi-site .book-leaf figcaption>span { font-family:'Manrope',sans-serif; font-size:14px; line-height:1.6; }
+.maanvi-site .chapter-kicker { font-size:12px; letter-spacing:.08em; }
+.maanvi-site .journey-skip { background:var(--paper); color:var(--ink); }
+@media(min-width:761px) and (max-height:760px) {
+ .maanvi-site .flow-welcome { margin-top:-155px; }
+}
+@media(max-width:760px) {
+ .maanvi-site .flow-silk,.maanvi-site .flow-silk>p,.maanvi-site .flow-silk .chapter-link { color:var(--ink); }
+ .maanvi-site .flow-copy .flow-eyebrow { font-size:11px; letter-spacing:.04em; }
+ .maanvi-site .flow-copy>p:not(.flow-eyebrow) { font-size:14px; line-height:1.85; }
+ .maanvi-site .flow-copy h2 { font-size:32px; }
+ .maanvi-site .footer-columns h2 { font-size:12px; }
+ .maanvi-site .footer-columns a { font-size:13px; line-height:1.7; }
+ .maanvi-site .footer-newsletter h2 { font-size:13px; }
+ .maanvi-site .info-page p:not(.chapter-kicker) { font-size:16px; }
+ .maanvi-site .book-chapter-heading .save-button { white-space:normal; font-size:12px; }
+ .maanvi-site .book-controls p span { font-size:11px; }
+}
