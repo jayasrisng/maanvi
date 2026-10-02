@@ -1,0 +1,217 @@
+/* One environmental canvas; pigment belongs to the artwork, cloth and signature accents. */
+.maanvi-site.is-home { background:var(--paper); }
+.maanvi-site.is-home .journey-header { background:linear-gradient(180deg,#FFFFF0F5,#FFFFF0D9 45%,#FFFFF000); color:var(--ink); }
+.maanvi-site.is-home .journey-brand { color:var(--orange); }
+.maanvi-site.is-home .journey-header:has(nav.is-open),
+.maanvi-site.is-home .journey-header nav.is-open { background:var(--paper); color:var(--ink); }
+.maanvi-site .flow-story { --photo-reveal:0; --scene-exit:0; height:440svh; background:var(--paper); }
+.maanvi-site .flow-story:not(.flow-still) .cotton-anchor { top:112svh; }
+.maanvi-site .flow-story:not(.flow-still) .silk-anchor { top:228svh; }
+.maanvi-site .flow-story.flow-still { height:auto; }
+.maanvi-site .flow-story.flow-still .cotton-anchor { top:65svh; }
+.maanvi-site .flow-story.flow-still .silk-anchor { top:130svh; }
+.maanvi-site .flow-sticky { background:var(--paper); }
+.maanvi-site .flow-sticky::before { content:none; }
+.maanvi-site .flow-scene,
+.maanvi-site .flow-story[data-act=cotton] .flow-scene {
+ inset:0; background:transparent; opacity:1;
+ mask-image:linear-gradient(90deg,transparent 18%,#000 69%),linear-gradient(0deg,#000,transparent 36%);
+ mask-composite:add; -webkit-mask-composite:source-over;
+}
+.maanvi-site .flow-scene>.flow-photo-cotton { opacity:calc(1 - var(--photo-reveal)); }
+.maanvi-site .flow-scene>.flow-photo-silk { opacity:calc(var(--silk-reveal) * (1 - var(--photo-reveal))); }
+.maanvi-site .flow-scene[data-ready=true]>canvas { opacity:calc(1 - var(--photo-reveal)); }
+.maanvi-site .flow-scene[data-ready=true]>.flow-photo-cotton,
+.maanvi-site .flow-scene[data-ready=true]>.flow-photo-silk { opacity:0; }
+.maanvi-site .flow-scene>.flow-photo-campaign {
+ left:auto; right:0; width:54%; height:100%; object-fit:cover; object-position:center;
+ z-index:2; opacity:var(--photo-reveal);
+ mask-image:linear-gradient(90deg,transparent,#000 20%,#000 88%,transparent);
+}
+.maanvi-site .flow-shade,.maanvi-site .flow-story[data-act=silk] .flow-shade { display:none; }
+.maanvi-site .flow-copy { width:43%; max-width:610px; }
+.maanvi-site .flow-welcome h1 span { display:block; white-space:nowrap; }
+.maanvi-site .flow-welcome h1 { font-size:clamp(34px,4.6vw,70px); }
+@media(min-width:761px) and (max-height:500px) {
+ .maanvi-site .flow-welcome { top:115px; margin-top:0; }
+}
+.maanvi-site .flow-photobook h2 { font-size:clamp(40px,3.9vw,60px); }
+.maanvi-site .flow-silk,.maanvi-site .flow-silk>p,.maanvi-site .flow-silk .chapter-link { color:var(--ink); }
+.maanvi-site .flow-copy .thread-button { background:var(--orange); color:var(--ink); border-color:var(--orange); }
+.maanvi-site .flow-copy .thread-button:hover { background:var(--ink); color:var(--paper); }
+.maanvi-site .flow-caption { background:var(--paper); color:var(--ink); padding:5px 10px; border-radius:20px; letter-spacing:.08em; }
+.maanvi-site.is-home .journey-home-icon { background:var(--paper); border-radius:50%; }
+.maanvi-site .flow-track { background:#4F040033; }
+.maanvi-site.is-home:has(.flow-story[data-act=silk]) .journey-home-icon { color:var(--ink); }
+.maanvi-site .home-invitation { background:var(--paper); border:0; padding:55px 7vw 65px; }
+.maanvi-site .flow-still .flow-copy { min-height:65svh; padding-top:95px; padding-bottom:55px; }
+.maanvi-site.intro-release .flow-sticky { animation:none; }
+.maanvi-site.intro-release .journey-header nav,.maanvi-site.intro-release .journey-language { animation:none; }
+
+/* Film, logo and homepage share Ivory; the travelling mark no longer inverts to white. */
+.maanvi-intro { background:#FFFFF0; color:#FF4F00; transition:opacity .7s ease,background-color 1.2s ease; }
+.maanvi-intro-atmosphere { transition:opacity 1.2s ease,transform 1.2s ease; }
+.maanvi-intro-atmosphere video { filter:blur(38px); opacity:.55; }
+.maanvi-intro-haze { background:radial-gradient(ellipse at center,transparent 20%,#FFFFF060 70%,#FFFFF0B3); }
+.maanvi-welcome-film { transition:opacity .9s ease; }
+.maanvi-intro[data-phase=brand] .maanvi-welcome-film { transition:opacity .9s ease; }
+.maanvi-intro[data-phase=handoff] { background:#FFFFF000; }
+.maanvi-intro[data-phase=handoff] .maanvi-intro-logo { filter:none; }
+.maanvi-intro .maanvi-letter-glints { display:none; }
+.maanvi-intro .maanvi-intro-icon { color:#FF4F00; }
+
+/* Static reading remains available without replacing the journey with color panels. */
+.maanvi-site .flow-still { background:var(--paper); }
+.maanvi-site .flow-still .flow-copy {
+ width:100%; max-width:none; background-color:var(--paper); color:var(--ink);
+ background-image:none; isolation:isolate;
+}
+.maanvi-site .flow-still .flow-copy::after {
+ content:''; position:absolute; inset:0; z-index:-1; pointer-events:none;
+ background-size:cover; background-position:right center;
+ mask-image:linear-gradient(90deg,transparent 30%,#000 72%),linear-gradient(180deg,transparent,#000 25%,#000 75%,transparent);
+ mask-composite:intersect;
+}
+.maanvi-site .flow-still .flow-welcome::after { background-image:url('/images/concepts/cotton-loom.webp'); }
+.maanvi-site .flow-still .flow-cotton::after { background-image:url('/images/concepts/cotton-loom.webp'); background-size:auto 160%; }
+.maanvi-site .flow-still .flow-silk::after { background-image:url('/images/concepts/silk-cocoons.webp'); }
+.maanvi-site .flow-still .flow-photobook::after { background-image:url('/images/hero/maanvi-salt-flats-original.jpg'); background-size:auto 100%; background-repeat:no-repeat; }
+.maanvi-site .flow-still .flow-copy>p,.maanvi-site .flow-still .flow-copy .chapter-link { color:var(--ink); }
+.maanvi-site .flow-still .flow-copy>h1,.maanvi-site .flow-still .flow-copy>h2,
+.maanvi-site .flow-still .flow-copy>p { max-width:43%; }
+
+@media(max-width:760px) {
+ .maanvi-site .flow-scene,.maanvi-site .flow-story[data-act=cotton] .flow-scene {
+  inset:0; mask-image:none;
+  mask-composite:add; -webkit-mask-composite:source-over;
+ }
+ .maanvi-site .flow-scene>.flow-photo-campaign { width:100%; height:65%; top:auto; bottom:0; object-position:center 52%; mask-image:linear-gradient(180deg,transparent,#000 24%); }
+ .maanvi-site .flow-copy { width:auto; max-width:none; }
+ .maanvi-site .flow-copy { isolation:isolate; }
+ .maanvi-site .flow-copy::before { content:''; position:absolute; z-index:-1; inset:-38px -56px -42px -24px; pointer-events:none; background:linear-gradient(105deg,#FFFFF0FC 0%,#FFFFF0F5 70%,#FFFFF0C7 91%,#FFFFF000); mask-image:linear-gradient(180deg,transparent,#000 16%,#000 80%,transparent); }
+ .maanvi-site .flow-caption { background:var(--paper); padding:5px 10px; border-radius:20px; }
+ .maanvi-site .flow-welcome h1 { font-size:clamp(30px,8.4vw,55px); }
+ .maanvi-site .flow-photobook h2 { font-size:32px; }
+ .maanvi-site .flow-copy .flow-eyebrow { margin-bottom:16px; }
+ .maanvi-intro-atmosphere video { filter:blur(24px); opacity:.55; }
+ .maanvi-intro-haze { background:linear-gradient(#FFFFF090,transparent 40%,transparent 60%,#FFFFF0B3); }
+ .maanvi-site .flow-still .flow-copy::after { mask-image:linear-gradient(180deg,transparent 42%,#000 72%,transparent); background-position:70% center; }
+ .maanvi-site .flow-still .flow-photobook::after { mask-image:linear-gradient(180deg,transparent 60%,#000 85%,transparent); }
+ .maanvi-site .flow-still .flow-copy>h1,.maanvi-site .flow-still .flow-copy>h2,
+ .maanvi-site .flow-still .flow-copy>p { max-width:100%; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .maanvi-intro,.maanvi-intro-atmosphere,.maanvi-welcome-film { transition:none; }
+ .maanvi-intro[data-phase=brand] .maanvi-welcome-film { transition:none; }
+}
+
+/* Reading light dissolves into the scene; no separate cards or cloud silhouettes. */
+.maanvi-site .flow-story:not(.flow-still) .flow-copy { isolation:isolate; }
+.maanvi-site .flow-story:not(.flow-still) :is(.flow-welcome,.flow-cotton)::before {
+ content:''; position:absolute; z-index:-1; pointer-events:none;
+ inset:-110px -150px -125px -10vw;
+ background:linear-gradient(100deg,#FFFFF0FA 0%,#FFFFF0F2 55%,#FFFFF090 76%,#FFFFF000 100%);
+ mask-image:linear-gradient(180deg,transparent 0%,#000 25%,#000 72%,transparent 100%);
+ border:0; border-radius:0; box-shadow:none; filter:blur(18px);
+}
+.maanvi-site .flow-story:not(.flow-still) .flow-silk::before {
+ content:none;
+}
+@media(max-width:760px) {
+ .maanvi-site .flow-story:not(.flow-still) :is(.flow-welcome,.flow-cotton)::before {
+  inset:-100px -85px -110px -70px;
+  background:linear-gradient(100deg,#FFFFF0FA 0%,#FFFFF0F0 70%,#FFFFF080 88%,#FFFFF000);
+  mask-image:linear-gradient(180deg,transparent,#000 24%,#000 72%,transparent);
+  filter:blur(16px);
+ }
+ /* Ivory lettering sits within the silk's shadows, not on a pale panel. */
+ .maanvi-site .flow-story:not(.flow-still) .flow-silk { top:125px; color:var(--paper); }
+ .maanvi-site .flow-story:not(.flow-still) .flow-silk>p { color:var(--paper); }
+ .maanvi-site .flow-story:not(.flow-still) .flow-silk::before {
+  content:''; position:absolute; z-index:-1; pointer-events:none;
+  inset:-180px -70px -105px;
+  background:linear-gradient(180deg,#4F040000,#4F0400DB 29%,#4F0400D9 65%,#4F040060 84%,#4F040000);
+  mask-image:none; border:0; border-radius:0; box-shadow:none; filter:none;
+ }
+}
+
+/* Requested Ivory lettering on every Sindoor surface. */
+.maanvi-site .journey-header,.maanvi-site .journey-header nav.is-open,
+.maanvi-site .family-chapter,.maanvi-site .meet-chapter,.maanvi-site .viewing-aside,
+.maanvi-site .viewing-time,.maanvi-site .meeting-steps article>span { color:var(--paper); }
+.maanvi-site.is-home .journey-header,.maanvi-site.is-home .journey-header nav.is-open { color:var(--ink); }
+.maanvi-site.is-inner .journey-header nav,.maanvi-site.is-inner .journey-language { color:var(--paper); }
+.maanvi-site.is-inner .journey-header :focus-visible { outline-color:var(--paper); }
+.maanvi-site .family-words>p,.maanvi-site .meet-intro,.maanvi-site .viewing-aside>p { color:var(--paper); }
+.maanvi-site .thread-button,.maanvi-site .info-page .thread-button,.maanvi-site .book-invitation .dark-button,
+.maanvi-site .flow-copy .thread-button,.maanvi-site .home-invitation .thread-button.ivory,.maanvi-site .home-invitation .ivory-link,
+.maanvi-site .book-years button[aria-pressed=true] { color:var(--paper); }
+.maanvi-site .thread-button.ivory { color:var(--ink); }
+.maanvi-site .flow-copy .thread-button.ivory,.maanvi-site .home-invitation .thread-button.ivory { color:var(--paper); }
+.maanvi-site .thread-button,.maanvi-site .home-invitation .ivory-link,.maanvi-site .book-invitation .dark-button {
+ transition:transform .3s cubic-bezier(.22,.72,.2,1),background-color .3s ease,color .3s ease;
+}
+@media(hover:hover) {
+ .maanvi-site .thread-button:hover,.maanvi-site .home-invitation .ivory-link:hover,.maanvi-site .book-invitation .dark-button:hover { transform:translateY(-3px); color:var(--paper); }
+}
+.maanvi-site .family-chapter a,.maanvi-site .meet-chapter a,.maanvi-site .viewing-aside a { color:inherit; }
+.maanvi-site .family-chapter .chapter-kicker,.maanvi-site .meet-chapter .chapter-kicker { color:var(--paper); }
+
+/* The full landscape film is contained, never cropped to a portrait window. */
+@media(max-width:760px) {
+ .maanvi-welcome-film { aspect-ratio:16/9; width:100%; max-height:76dvh; }
+ .maanvi-intro-atmosphere video { object-position:center; }
+ .maanvi-site .flow-photo-cotton { object-position:66% center; }
+ .maanvi-site .flow-story[data-act=opening] .flow-photo-cotton { object-fit:contain; object-position:center 80%; }
+}
+
+.maanvi-site .collection-gallery { max-width:1160px; margin:auto; padding:25px 48px 55px; }
+.maanvi-site .collection-gallery>h1 { font-size:clamp(32px,4vw,52px); margin:0 0 20px; text-align:center; }
+.collection-carousel { max-width:1080px; margin:auto; touch-action:pan-y; }
+.collection-image { display:block; width:100%; padding:0; border:0; background:var(--paper); cursor:zoom-in; }
+.collection-image img { display:block; width:100%; height:min(65svh,680px); object-fit:contain; }
+.collection-slide figcaption { display:flex; justify-content:center; gap:16px; flex-wrap:wrap; padding:14px 0; font-size:14px; line-height:1.7; }
+.collection-slide figcaption small { font-size:12px; }
+.collection-controls { display:flex; justify-content:center; align-items:center; gap:24px; margin:4px 0 16px; }
+.collection-controls button { width:48px; height:48px; border:1px solid var(--ink); border-radius:50%; background:transparent; color:var(--ink); cursor:pointer; font-size:22px; }
+.collection-controls p { min-width:55px; text-align:center; font-size:14px; }
+.collection-gallery .book-thumbnails { justify-content:center; }
+.collection-gallery .image-disclosure { grid-template-columns:1fr; max-width:760px; margin:35px auto 0; }
+.collection-gallery .book-chapter-heading { padding-top:25px; }
+.collection-gallery { overflow:clip; }
+.collection-depth { --card-width:min(46%,440px,43svh); position:relative; height:calc(min(46vw,440px,43svh)*1.4); perspective:1000px; perspective-origin:50% 42%; transform-style:preserve-3d; touch-action:pan-y; user-select:none; cursor:grab; margin:30px 0 18px; }
+.collection-card { position:absolute; left:calc(50% - var(--card-width)/2); top:0; width:var(--card-width); margin:0; transform-origin:center; backface-visibility:hidden; transition:transform .7s cubic-bezier(.22,.8,.2,1),opacity .55s ease; }
+.collection-card .collection-image { overflow:hidden; background:var(--paper); box-shadow:0 14px 32px #4F040024; }
+.collection-card .collection-image img { display:block; width:100%; height:auto; aspect-ratio:5/7; object-fit:cover; }
+.collection-card.is-active .collection-image { box-shadow:0 20px 40px #4F040030; }
+.collection-depth .collection-image { cursor:grab; }
+.collection-depth.is-dragging,.collection-depth.is-dragging button { cursor:grabbing; }
+.collection-depth.is-dragging .collection-card { transition:none; }
+html[data-motion=paused] .collection-card { transition:none; }
+.collection-caption { text-align:center; color:var(--ink); }
+.collection-caption p { margin:0 0 5px; font-family:Fraunces,serif; font-size:25px; }
+.collection-caption small { font-size:12px; }
+.collection-gesture-hint { text-align:center; font-size:12px; letter-spacing:.035em; margin:0 0 20px; color:var(--ink); }
+.collection-controls { margin:12px 0 6px; }
+.collection-controls .collection-keyboard-control { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); }
+.collection-controls .collection-keyboard-control:focus-visible { position:static; width:48px; height:48px; clip-path:none; }
+@media(max-width:760px) {
+ .maanvi-site .flow-story:not(.flow-still) { height:400svh; }
+ .maanvi-site .flow-story:not(.flow-still) .cotton-anchor { top:99svh; }
+ .maanvi-site .flow-story:not(.flow-still) .silk-anchor { top:201svh; }
+ .maanvi-site .home-invitation { padding:35px 24px 45px; }
+ .maanvi-site .flow-still .flow-copy { min-height:580px; padding:80px 24px 35px; }
+ .maanvi-site .flow-still .flow-photobook { min-height:480px; }
+ .maanvi-site .flow-story.flow-still .cotton-anchor { top:580px; }
+ .maanvi-site .flow-story.flow-still .silk-anchor { top:1160px; }
+ .maanvi-site .collection-gallery { padding:24px 20px 40px; }
+ .collection-gallery .book-thumbnails { flex-wrap:nowrap; justify-content:flex-start; overflow-x:auto; padding-bottom:12px; }
+ .collection-gallery .book-thumbnails button { flex:0 0 44px; }
+ .collection-image img { height:57svh; }
+ .collection-depth { --card-width:68vw; width:100vw; margin:25px -20px 18px; height:95.2vw; perspective:750px; }
+ .collection-slide figcaption { gap:4px; flex-direction:column; text-align:center; padding:10px 0; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .maanvi-site .thread-button,.maanvi-site .home-invitation .ivory-link,.maanvi-site .book-invitation .dark-button { transition:none; transform:none!important; }
+ .collection-card { transition:none!important; }
+}

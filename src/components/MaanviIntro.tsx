@@ -101,7 +101,7 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       const mark = identity.current;
       const film = movie?.getBoundingClientRect();
       const canvas = mark?.querySelector('img')?.getBoundingClientRect();
-      if (mark && film && canvas) {
+      if (mark && film && canvas && source.includes('maanvi-welcome-')) {
         // Match the seated original SVG to the final film pose, then gently widen the view.
         const portrait = source === welcomeFilms.mobile;
         const frameWidth = portrait ? 720 : 1280;

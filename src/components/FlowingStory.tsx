@@ -26,10 +26,10 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
     const paint = (now: number) => {
       const elapsed = Math.min(64, now - (previousTime || now - 16));
       previousTime = now;
-      progress.current += (target - progress.current) * (1 - Math.exp(-elapsed / 85));
+      progress.current += (target - progress.current) * (1 - Math.exp(-elapsed / 140));
       if (Math.abs(target - progress.current) < .0001) progress.current = target;
       const p = progress.current;
-      const opacity = [1 - smooth(.12, .23, p), smooth(.23, .31, p) * (1 - smooth(.43, .53, p)), smooth(.59, .67, p) * (1 - smooth(.78, .86, p)), smooth(.87, .94, p)];
+      const opacity = [1 - smooth(.17, .25, p), smooth(.22, .30, p) * (1 - smooth(.49, .59, p)), smooth(.55, .64, p) * (1 - smooth(.81, .89, p)), smooth(.85, .93, p)];
       const travel = [-smooth(.12, .23, p) * 42, (1 - smooth(.23, .31, p)) * 36 - smooth(.43, .53, p) * 28, (1 - smooth(.59, .67, p)) * 35 - smooth(.78, .86, p) * 25, (1 - smooth(.87, .94, p)) * 35];
       cards.forEach((card, index) => {
         card.style.opacity = still ? '1' : `${opacity[index]}`;
@@ -37,7 +37,9 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
         card.style.visibility = still || opacity[index] > .005 ? 'visible' : 'hidden';
         card.inert = !still && opacity[index] < .55;
       });
-      host.style.setProperty('--silk-reveal', `${smooth(.48, .66, p)}`);
+      host.style.setProperty('--silk-reveal', `${smooth(.44, .69, p)}`);
+      host.style.setProperty('--photo-reveal', `${smooth(.80, .93, p)}`);
+      host.style.setProperty('--scene-exit', `${smooth(.94, 1, p)}`);
       host.style.setProperty('--flow-progress', `${p}`);
       host.dataset.act = p < .24 ? 'opening' : p < .58 ? 'cotton' : 'silk';
       window.dispatchEvent(new Event('maanvi:flow'));
@@ -59,7 +61,7 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
       <div className="flow-shade" aria-hidden="true"/>
       <div className="flow-copy flow-welcome">
         <p className="flow-eyebrow">{t('విజయవాడ · మా కుటుంబం నుంచి మీకు', 'VIJAYAWADA · FROM OUR FAMILY TO YOURS')}</p>
-        <h1>{t('మన మాన్వి.\nమన వేడుక.', 'Our Maanvi.\nOur celebrations.')}</h1>
+        <h1><span>{t('మన మాన్వి.', 'Our Maanvi.')}</span><span>{t('మన వేడుక.', 'Our celebrations.')}</span></h1>
         <p>{t('ఒక చిన్న దారం. ఎన్నో అనుబంధాలు.', 'From a little thread, a world of feeling.')}</p>
         {te && <span className="flow-translation" lang="en">From a little thread, a world of feeling.</span>}
         <a className="thread-button ivory" href="#cloth">{t('దారంతో పాటు సాగండి', 'Follow the thread')}</a>
@@ -77,10 +79,10 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
         <a className="thread-button ivory" href="/book">{t('పెళ్లి చీరలు కలిసి చూద్దాం', 'Plan a bridal viewing')}</a>
       </div>
       <div className="flow-copy flow-photobook" style={{ opacity: 0, visibility: 'hidden' }}>
-        <p className="flow-eyebrow">{t('మా ఫోటో బుక్ · 2017—2026', 'OUR PHOTO BOOK · 2017—2026')}</p>
+        <p className="flow-eyebrow">{t('మా కలెక్షన్ · 2017—2026', 'OUR COLLECTION · 2017—2026')}</p>
         <h2>{t('గత సంవత్సరాల రంగులు.\nమన ప్రయాణపు జ్ఞాపకాలు.', 'Years of colour.\nA story to turn through.')}</h2>
-        <p>{t('మా ప్రయాణంలో భాగమైన చీరలు, వస్త్రాల డిజైన్లను మా ఫోటో బుక్‌లో చూడండి. ఒక్కో పుట, ఒక్కో జ్ఞాపకం.', 'Explore the saree and fabric designs that have been part of our journey. A photo book of collections past, one page at a time.')}</p>
-        <a className="thread-button ivory" href="/archive">{t('మా ఫోటో బుక్ తెరవండి', 'Open our photo book')}</a>
+        <p>{t('మా ప్రయాణంలో భాగమైన చీరలు, వస్త్రాల డిజైన్లను మా ఫోటో బుక్‌లో చూడండి. ఒక్కో పుట, ఒక్కో జ్ఞాపకం.', 'Explore the saree and fabric designs that have been part of our journey. Browse our past collections, one image at a time.')}</p>
+        <a className="thread-button ivory" href="/archive">{t('మా కలెక్షన్ చూడండి', 'Explore Our Collection')}</a>
       </div>
       <div className="flow-caption" aria-hidden="true"><span>{t('పత్తి', 'COTTON')}</span><span className="flow-track"><i/></span><span>{t('పట్టు', 'SILK')}</span></div>
     </div>

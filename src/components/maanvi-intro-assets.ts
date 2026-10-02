@@ -12,10 +12,10 @@ export const introChapters = [
   { x: 624, y: 521, height: 420, at: 4500, title: 'Always Maanvi', telugu: 'మన మాన్వి', caption: 'A story in every drape.' },
 ];
 
-// Separate landscape and portrait edits of the user-supplied film.
+// Play the complete original supplied film from the cinematic-intro commit, without re-editing it.
 export const welcomeFilms = {
-  desktop: '/intro/maanvi-welcome-desktop.mp4?v=original-intro-audio',
-  mobile: '/intro/maanvi-welcome-mobile.mp4?v=original-intro-audio',
+  desktop: '/intro/maanvi-supplied-source.mp4?v=complete-original',
+  mobile: '/intro/maanvi-supplied-source.mp4?v=complete-original',
 };
 
 export function shouldOpen() {
