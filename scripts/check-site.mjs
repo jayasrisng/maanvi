@@ -26,9 +26,11 @@ assert.equal(catalogue.length,20);
 const pictures = catalogue.flatMap(chapter => chapter.images);
 assert.equal(pictures.length,196);
 for (const picture of pictures) {
-  for (const key of ['src','thumbnail']) assert.ok(exists(`public${picture[key]}`), `Missing ${picture[key]}`);
-  assert.ok(exists(picture.source), `Missing image master ${picture.source}`);
+  assert.ok(exists(`public${picture.src}`), `Missing ${picture.src}`);
+  assert.ok(!('thumbnail' in picture) && !('source' in picture), 'Unused image metadata should stay out of the website catalogue');
 }
+const archiveFiles=walk('public/images/archive').sort();
+assert.deepEqual(archiveFiles,pictures.map(picture=>`public${picture.src}`).sort(),'Unused collection files should not remain in public');
 const fall = catalogue.find(chapter => chapter.id === '2026-fall');
 assert.equal(fall.images.length,10);
 const intro = read('src/components/MaanviIntro.tsx');
@@ -53,4 +55,4 @@ for (const color of ['sindoor','ivory','maroon']) {
  assert.deepEqual(exportPaths,originalPaths, `Changed logo geometry in ${color}`);
 }
 for (const retired of ['src/pages','src/App.css','src/heritage.css','src/atelier.css','src/woven.css','docs/site-history','public/intro/maanvi-runway-draft.mp4']) assert.ok(!exists(retired), `Retired website file remains: ${retired}`);
-console.log(`Site checks passed: ${sourceFiles.length} source files; 20 chapters / 196 pictures and masters; original intro, mobile panels and exact-logo exports verified.`);
+console.log(`Site checks passed: ${sourceFiles.length} source files; 20 chapters / 196 web pictures; original intro, mobile panels and exact-logo exports verified.`);

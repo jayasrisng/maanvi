@@ -20,8 +20,7 @@ Desktop keeps the cotton/cloud/loom → silk → Fall 2026 scroll journey. Mobil
 | `brand-kit/` | Original logo assets, colour/type tokens, identity guide and visual preview |
 | `src/data/photobook.json` | 20 chapters, 196 approved image interpretations |
 | `public/` | Only deployable website assets |
-| `assets/collections/` | Original masters for those 196 catalogue images |
-| `assets/scenes/` | Original masters for the cotton and silk artwork |
+| `assets/` (local, ignored) | Original collection and scene masters; not needed to build or deploy |
 | `docs/website.md` | Current integrations, media notes and verification limits |
 | `AGENTS.md` | Instructions to preserve this approved website in future edits |
 
@@ -41,7 +40,9 @@ npm run build
 npm run preview
 ```
 
-To regenerate web-sized collection images from the retained source masters, run `python3 scripts/prepare-collections.py` with Pillow installed. The catalogue, selected source images and output filenames are preserved.
+GitHub contains the web images the website actually displays. High-resolution masters remain in the ignored local `assets/` folder; new clones build without them. To regenerate a web image when that local archive is available, run `python3 scripts/prepare-collections.py` with Pillow installed. This helper reads `assets/catalogue-masters.json` and does not create unused thumbnails.
+
+Keep generated outputs (`dist/`, caches), source artwork, drafts and unconfigured backend templates out of Git. Preserve the original intro, displayed images, brand kit, application source and build/check configuration.
 
 ## Routes
 

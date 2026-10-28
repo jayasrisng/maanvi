@@ -28,7 +28,8 @@ This checkout contains one website. Maintain this version; do not reconstruct or
 - `src/styles/mobile.css`: mobile layout, loaded last.
 - `src/components/maanvi-intro.css`: intro-only styles.
 - `src/data/photobook.json`: the 20 chapters and 196 approved image interpretations.
-- `assets/collections/`: original masters corresponding exactly to catalogue entries. These are relevant website sources, not alternative websites. Do not delete them as unused public assets.
+- `assets/`: ignored local archive of original artwork, kept off GitHub and out of deployments. The site must build without this folder. Keep local originals safe; never stage them. The optional `assets/catalogue-masters.json` maps the collection masters to their web exports.
+- Keep only the 196 displayed collection images in `public/images/archive/`. Do not generate or commit thumbnails unless a real website feature uses them. Unconfigured backend templates, draft renders and unused assets do not belong in this repository.
 
 Do not add competing theme files, old page implementations, alternate intro cuts, mock website previews or new brand guides. Update these canonical files instead. Do not invent stock availability, appointment prices or checkout functionality.
 
