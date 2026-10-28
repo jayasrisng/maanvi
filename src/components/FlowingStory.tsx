@@ -73,7 +73,6 @@ export default function FlowingStory({ te, paused }: { te: boolean; paused: bool
         <a className="thread-button ivory" href="#cloth">{t('దారంతో పాటు సాగండి', 'Follow the thread')}</a>
       </div>
       <div id={stacked ? 'cloth' : undefined} className="flow-copy flow-cotton" style={stacked ? undefined : { opacity: 0, visibility: 'hidden' }}>
-        {stacked && <img className="flow-panel-image" src="/images/concepts/cotton-loom.webp" alt={t('మగ్గంపై కాటన్ వస్త్రం', 'Cotton cloth at the loom')} loading="lazy" width="1500" height="1000"/>}
         <p className="flow-eyebrow">{t('పత్తి · తేలికగా, హాయిగా', 'COTTON · A LITTLE LIGHTNESS')}</p>
         <h2>{t('గాలిలా తేలిక.\nమనసుకు హాయి.', 'Light as air.\nClose to the heart.')}</h2>
         <p>{t('రోజంతా హాయిగా ఉండే కాటన్. మీకు నచ్చిన రంగులో, మీ రోజుకు సరిపోయే చీరను కలిసి ఎంచుకుందాం.', 'Airy cotton, chosen for the rhythm of your day. A colour you love. A drape that feels like you.')}</p>

@@ -53,7 +53,7 @@ These are the primary Maanvi colors.
 |---|---|---|
 | Sindoor Orange | `#FF4F00` | Primary hero color |
 | Ivory | `#FFFFF0` | Main light background |
-| Deep Maroon | `#4F0400` | Main dark anchor |
+| Deep Maroon | `#4F0400` | Reading text and supporting logo colour |
 
 ### Sindoor Orange — `#FF4F00`
 
@@ -94,17 +94,16 @@ Prefer Ivory over pure white where possible.
 
 Use for:
 
-- Dark backgrounds
-- Headlines on Ivory
-- Footer
-- Packaging
-- Borders
-- Secondary dark UI
-- Rich contrast against Sindoor Orange
+- Body text and headlines on Ivory
+- Borders and fine details
+- The Maroon logo export on Ivory
+- Readable text against Sindoor Orange
 
 Prefer this over black when a warmer result is appropriate.
 
 ---
+
+For this website, all branded colour fields—including the footer, booking panel and primary actions—use the original Sindoor Orange. Keep Maroon for readable text and logo-on-Ivory exports, not as a replacement brand background.
 
 ## 3. Pattu Color Palette
 
@@ -400,7 +399,6 @@ Preferred logo contexts:
 
 - Deep Maroon on Ivory
 - Ivory on Sindoor Orange
-- Ivory on Deep Maroon
 - Sindoor Orange on Ivory
 
 If the illustrated Maanvi character is used, keep the surrounding design cleaner so the character remains the focus.

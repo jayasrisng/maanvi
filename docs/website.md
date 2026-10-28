@@ -12,6 +12,10 @@ This document describes the final checkout. There are no alternate page designs 
 - Fonts: Fraunces, Manrope, Noto Sans Telugu and Noto Serif Telugu are loaded from Google Fonts. Lepakshi is the preferred Telugu display face when locally available; it is not bundled or assumed installed. Offline/system fallbacks remain available.
 - Three.js: MIT-licensed dependency, dynamically loaded only for the desktop decorative textile scene. No third-party cloth texture or old demo scene remains.
 
+## Layout and clarity
+
+The mobile opening shows the cotton/cloud artwork once, followed by a compact text-only cotton introduction, then the silk and Fall 2026 images. The story, visit and private-shopping routes have distinct content. The gallery uses its swipe/arrow controls without a duplicate thumbnail strip. Familiar icon controls have accessible labels and 44px touch targets; booking actions retain clear text. Original Sindoor Orange is used for branded surfaces and primary actions; Ivory gives reading space and Maroon is reserved for text. Intro icons have no default box; initial focus goes to the dialog, with a small circular indicator when keyboard users focus a control.
+
 ## Booking and contact
 
 The website questionnaire hands the selected preferences to the configured Calendly event. `VITE_CALENDLY_URL` defaults to the existing 30-minute event. A booking is complete only after the visitor confirms a time in Calendly. The website does not claim to collect payment or guarantee an appointment fee.

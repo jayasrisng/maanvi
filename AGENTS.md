@@ -11,6 +11,14 @@ This checkout contains one website. Maintain this version; do not reconstruct or
 - After silk: the Fall 2026 “Living classics” collection. Do not restore the owner's yellow/green saree portrait here.
 - The collection catalogue opens at Fall 2026. Preserve the existing image-interpretation disclosure, collection history, Telugu/English switching, booking and contact routes.
 
+## Clarity and restraint
+
+- Do not repeat the same editorial photo in adjacent sections. The mobile opening uses the cloud/loom artwork once; the cotton introduction that follows is a compact text panel.
+- Keep story, store visit and private-shopping content on their own pages instead of repeating the full three-section sequence on each route.
+- Use compact, labelled icon controls for familiar actions (menu, social links, save, close, previous/next). Keep meaningful text on booking and other important decisions. Preserve 44px touch targets even when the visible control is small.
+- Keep the original Sindoor Orange (#FF4F00) on branded coloured surfaces, including the footer, booking panel and primary actions. Do not substitute Maroon branding. Use Ivory for breathing room and Maroon for reading text. Avoid duplicate gallery thumbnail strips and repeated footer prompts.
+- Intro controls are plain orange icons without default boxes. Focus the dialog on entry, not the home button. Keep a small circular indicator only for keyboard focus and preserve the invisible 44px touch target.
+
 ## Source of truth
 
 - `brand-kit/README.md`: approved visual identity and original-logo rules.

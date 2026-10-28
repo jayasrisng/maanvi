@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import chapters from '../data/photobook.json';
+import Icon from './Icon';
 
 export function ImageDisclosure({ language = 'en' }: { language?: 'te' | 'en' }) {
   const te = language === 'te';
@@ -105,15 +106,15 @@ export default function CollectionBook({ favorites, toggleFavorite, language = '
         })}
         </div>
         <div className="collection-caption"><p>{image.title}</p><small>{t('AI కళారూపం', 'AI-created interpretation')}</small></div>
-        <div className="collection-controls"><button className="collection-keyboard-control" type="button" onClick={() => move(-1)} aria-label={t('మునుపటి చిత్రం', 'Previous image')}>←</button><p aria-live="polite" aria-atomic="true">{slide + 1} / {chapter.images.length}</p><button className="collection-keyboard-control" type="button" onClick={() => move(1)} aria-label={t('తదుపరి చిత్రం', 'Next image')}>→</button></div>
+        <div className="collection-controls"><button className="collection-keyboard-control" type="button" onClick={() => move(-1)} aria-label={t('మునుపటి చిత్రం', 'Previous image')}><Icon name="previous"/></button><p aria-live="polite" aria-atomic="true">{slide + 1} / {chapter.images.length}</p><button className="collection-keyboard-control" type="button" onClick={() => move(1)} aria-label={t('తదుపరి చిత్రం', 'Next image')}><Icon name="next"/></button></div>
         <p id="collection-gesture-hint" className="collection-gesture-hint">{t('చిత్రాలను చూడటానికి స్వైప్ చేయండి','Swipe or drag to explore')}</p>
       </div>
-      <div className="book-thumbnails" aria-label={t('చిత్రాన్ని ఎంచుకోండి', 'Choose an image')}>{chapter.images.map((item, index) => <button type="button" key={item.id} onClick={() => setSlide(index)} aria-label={`${t('చూడండి', 'Show')} ${item.title}`} aria-pressed={slide === index}><img src={item.thumbnail} alt="" loading="lazy" width="240" height="336"/></button>)}</div>
+
       <div className="book-filters"><div className="book-years" aria-label="Collection year">{Array.from({ length: 10 }, (_, i) => 2017 + i).map(item => <button type="button" key={item} aria-pressed={year === item} onClick={() => { setYear(item); setSlide(0); }}>{item}</button>)}</div><div className="book-seasons" aria-label="Collection season">{['Spring', 'Fall'].map(item => <button type="button" key={item} aria-pressed={season === item} onClick={() => { setSeason(item); setSlide(0); }}>{te ? (item === 'Spring' ? 'వసంతం' : 'శరదృతువు') : item}</button>)}</div></div>
-      <div className="book-chapter-heading"><div><p className="eyebrow">{chapter.season} {chapter.year} · {chapter.medium}</p><h2>{chapter.title}</h2></div><button type="button" className={`save-button ${favorites.includes(chapter.id) ? 'saved' : ''}`} aria-pressed={favorites.includes(chapter.id)} onClick={() => toggleFavorite(chapter.id)}>{favorites.includes(chapter.id) ? t('♥ భద్రపరిచారు', '♥ Collection saved') : t('♡ భద్రపరచండి', '♡ Save collection')}</button></div>
+      <div className="book-chapter-heading"><div><p className="eyebrow">{chapter.season} {chapter.year} · {chapter.medium}</p><h2>{chapter.title}</h2></div><button type="button" className={`save-button ${favorites.includes(chapter.id) ? 'saved' : ''}`} aria-pressed={favorites.includes(chapter.id)} aria-label={favorites.includes(chapter.id) ? t('కలెక్షన్ తీసివేయండి','Unsave collection') : t('కలెక్షన్ భద్రపరచండి','Save collection')} title={favorites.includes(chapter.id) ? t('భద్రపరిచారు','Collection saved') : t('భద్రపరచండి','Save collection')} onClick={() => toggleFavorite(chapter.id)}><Icon name="heart"/></button></div>
       <ImageDisclosure language={language}/>
     </section>
     <section className="book-invitation"><h2>{t('మీ కోసం ఎంచుకుందాం.', 'Find your next drape.')}</h2><a href="/book" className="button dark-button">{t('వీడియో కాల్ బుక్ చేసుకోండి', 'Arrange a video viewing')}</a></section>
-    <dialog ref={dialog} className="book-lightbox" aria-label="Collection illustration" onCancel={() => setExpanded(false)} onClose={() => setExpanded(false)} onClick={event => { if (event.target === event.currentTarget) setExpanded(false); }}><button className="lightbox-close" onClick={() => setExpanded(false)} aria-label="Close illustration">{t('మూసివేయండి ×', 'Close ×')}</button>{expanded && <figure><img src={image.src} alt={image.alt}/><figcaption>{image.title} · {t('AI కళారూపం', 'AI-created interpretation')}</figcaption></figure>}</dialog>
+    <dialog ref={dialog} className="book-lightbox" aria-label="Collection illustration" onCancel={() => setExpanded(false)} onClose={() => setExpanded(false)} onClick={event => { if (event.target === event.currentTarget) setExpanded(false); }}><button className="lightbox-close" onClick={() => setExpanded(false)} aria-label={t('మూసివేయండి', 'Close illustration')}><Icon name="close"/></button>{expanded && <figure><img src={image.src} alt={image.alt}/><figcaption>{image.title} · {t('AI కళారూపం', 'AI-created interpretation')}</figcaption></figure>}</dialog>
   </>;
 }

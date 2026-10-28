@@ -40,13 +40,18 @@ for(width of [320,375,390,430,760,1024,1440])for(language of ['en','te'])for(con
   if(route==='/') {
     if(width<=760) {
       assert.ok(html.includes('data-layout="panels"'));
-      assert.equal((html.match(/class="flow-panel-image"/g)||[]).length,4);
+      assert.equal((html.match(/class="flow-panel-image"/g)||[]).length,3);
+      const photos=[...html.matchAll(/class="flow-panel-image" src="([^"]+)"/g)].map(match=>match[1]);
+      assert.equal(new Set(photos).size,photos.length,'Repeated homepage photo');
       assert.ok(!html.includes('class="flow-scene"'));
       assert.ok(!html.includes('visibility:hidden'));
       assert.ok(html.includes('id="cloth"')&&html.includes('id="silk"'));
     } else assert.ok(html.includes('data-layout="cinematic"'));
     assert.ok(html.includes('10-living-classics-finale.webp'));
   }
+  if(route==='/our-story') { assert.ok(!html.includes('id="meet"')); assert.ok(!html.includes('id="visit"')); }
+  if(route==='/private-shopping') assert.ok(!html.includes('/images/story/founders.jpg'));
+  if(route==='/archive') assert.ok(!html.includes('book-thumbnails'));
   renders++;
 }
 reduced=true;width=1440;globalThis.location=new URL('http://localhost/?intro=0');

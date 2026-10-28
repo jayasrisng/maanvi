@@ -7,6 +7,7 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
   const muted = !soundOn;
   const dismiss = useRef<() => void>(() => {});
   const homeButton = useRef<HTMLButtonElement>(null);
+  const dialog = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
   const playbackPaused = useRef(false);
   const autoplayMuted = useRef(false);
@@ -50,7 +51,7 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
     const previousFocus = document.activeElement as HTMLElement | null;
     const previousOverflow = document.body.style.overflow;
     const wasInert = site?.inert ?? false;
-    homeButton.current?.focus({ preventScroll: true });
+    dialog.current?.focus({ preventScroll: true });
     document.body.style.overflow = 'hidden';
     if (site) site.inert = true;
     let disposed = false, exiting = false, started = false, handingOff = false, forming = false;
@@ -148,7 +149,8 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
         const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('.maanvi-intro button'));
         const index = buttons.indexOf(document.activeElement as HTMLButtonElement);
         event.preventDefault();
-        buttons[(index + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length]?.focus();
+        const next = index < 0 ? (event.shiftKey ? buttons.length - 1 : 0) : (index + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length;
+        buttons[next]?.focus();
       }
     };
     document.addEventListener('keydown', key);
@@ -208,7 +210,7 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
     }
   };
   return createPortal(
-    <div className="maanvi-intro" data-phase={phase} data-reduced={reduced} role="dialog" aria-modal="true" aria-label={te ? 'మాన్వికి స్వాగతం' : 'Welcome to Maanvi'}>
+    <div ref={dialog} tabIndex={-1} className="maanvi-intro" data-phase={phase} data-reduced={reduced} role="dialog" aria-modal="true" aria-label={te ? 'మాన్వికి స్వాగతం' : 'Welcome to Maanvi'}>
       {!reduced && <div className="maanvi-intro-atmosphere" aria-hidden="true"><video ref={atmosphere} src={welcomeFilm} muted playsInline preload="auto" disablePictureInPicture/><div className="maanvi-intro-haze"/></div>}
       {!reduced && <video ref={video} className="maanvi-welcome-film" src={welcomeFilm} muted={!soundOn} playsInline preload="auto" disablePictureInPicture aria-hidden="true"/>}
       <audio ref={sparkle} src="/intro/maanvi-sparkle.wav" muted={!soundOn} preload="auto"/>

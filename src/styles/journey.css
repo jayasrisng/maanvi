@@ -30,6 +30,7 @@
 .flow-stacked .flow-copy { position:relative; display:grid; grid-template-columns:1fr 1fr; align-content:center; gap:0 7vw; width:auto; max-width:none; min-height:640px; left:auto; top:auto; padding:60px 6.6vw; will-change:auto; }
 .flow-stacked .flow-panel-image { display:block; grid-column:2; grid-row:1/7; width:100%; height:520px; object-fit:contain; }
 .flow-stacked .flow-copy>:not(.flow-panel-image) { grid-column:1; }
+.flow-stacked .flow-cotton { min-height:0; display:block; padding-block:60px; }
 @media(min-width:761px) and (max-height:700px) {
  .flow-copy { top:26%; }.flow-copy h1 { font-size:50px; }.flow-copy h2 { font-size:44px; }.flow-copy>p:not(.flow-eyebrow) { font-size:14px; }.flow-eyebrow { margin-bottom:18px; }
 }
