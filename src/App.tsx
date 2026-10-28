@@ -1,15 +1,10 @@
 import { useEffect, useState } from 'react';
-import './App.css';
-import './woven.css';
-import './journey.css';
 import FlowingStory from './components/FlowingStory';
 import BrandLogo from './components/BrandLogo';
 import CollectionBook from './components/CollectionBook';
 import Viewing from './components/Viewing';
 import InfoPage from './components/InfoPage';
 import MaanviIntro from './components/MaanviIntro';
-import './brand-accessibility.css';
-import './components/opening-continuity.css';
 
 const links = { whatsapp: 'https://wa.me/919182242429', maps: 'https://maps.app.goo.gl/yzy3N5ef7hTZ5goFA', instagram: 'https://www.instagram.com/maanviofficial/' };
 const chapterRoutes: Record<string,string> = { '/bridal': 'silk', '/saree-guide': 'cloth', '/private-shopping': 'meet', '/visit': 'visit' };
@@ -20,7 +15,7 @@ export default function App() {
   const [introSound, setIntroSound] = useState(true);
   const [menu, setMenu] = useState(false);
   const [hash, setHash] = useState(() => location.hash);
-  const [favorites, setFavorites] = useState<string[]>(()=>{try{return JSON.parse(localStorage.getItem('maanvi.favorites')||'[]');}catch{return [];}});
+  const [favorites, setFavorites] = useState<string[]>(()=>{try{const saved:unknown=JSON.parse(localStorage.getItem('maanvi.favorites')||'[]');return Array.isArray(saved)?saved.filter((id):id is string=>typeof id==='string'):[];}catch{return [];}});
   const te = language==='te';
   const t = (telugu:string, english:string) => te?telugu:english;
   const path = location.pathname.replace(/\/$/,'') || '/';
@@ -39,12 +34,12 @@ export default function App() {
   return <div className={`maanvi-site ${home?'is-home':'is-inner'}`} lang={language}>
     {path === '/' && <MaanviIntro te={te} soundOn={introSound} onToggleSound={()=>setIntroSound(value=>!value)}/>}
     <a className="journey-skip" href="#main-content">{t('విషయానికి వెళ్ళండి','Skip to content')}</a>
-    <header className="journey-header"><a className="journey-brand" href="/" aria-label="Maanvi home"><BrandLogo/></a><nav className={menu?'is-open':''} aria-label={t('ప్రధాన పేజీలు','Main navigation')}><a className={hash==='#cloth'?'is-active':''} href={chapterLink('cloth')} onClick={()=>setMenu(false)}>{t('మన చీరలు','Our cloth')}</a><a className={path==='/archive'?'is-active':''} href="/archive">{t('మా కలెక్షన్','Our Collection')}</a><a className={path==='/our-story'?'is-active':''} href="/our-story" onClick={()=>setMenu(false)}>{t('మా కథ','Our family')}</a><a className={path==='/book'?'is-active header-viewing':'header-viewing'} href="/book">{t('మాట్లాడుకుందాం','Meet Maanvi')}</a></nav><div className="journey-language" aria-label="Language"><button lang="te" aria-pressed={te} onClick={()=>setLanguage('te')}>తెలుగు</button><span>/</span><button lang="en" aria-pressed={!te} onClick={()=>setLanguage('en')}>EN</button></div><button className="journey-menu" aria-expanded={menu} aria-label={menu?t('మెనూ మూసివేయండి','Close menu'):t('మెనూ తెరవండి','Open menu')} onClick={()=>setMenu(!menu)}>{menu?'×':'☰'}</button></header>
+    <header className="journey-header"><a className="journey-brand" href="/" aria-label="Maanvi home"><BrandLogo/></a><nav className={menu?'is-open':''} id="main-navigation" aria-label={t('ప్రధాన పేజీలు','Main navigation')}><a className={hash==='#cloth'?'is-active':''} href={chapterLink('cloth')} onClick={()=>setMenu(false)}>{t('మన చీరలు','Our cloth')}</a><a className={path==='/archive'?'is-active':''} href="/archive">{t('మా కలెక్షన్','Our Collection')}</a><a className={path==='/our-story'?'is-active':''} href="/our-story" onClick={()=>setMenu(false)}>{t('మా కథ','Our family')}</a><a className={path==='/book'?'is-active header-viewing':'header-viewing'} href="/book">{t('మాట్లాడుకుందాం','Meet Maanvi')}</a></nav><div className="journey-language" aria-label="Language"><button lang="te" aria-pressed={te} onClick={()=>setLanguage('te')}>తెలుగు</button><span>/</span><button lang="en" aria-pressed={!te} onClick={()=>setLanguage('en')}>EN</button></div><button className="journey-menu" aria-controls="main-navigation" aria-expanded={menu} aria-label={menu?t('మెనూ మూసివేయండి','Close menu'):t('మెనూ తెరవండి','Open menu')} onClick={()=>setMenu(!menu)}>{menu?'×':'☰'}</button></header>
     <main id="main-content" tabIndex={-1}>
       {info?<InfoPage kind={info} te={te}/>:archive?<CollectionBook favorites={favorites} toggleFavorite={toggleFavorite} language={language}/>:book?<Viewing te={te} favorites={favorites}/>:<>
         {home && <FlowingStory te={te} paused={paused}/>}
         {family && <>
-        <section id="family" className="family-chapter"><div className="family-photo"><img src="/images/story/founders.jpg" alt={t('మాన్వి వెనుక ఉన్న కుటుంబం','The family behind Maanvi')} loading="lazy"/><span>VIJAYAWADA · SINCE 2017</span></div><div className="family-words"><p className="chapter-kicker">{t('04 / మా కుటుంబం నుంచి మీ కుటుంబానికి','04 / FROM OUR FAMILY TO YOURS')}</p><h2>{t('మాన్వి అంటే,\nమన వాళ్లే.','Behind every fold,\na family.')}</h2><p>{t('మాన్వి మా కుటుంబం నడిపే చీరల ఇల్లు. 2017 నుంచి విజయవాడలో, ప్రతి కస్టమర్‌తో పరిచయం ఒక అనుబంధంగా మారాలని కోరుకుంటున్నాం.','Maanvi is our family’s saree house in Vijayawada. Since 2017, we’ve wanted every visit to feel like the beginning of a relationship.')}</p><p>{t('దుకాణంలోనైనా, వీడియో కాల్‌లోనైనా — చీరలను విప్పి, వివరాలు చూపించి, మీకు నచ్చినది ఎంచుకునే సమయం ఇస్తాం. తెలుగులో హాయిగా మాట్లాడుకుందాం.','In our store or over a video call, we unfold the sarees, show you the details and give you room to choose. Speak with us in Telugu, and make yourself at home.')}</p><a className="chapter-link" href={links.whatsapp} target="_blank" rel="noreferrer">{t('మాతో మాట్లాడండి','Say hello to our family')}</a></div></section>
+        <section id="family" className="family-chapter"><div className="family-photo"><img src={path==='/visit'?'/images/visit/store.jpg':'/images/story/founders.jpg'} alt={path==='/visit'?t('విజయవాడలో మాన్వి దుకాణం','The Maanvi store in Vijayawada'):t('మాన్వి వెనుక ఉన్న కుటుంబం','The family behind Maanvi')} loading="lazy"/><span>VIJAYAWADA · SINCE 2017</span></div><div className="family-words"><p className="chapter-kicker">{t('04 / మా కుటుంబం నుంచి మీ కుటుంబానికి','04 / FROM OUR FAMILY TO YOURS')}</p><h1>{t('మాన్వి అంటే,\nమన వాళ్లే.','Behind every fold,\na family.')}</h1><p>{t('మాన్వి మా కుటుంబం నడిపే చీరల ఇల్లు. 2017 నుంచి విజయవాడలో, ప్రతి కస్టమర్‌తో పరిచయం ఒక అనుబంధంగా మారాలని కోరుకుంటున్నాం.','Maanvi is our family’s saree house in Vijayawada. Since 2017, we’ve wanted every visit to feel like the beginning of a relationship.')}</p><p>{t('దుకాణంలోనైనా, వీడియో కాల్‌లోనైనా — చీరలను విప్పి, వివరాలు చూపించి, మీకు నచ్చినది ఎంచుకునే సమయం ఇస్తాం. తెలుగులో హాయిగా మాట్లాడుకుందాం.','In our store or over a video call, we unfold the sarees, show you the details and give you room to choose. Speak with us in Telugu, and make yourself at home.')}</p><a className="chapter-link" href={links.whatsapp} target="_blank" rel="noreferrer">{t('మాతో మాట్లాడండి','Say hello to our family')}</a></div></section>
           </>}
       </>}
         {home && <section className="home-invitation"><p className="chapter-kicker">{t('మా కుటుంబం నుంచి మీకు', 'FROM OUR FAMILY TO YOURS')}</p><h2>{t('రండి. కలిసి ఎంచుకుందాం.', 'Come in. Find your drape.')}</h2><p>{t('విజయవాడలోనైనా, వీడియో కాల్‌లోనైనా — చీరలను దగ్గరగా చూసి, తెలుగులో హాయిగా మాట్లాడుకుందాం.', 'In Vijayawada or over a video call, meet the real sarees and the family who chose them.')}</p><div><a className="thread-button ivory" href="/book">{t('వీడియో కాల్ బుక్ చేయండి', 'Book a viewing')}</a><a className="chapter-link ivory-link" href="/our-story">{t('మా కుటుంబం కథ', 'Meet our family')}</a></div></section>}
@@ -53,8 +48,8 @@ export default function App() {
       </>}
     </main>
     <footer className="journey-footer">
-      <div className="footer-brand"><a href="/" aria-label="Maanvi home"><BrandLogo/></a><p>{t('మన మాన్వి. మన వేడుక.','Our Maanvi. Our celebrations.')}</p><div className="footer-social"><a href={links.instagram} target="_blank" rel="noreferrer">Instagram</a><a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a></div></div>
-      <div className="footer-newsletter"><h2>{t('మా వార్తలు అందుకోండి','Subscribe to our newsletter')}</h2><p>{t('కొత్త చీరలు, కలెక్షన్లు, వీడియో వీక్షణల సమాచారం.', 'New sarees, collection notes and private viewing updates.')}</p><form onSubmit={e=>e.preventDefault()}><label htmlFor="footer-email">{t('మీ ఇమెయిల్','Your email')}</label><input id="footer-email" type="email" placeholder="name@example.com" autoComplete="email"/><button type="submit" aria-label={t('చందా నమోదు','Subscribe')}>Subscribe</button></form></div>
+      <div className="footer-brand"><a href="/" aria-label="Maanvi home"><BrandLogo/></a><p>{t('మన మాన్వి. మన వేడుక.','Our Maanvi. Our celebrations.')}</p><div className="footer-social"><a href="/?intro=1">{t('పరిచయ వీడియో','Watch intro')}</a><a href={links.instagram} target="_blank" rel="noreferrer">Instagram</a><a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a></div></div>
+      <div className="footer-contact"><p>{t('కొత్త చీరలు, కలెక్షన్లు, వ్యక్తిగత వీక్షణల గురించి మా కుటుంబంతో మాట్లాడండి.', 'For new arrivals, collection questions and private viewings, speak with our family.')}</p><a href={links.whatsapp} target="_blank" rel="noreferrer">{t('WhatsAppలో మాట్లాడండి', 'Talk to us on WhatsApp')} ↗</a></div>
       <div className="footer-columns">
         <div><h2>{t('సంప్రదించండి','Contact us')}</h2><a href="/contact">{t('మమ్మల్ని సంప్రదించండి','Contact Maanvi')}</a><a href={links.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a><a href="/book">{t('వీడియో కాల్ బుక్ చేయండి','Book a private viewing')}</a><a href="mailto:hello@maanvi.in">hello@maanvi.in</a></div>
         <div><h2>{t('సేవలు','Services')}</h2><a href="/services">{t('అన్ని సేవలు','All services')}</a><a href="/archive">{t('మా కలెక్షన్','Our Collection')}</a><a href="/shipping">{t('షిప్పింగ్ మరియు డెలివరీ','Shipping and delivery')}</a><a href="/returns">{t('రిటర్న్స్ మరియు మార్పులు','Returns and exchanges')}</a></div>

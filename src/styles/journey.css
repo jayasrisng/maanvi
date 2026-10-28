@@ -1,0 +1,35 @@
+/* Desktop: a continuous cotton → silk → Fall 2026 journey. */
+.flow-story { position:relative; height:440svh; --silk-reveal:0; --photo-reveal:0; --flow-progress:0; background:var(--paper); }
+.flow-sticky { position:sticky; top:0; height:100svh; min-height:620px; overflow:hidden; isolation:isolate; }
+.flow-scene { position:absolute; inset:0; z-index:-1; mask-image:linear-gradient(90deg,transparent 24%,#000 66%); }
+.flow-scene>img,.flow-scene>canvas { position:absolute; inset:0; display:block; width:100%; height:100%; object-fit:cover; }
+.flow-photo-cotton { opacity:calc(1 - var(--photo-reveal)); }
+.flow-photo-silk { opacity:calc(var(--silk-reveal) * (1 - var(--photo-reveal))); }
+.flow-scene>canvas { opacity:0; }
+.flow-scene[data-ready=true]>canvas { opacity:calc(1 - var(--photo-reveal)); }
+.flow-scene[data-ready=true]>.flow-photo-cotton,.flow-scene[data-ready=true]>.flow-photo-silk { opacity:0; }
+.flow-scene>.flow-photo-campaign { left:auto; right:0; width:54%; object-fit:contain; opacity:var(--photo-reveal); mask-image:linear-gradient(90deg,transparent,#000 15%); }
+.flow-copy { position:absolute; left:6.6%; top:29%; width:43%; max-width:610px; will-change:transform,opacity; color:var(--ink); }
+.flow-copy h1 { font-size:clamp(42px,4.6vw,72px); letter-spacing:-.035em; margin:0 0 24px; }
+.flow-copy h2 { font-size:clamp(40px,4.1vw,64px); letter-spacing:-.035em; margin:0 0 24px; }
+.flow-copy h1 span { display:block; }
+.flow-copy>p:not(.flow-eyebrow) { max-width:440px; font-size:16px; line-height:1.9; margin:0 0 22px; }
+.flow-eyebrow { font-size:11px; letter-spacing:.08em; line-height:1.8; margin:0 0 24px; }
+.flow-translation { display:block; font-size:18px; margin:0 0 28px; }
+.flow-copy .thread-button { margin-top:6px; }
+.flow-caption { position:absolute; bottom:28px; left:6.6%; display:flex; align-items:center; gap:16px; padding:5px 10px; border-radius:20px; background:var(--paper); color:var(--ink); font-size:10px; letter-spacing:.08em; }
+.flow-track { width:100px; height:1px; background:var(--line); overflow:hidden; }
+.flow-track i { display:block; width:100%; height:100%; background:var(--ink); transform:scaleX(var(--flow-progress)); transform-origin:left; }
+.flow-anchor { position:absolute; width:1px; height:1px; pointer-events:none; }
+.cotton-anchor { top:112svh; }.silk-anchor { top:228svh; }
+.flow-panel-image { display:none; }
+/* Paused and reduced-motion desktop visitors get the same content as readable panels. */
+.flow-stacked { height:auto; }
+.flow-stacked .flow-sticky { position:relative; height:auto; min-height:0; overflow:visible; }
+.flow-stacked .flow-caption { display:none; }
+.flow-stacked .flow-copy { position:relative; display:grid; grid-template-columns:1fr 1fr; align-content:center; gap:0 7vw; width:auto; max-width:none; min-height:640px; left:auto; top:auto; padding:60px 6.6vw; will-change:auto; }
+.flow-stacked .flow-panel-image { display:block; grid-column:2; grid-row:1/7; width:100%; height:520px; object-fit:contain; }
+.flow-stacked .flow-copy>:not(.flow-panel-image) { grid-column:1; }
+@media(min-width:761px) and (max-height:700px) {
+ .flow-copy { top:26%; }.flow-copy h1 { font-size:50px; }.flow-copy h2 { font-size:44px; }.flow-copy>p:not(.flow-eyebrow) { font-size:14px; }.flow-eyebrow { margin-bottom:18px; }
+}

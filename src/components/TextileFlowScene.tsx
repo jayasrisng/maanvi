@@ -1,10 +1,9 @@
 import { useEffect, useRef, type RefObject } from 'react';
 
-export default function TextileFlowScene({ progress, still }: { progress: RefObject<number>; still: boolean }) {
+export default function TextileFlowScene({ progress }: { progress: RefObject<number> }) {
   const mount = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const host = mount.current!;
-    if (still) return;
     let disposed = false;
     let cleanup = () => {};
     void import('three').then(T => {
@@ -122,6 +121,6 @@ export default function TextileFlowScene({ progress, still }: { progress: RefObj
       };
     }).catch(() => { /* The photograph remains visible when WebGL is unavailable. */ });
     return () => { disposed = true; cleanup(); };
-  }, [progress, still]);
-  return <div className="flow-scene" ref={mount} aria-hidden="true"><img className="flow-photo-cotton" src="/images/concepts/cotton-loom.webp" alt="" fetchPriority="high"/><img className="flow-photo-silk" src="/images/concepts/silk-cocoons.webp" alt=""/><img className="flow-photo-campaign" src="/images/hero/maanvi-salt-flats-original.jpg" alt="" loading="lazy"/></div>;
+  }, [progress]);
+  return <div className="flow-scene" ref={mount} aria-hidden="true"><img className="flow-photo-cotton" src="/images/concepts/cotton-loom.webp" alt="" fetchPriority="high"/><img className="flow-photo-silk" src="/images/concepts/silk-cocoons.webp" alt=""/><img className="flow-photo-campaign" src="/images/archive/2026/fall/10-living-classics-finale.webp" alt="" loading="lazy"/></div>;
 }

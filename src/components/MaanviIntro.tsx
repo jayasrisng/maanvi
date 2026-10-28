@@ -1,18 +1,17 @@
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { welcomeFilms, shouldOpen } from './maanvi-intro-assets';
+import { welcomeFilm, shouldOpen } from './maanvi-intro-assets';
 import './maanvi-intro.css';
-
-const seenKey = 'maanviIntroSeen';
-
 
 export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, onRevealHome }: { te: boolean; soundOn: boolean; onToggleSound: () => void; onComplete?: () => void; onRevealHome?: () => void }) {
   const muted = !soundOn;
+  const dismiss = useRef<() => void>(() => {});
+  const homeButton = useRef<HTMLButtonElement>(null);
   const [paused, setPaused] = useState(false);
   const playbackPaused = useRef(false);
+  const autoplayMuted = useRef(false);
   const [open, setOpen] = useState(shouldOpen);
   const [phase, setPhase] = useState<'loading' | 'film' | 'brand' | 'handoff' | 'exit'>('loading');
-  const [source] = useState(() => matchMedia('(max-width: 760px)').matches ? welcomeFilms.mobile : welcomeFilms.desktop);
   const [reduced, setReduced] = useState(() => matchMedia('(prefers-reduced-motion: reduce)').matches);
   const video = useRef<HTMLVideoElement>(null);
   const atmosphere = useRef<HTMLVideoElement>(null);
@@ -51,29 +50,27 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
     const previousFocus = document.activeElement as HTMLElement | null;
     const previousOverflow = document.body.style.overflow;
     const wasInert = site?.inert ?? false;
+    homeButton.current?.focus({ preventScroll: true });
     document.body.style.overflow = 'hidden';
     if (site) site.inert = true;
     let disposed = false, exiting = false, started = false, handingOff = false, forming = false;
     let logoMotion: Animation | undefined;
-    let logoFormation: Animation | undefined;
     const timers: ReturnType<typeof setTimeout>[] = [];
     const later = (fn: () => void, ms: number) => {
       timers.push(setTimeout(() => { if (!disposed && !exiting) fn(); }, ms));
     };
-    const remember = () => { try { localStorage.setItem(seenKey, 'true'); } catch { /* Optional storage. */ } };
     const exit = () => {
       if (exiting || disposed) return;
       exiting = true;
       movie?.pause();
-      remember();
       setPhase('exit');
       timers.push(setTimeout(() => { if (!disposed) { setOpen(false); onComplete?.(); } }, reduced ? 120 : 350));
     };
+    dismiss.current = exit;
     const handoff = () => {
       if (handingOff || exiting || disposed) return;
       handingOff = true;
       movie?.pause();
-      remember();
       if (site) site.inert = false;
       site?.classList.add('intro-release');
       site?.classList.add('intro-logo-travelling');
@@ -81,8 +78,9 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       onRevealHome?.();
       const mark = identity.current;
       const destination = document.querySelector<HTMLElement>('.journey-header .maanvi-logo');
-      if (mark && destination) {
-        const from = mark.querySelector('img')!.getBoundingClientRect();
+      const markImage = mark?.querySelector('img');
+      if (mark && markImage && destination) {
+        const from = markImage.getBoundingClientRect();
         const to = destination.getBoundingClientRect();
         logoMotion = mark.animate([
           { transform: 'translate(0, 0) scale(1)' },
@@ -97,39 +95,21 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
     const formLogo = () => {
       if (forming || handingOff || exiting || disposed) return;
       forming = true;
-      // Keep her seated while the original lettering fills around her, then hold the finished mark for 0.5s.
-      const mark = identity.current;
-      const film = movie?.getBoundingClientRect();
-      const canvas = mark?.querySelector('img')?.getBoundingClientRect();
-      if (mark && film && canvas && source.includes('maanvi-welcome-')) {
-        // Match the seated original SVG to the final film pose, then gently widen the view.
-        const portrait = source === welcomeFilms.mobile;
-        const frameWidth = portrait ? 720 : 1280;
-        const poseX = portrait ? 96 : 376;
-        const scale = (586 / 720 * film.height) / (565 / 841.89 * canvas.height);
-        const x = film.left + poseX / frameWidth * film.width - canvas.left - 555 / 1190.55 * canvas.width * scale;
-        const y = film.top + 84 / 720 * film.height - canvas.top - 48 / 841.89 * canvas.height * scale;
-        logoFormation = mark.animate([
-          { transform: `translate(${x}px, ${y}px) scale(${scale})` },
-          { transform: 'translate(0, 0) scale(1)' },
-        ], { duration: 900, easing: 'cubic-bezier(.22,.72,.2,1)' });
-      }
       setPhase('brand');
       if (soundEnabled.current) chime?.play().catch(() => {});
       later(handoff, reduced ? 500 : 1400);
     };
     const fallback = () => {
-      if (disposed || exiting) return;
+      if (disposed || exiting || forming || handingOff) return;
+      forming = true;
       started = true;
       movie?.pause();
-      remember();
       setPhase('brand');
       later(handoff, reduced ? 500 : 1400);
     };
     const playing = () => {
       if (disposed || exiting || started) return;
       started = true;
-      remember();
       setPhase('film');
     };
     if (reduced) later(fallback, 0);
@@ -141,19 +121,27 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       movie.play().catch(() => {
         if (disposed || exiting) return;
         movie.muted = true;
+        autoplayMuted.current = true;
         movie.play().catch(fallback);
       });
-      later(() => { if (!started) fallback(); }, 2500);
+      later(() => { if (!started) fallback(); }, 8000);
     }
-    const retrySound = (event: Event) => {
-      if (!movie || !soundEnabled.current || playbackPaused.current || handingOff || exiting) return;
+    // An audible start is requested first. If the browser blocks it, keep the film
+    // playing and restore its soundtrack on the visitor's first interaction.
+    const restoreSound = (event: Event) => {
+      if (!movie || !autoplayMuted.current || !soundEnabled.current || playbackPaused.current || forming || handingOff || exiting || disposed) return;
       if ((event.target as Element | null)?.closest('[data-sound-control]')) return;
       movie.muted = false;
-      if (movie.paused && !movie.ended) movie.play().catch(() => {});
+      autoplayMuted.current = false;
+      movie.play().catch(() => {
+        if (disposed || exiting) return;
+        movie.muted = true;
+        autoplayMuted.current = true;
+        movie.play().catch(() => {});
+      });
     };
-    document.addEventListener('pointerup', retrySound);
-    document.addEventListener('click', retrySound);
-    document.addEventListener('keydown', retrySound);
+    document.addEventListener('pointerdown', restoreSound);
+    document.addEventListener('keydown', restoreSound);
     const key = (event: KeyboardEvent) => {
       if (event.key === 'Escape') exit();
       if (event.key === 'Tab') {
@@ -164,12 +152,18 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       }
     };
     document.addEventListener('keydown', key);
-    window.addEventListener('pagehide', remember);
+    let lastTime = 0, stalledFor = 0;
+    const watchdog = setInterval(() => {
+      if (!movie || playbackPaused.current || handingOff || forming || exiting || disposed || document.hidden) return;
+      if (Math.abs(movie.currentTime - lastTime) < .01) stalledFor += 1000;
+      else stalledFor = 0;
+      lastTime = movie.currentTime;
+      if (stalledFor >= 10000) fallback();
+    }, 1000);
     return () => {
       disposed = true;
       timers.forEach(clearTimeout);
       logoMotion?.cancel();
-      logoFormation?.cancel();
       site?.classList.remove('intro-logo-travelling', 'intro-release');
       movie?.pause();
       ambient?.pause();
@@ -181,22 +175,23 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
       movie?.removeEventListener('playing', playing);
       movie?.removeEventListener('ended', formLogo);
       movie?.removeEventListener('error', fallback);
-      document.removeEventListener('pointerup', retrySound);
-      document.removeEventListener('click', retrySound);
-      document.removeEventListener('keydown', retrySound);
+      document.removeEventListener('pointerdown', restoreSound);
+      document.removeEventListener('keydown', restoreSound);
       document.removeEventListener('keydown', key);
-      window.removeEventListener('pagehide', remember);
+      clearInterval(watchdog);
       document.body.style.overflow = previousOverflow;
       if (site) site.inert = wasInert;
-      if (document.activeElement === document.body && previousFocus?.isConnected && previousFocus !== document.body) previousFocus.focus({ preventScroll: true });
+      if (previousFocus?.isConnected && previousFocus !== document.body) previousFocus.focus({ preventScroll: true });
+      else document.getElementById('main-content')?.focus({ preventScroll: true });
     };
-  }, [open, reduced, onComplete, onRevealHome, source]);
+  }, [open, reduced, onComplete, onRevealHome]);
 
   if (!open) return null;
   const toggleSound = () => {
     const movie = video.current;
     if (soundOn && movie?.muted) {
       movie.muted = false;
+      autoplayMuted.current = false;
       movie.play().catch(() => {});
       return;
     }
@@ -214,19 +209,18 @@ export default function MaanviIntro({ te, soundOn, onToggleSound, onComplete, on
   };
   return createPortal(
     <div className="maanvi-intro" data-phase={phase} data-reduced={reduced} role="dialog" aria-modal="true" aria-label={te ? 'మాన్వికి స్వాగతం' : 'Welcome to Maanvi'}>
-      {!reduced && <div className="maanvi-intro-atmosphere" aria-hidden="true"><video ref={atmosphere} src={welcomeFilms.desktop} muted playsInline preload="auto" disablePictureInPicture/><div className="maanvi-intro-haze"/></div>}
-      {!reduced && <video ref={video} className="maanvi-welcome-film" src={source} muted={!soundOn} playsInline preload="auto" disablePictureInPicture aria-hidden="true"/>}
+      {!reduced && <div className="maanvi-intro-atmosphere" aria-hidden="true"><video ref={atmosphere} src={welcomeFilm} muted playsInline preload="auto" disablePictureInPicture/><div className="maanvi-intro-haze"/></div>}
+      {!reduced && <video ref={video} className="maanvi-welcome-film" src={welcomeFilm} muted={!soundOn} playsInline preload="auto" disablePictureInPicture aria-hidden="true"/>}
       <audio ref={sparkle} src="/intro/maanvi-sparkle.wav" muted={!soundOn} preload="auto"/>
       <div ref={identity} className="maanvi-intro-identity">
         <div className="maanvi-intro-logo">
           <img className="maanvi-seated-mark" src="/intro/maanvi-seated-mark.svg" alt="మాన్వి · Maanvi"/>
           <img className="maanvi-magic-lettering" src="/intro/maanvi-lettering.svg" alt="" aria-hidden="true"/>
-          <span className="maanvi-letter-glints" aria-hidden="true"><i/><i/><i/><i/><i/></span>
         </div>
         <p className="maanvi-intro-tagline" lang="te">మన మాన్వి. మన వేడుక.</p>
       </div>
       {!reduced && <div className="maanvi-intro-controls">
-        <button className="maanvi-intro-icon" type="button" aria-label={te ? 'హోమ్ పేజీకి వెళ్ళండి' : 'Go to home page'} onClick={() => { window.location.assign('/?intro=0'); }}>
+        <button ref={homeButton} className="maanvi-intro-icon" type="button" aria-label={te ? 'హోమ్ పేజీకి వెళ్ళండి' : 'Go to home page'} onClick={() => dismiss.current()}>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="m3.5 10 8.5-7 8.5 7v10H14v-6h-4v6H3.5V10Z"/></svg>
         </button>
         <button className="maanvi-intro-icon" data-sound-control type="button" aria-label={muted ? (te ? 'శబ్దం ఆన్ చేయండి' : 'Turn sound on') : (te ? 'శబ్దం ఆపండి' : 'Turn sound off')} aria-pressed={!muted} onClick={toggleSound}>

@@ -1,50 +1,50 @@
 # Maanvi
 
-**A warm, bilingual brand site for a family-owned saree house in Vijayawada.**
+The final bilingual website for Maanvi, a family-owned saree house in Vijayawada. This is the single maintained website; retired page designs, alternate intro cuts and review drafts have been removed.
 
-Maanvi is a React/Vite website presenting the store's story, private saree-shopping experience and visit information through a visual language rooted in Telugu celebration, saree culture and family-owned retail.
+## Approved experience
 
-## What it includes
+The original walking-to-seated-logo film plays on homepage entry, with music enabled by default and home/sound/playback icons. Browsers that block audible autoplay receive muted video until a user interaction. `?intro=1` replays the film; `?intro=0` enters the website directly.
 
-- Telugu and English brand messaging with genuine Maanvi imagery.
-- Private-viewing questionnaire and Calendly handoff.
-- Archive-inspired browsing that does not imply live inventory.
-- Bridal, saree guide, story and verified visit pages.
-- Provider-neutral secure-payment integration point.
-- Responsive layouts, structured metadata and direct-route support.
+Desktop keeps the cotton/cloud/loom → silk → Fall 2026 scroll journey. Mobile uses its own stacked image-and-text panels without fog, overlays or a sticky canvas. The collection starts at Fall 2026, with all 20 historical chapters accessible.
 
-## Routes
+## Project map
 
-```text
-/                    Home
-/archive             The Archive
-/private-shopping    Private Shopping
-/bridal              Bridal
-/saree-guide         Across India
-/our-story           Our Story
-/visit               Visit Maanvi
-/book                Private-viewing questionnaire
-```
+| Location | Purpose |
+| --- | --- |
+| `src/App.tsx` | Current routes, shared navigation and footer |
+| `src/components/` | Only components used by the final website |
+| `src/styles/site.css` | Shared styles |
+| `src/styles/journey.css` | Desktop scroll journey |
+| `src/styles/mobile.css` | Dedicated mobile panels and responsive pages |
+| `brand-kit/` | Original logo assets, colour/type tokens, identity guide and visual preview |
+| `src/data/photobook.json` | 20 chapters, 196 approved image interpretations |
+| `public/` | Only deployable website assets |
+| `assets/collections/` | Original masters for those 196 catalogue images |
+| `assets/scenes/` | Original masters for the cotton and silk artwork |
+| `docs/website.md` | Current integrations, media notes and verification limits |
+| `AGENTS.md` | Instructions to preserve this approved website in future edits |
 
-## Local development
+## Development
 
-```bash
+```sh
 npm install
 npm run dev
 ```
 
-Create `.env.local` from `.env.example` to connect approved booking, contact and hosted-checkout URLs. Never put secret credentials in `VITE_` variables.
+Open the local URL printed by Vite. The brand kit preview is available at `/brand-kit/index.html` in the development server, or by opening `brand-kit/index.html` as a local file.
 
-## Verification
-
-```bash
+```sh
+npm run check
+npm run lint
 npm run build
-npx eslint src --max-warnings=0
 npm run preview
 ```
 
-Vercel rewrites public page routes to the SPA while preserving `/api/*` and static assets. Integration setup is documented in `docs/`, the case study is in [docs/case-study.md](docs/case-study.md), and media notes are in [media/README.md](media/README.md).
+To regenerate web-sized collection images from the retained source masters, run `python3 scripts/prepare-collections.py` with Pillow installed. The catalogue, selected source images and output filenames are preserved.
 
-## Deployment
+## Routes
 
-Production deployment is connected to the repository through Vercel. The custom domain remains managed in the Vercel project rather than through a repository `CNAME` file.
+`/`, `/archive`, `/book`, `/bridal`, `/saree-guide`, `/private-shopping`, `/our-story`, `/visit`, `/contact`, `/services`, `/company`, `/careers`, `/shipping`, `/returns`, `/privacy`, `/terms`, `/cookies`.
+
+Production hosting is the existing Vercel project at `maanvi.website`. A local build or commit does not publish it. Copy `.env.example` to `.env.local` only when configuring integrations; do not store secret keys in `VITE_` variables.

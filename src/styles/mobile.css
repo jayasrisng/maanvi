@@ -1,0 +1,55 @@
+/* Mobile has its own reading flow. No sticky scenes, image masks or fog overlays. */
+@media(max-width:760px) {
+ html { scroll-padding-top:105px; }
+ .journey-header,.is-inner .journey-header { position:sticky; top:0; min-height:90px; padding:12px 20px; gap:12px; background:var(--paper); color:var(--ink); border-bottom:1px solid var(--line); }
+ .journey-brand,.is-inner .journey-brand { color:var(--orange); }
+ .journey-header .maanvi-logo { width:86px; }
+ .journey-language { margin-left:auto; gap:8px; font-size:12px; }
+ .journey-menu { display:block; padding:8px; }
+ .journey-header nav { position:absolute; inset:100% 0 auto; display:none; margin:0; padding:18px 24px 25px; align-items:stretch; flex-direction:column; gap:4px; border-bottom:1px solid var(--line); background:var(--paper); color:var(--ink); }
+ .journey-header nav.is-open { display:flex; }
+ .journey-header nav a { display:block; min-height:48px; font-size:15px; padding:12px 0; }
+ .journey-header nav a.header-viewing { border-bottom:0; }
+ .flow-story,.flow-stacked { height:auto; }
+ .flow-sticky,.flow-stacked .flow-sticky { position:relative; height:auto; min-height:0; overflow:visible; }
+ .flow-scene,.flow-caption,.flow-anchor { display:none; }
+ .flow-copy,.flow-stacked .flow-copy { position:relative; display:block; left:auto; right:auto; top:auto; width:100%; max-width:none; min-height:0; padding:0 24px 44px; margin:0; opacity:1; visibility:visible; transform:none; will-change:auto; border-bottom:1px solid var(--line); background:var(--paper); }
+ .flow-copy::before,.flow-copy::after { content:none; }
+ .flow-panel-image,.flow-stacked .flow-panel-image { display:block; width:calc(100% + 48px); max-width:none; height:auto; aspect-ratio:4/3; margin:0 -24px 28px; object-fit:cover; object-position:center; }
+ .flow-welcome .flow-panel-image { object-fit:contain; background:var(--paper); }
+ .flow-photobook .flow-panel-image { aspect-ratio:2/3; width:min(100%,440px); margin:28px auto; object-fit:contain; }
+ .flow-copy h1 { font-size:clamp(34px,9vw,52px); line-height:1.15; margin:0 0 18px; letter-spacing:-.025em; }
+ .flow-copy h2 { font-size:clamp(32px,8.4vw,46px); line-height:1.2; margin:0 0 18px; letter-spacing:-.025em; }
+ .maanvi-site[lang=te] .flow-copy :is(h1,h2) { font-size:clamp(30px,8vw,43px); line-height:1.6; }
+ .flow-copy>p:not(.flow-eyebrow) { font-size:15px; line-height:1.9; max-width:none; margin-bottom:24px; }
+ .flow-eyebrow { font-size:10px; margin:0 0 16px; line-height:1.9; letter-spacing:.06em; }
+ .flow-translation { font-size:16px; margin:0 0 24px; }
+ .flow-copy .thread-button { margin-top:0; max-width:100%; }
+ .flow-stacked .flow-silk { background:var(--ink); color:var(--paper); }
+ .flow-silk .thread-button { background:var(--paper); color:var(--ink); }
+ .flow-cotton { padding-top:0; }
+ .home-invitation { padding:48px 24px; }.home-invitation h2 { font-size:36px; }.home-invitation>p:not(.chapter-kicker) { font-size:15px; }.home-invitation>div { align-items:stretch; flex-direction:column; gap:14px; }
+ .home-invitation .ivory-link { display:block; text-align:center; }
+ .family-chapter,.visit-chapter,.viewing-page { grid-template-columns:1fr; }
+ .family-photo { min-height:0; aspect-ratio:4/5; }.family-words { padding:42px 24px; }
+ .family-words :is(h1,h2),.meet-chapter h2,.visit-chapter h2 { font-size:36px; }
+ .meet-chapter { padding:48px 24px; }.meet-intro { font-size:15px; }
+ .meeting-steps { grid-template-columns:1fr; gap:0; margin:30px 0; padding:0; }
+ .meeting-steps article,.meeting-steps article+article { position:relative; padding:24px 0 24px 44px; border:0; border-bottom:1px solid #FFFFF066; }
+ .meeting-steps article>span { position:absolute; left:0; top:24px; font-size:25px; }.meeting-steps h3 { font-size:24px; margin:0 0 10px; }.meeting-steps p { margin:0; }
+ .visit-chapter { padding:48px 24px; gap:24px; }.visit-chapter address { font-size:14px; }
+ .journey-footer { padding:40px 24px 72px; }.footer-brand { align-items:flex-start; flex-wrap:wrap; gap:16px; }.footer-brand .maanvi-logo { width:85px; }.footer-brand p { font-size:15px; align-self:center; }.footer-social { width:100%; margin:0; gap:18px; }
+ .footer-contact { display:block; }.footer-contact a { display:inline-block; padding-bottom:0; }
+ .footer-columns { grid-template-columns:repeat(2,minmax(0,1fr)); gap:30px 20px; padding:30px 0; }.footer-columns h2 { font-size:12px; }.footer-columns a { font-size:13px; }
+ .footer-bottom { gap:14px; }.footer-bottom small { width:100%; }
+ .journey-home-controls { right:12px; bottom:12px; }
+ .viewing-aside { padding:40px 24px; }.viewing-aside h1 { font-size:38px; }.viewing-time { font-size:58px; margin:24px 0; }.viewing-form { padding:38px 24px 50px; }.viewing-form h2 { font-size:29px; }
+ .viewing-summary { grid-template-columns:1fr 1.4fr; gap:14px; font-size:13px; }
+ .info-page { padding:44px 24px 60px; min-height:55svh; }.info-page h1 { font-size:38px; }.info-page .info-intro { font-size:19px!important; }
+ .collection-gallery { padding:30px 20px 44px; }.collection-gallery>h1 { font-size:36px; }
+ .collection-depth { --card-width:68vw; width:100vw; height:95.2vw; margin:24px -20px 18px; perspective:750px; }
+ .book-thumbnails { flex-wrap:nowrap; justify-content:flex-start; overflow-x:auto; padding:12px 0 22px; }.book-thumbnails button { flex:0 0 44px; }
+ .book-filters { align-items:stretch; gap:18px; }.book-years { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); width:100%; }.book-years button { padding-inline:4px; }.book-seasons { width:100%; }.book-seasons button { flex:1; }
+ .book-chapter-heading { align-items:flex-start; flex-direction:column; gap:20px; padding:26px 0; }.book-chapter-heading h2 { font-size:32px; }.image-disclosure { margin-top:16px; }.book-invitation { padding:40px 24px 60px; }.book-invitation h2 { font-size:36px; }
+ .maanvi-intro-atmosphere { display:none; }.maanvi-welcome-film { width:100%; max-height:76dvh; aspect-ratio:16/9; mask-image:none; }.maanvi-intro-controls { right:16px; bottom:max(16px,env(safe-area-inset-bottom)); }
+}
